@@ -2,9 +2,11 @@
 
 
 
-    // Hàm tạo thẻ section từ 1 trận đấu
-    function createMatchHtml(match) {
-        const formattedDate = new Date().toLocaleString(); // Thêm khai báo formattedDate
+// Hàm tạo thẻ section từ 1 trận đấu
+function createMatchHtml(match) {
+        const formattedDate = match?.date
+            ? new Date(match.date).toLocaleString('vi-VN')
+            : new Date().toLocaleString('vi-VN');
         return `
           <section class="match-info tab-match-info active" id="match-info-${match.matchId}">
               <div class="match-header">
@@ -52,13 +54,18 @@
                 text: 'Không tìm thấy mã trận đấu',
                 confirmButtonText: 'Quay lại'
             }).then(() => {
-                window.location.href = '/Home/Index'; // Điều hướng về trang chủ
+                const baseUrl = (window.appBase || '/');
+                const normalizedBaseUrl = baseUrl.endsWith('/') ? baseUrl : `${baseUrl}/`;
+                window.location.href = `${normalizedBaseUrl}Home/Index`; // Điều hướng về trang chủ
             });
             return;
         }
 
+        const baseUrl = (window.appBase || '/');
+        const normalizedBaseUrl = baseUrl.endsWith('/') ? baseUrl : `${baseUrl}/`;
+
         // Gọi API với matchId cụ thể
-        fetch(`/ChamDiem/GetMatch?matchId=${encodeURIComponent(matchId)}`)
+        fetch(`${normalizedBaseUrl}ChamDiem/GetMatch?matchId=${encodeURIComponent(matchId)}`)
             .then(response => {
                 if (!response.ok) {
                     throw new Error('Không thể tải thông tin trận đấu');
@@ -81,10 +88,20 @@
 
                 // Có thể thêm các xử lý khác sau khi render
                 console.log("Thông tin trận đấu đầy đủ:", match);
-                TournamentId = match.tournament;
+                TournamentId = match.tournament || match.Tournament;
+                if (typeof currentMatchId !== 'undefined') {
+                    currentMatchId = match.matchId;
+                }
                 console.log("Thông tin:", TournamentId);
                 setupMatchUI(match);
-                fetchMatchParticipants(match);
+                const fetchParticipantsFn = window.fetchMatchParticipants;
+                if (typeof fetchParticipantsFn !== 'function') {
+                    throw new Error('fetchMatchParticipants is not defined');
+                }
+                fetchParticipantsFn(match);
+                if (typeof window.renderTournamentResults === 'function' && TournamentId) {
+                    window.renderTournamentResults(TournamentId);
+                }
 
             })
             .catch(error => {

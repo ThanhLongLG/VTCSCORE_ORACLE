@@ -1,12 +1,14 @@
 ﻿using System.Diagnostics;
 using BaoCaoDACS.Models;
 using BaoCaoDACS.Reponsitory;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using static System.Formats.Asn1.AsnWriter;
 
 namespace BaoCaoDACS.Controllers
 {
+    [Authorize]
     public class ChamDiemController : Controller
     {
         private readonly ILogger<HomeController> _logger;

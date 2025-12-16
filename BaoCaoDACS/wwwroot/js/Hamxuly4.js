@@ -1,4 +1,6 @@
 ﻿//chấm điểm quyền pháp
+const baseUrlQuyen = (window.appBase || '/');
+const normalizedBaseUrlQuyen = baseUrlQuyen.endsWith('/') ? baseUrlQuyen : `${baseUrlQuyen}/`;
 
 
 document.addEventListener('DOMContentLoaded', function () {
@@ -156,7 +158,7 @@ function submitMatchResult(matchResult) {
             };
 
             // Gọi API submit kết quả
-            fetch('/ChamDiem/SubmitMatchResult', {
+            fetch(`${normalizedBaseUrlQuyen}ChamDiem/SubmitMatchResult`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -184,7 +186,7 @@ function submitMatchResult(matchResult) {
                         confirmButtonText: 'OK'
                     }).then(() => {
                         // Chuyển hướng sau khi lưu thành công
-                        window.location.href = '/Home/Index';
+                        window.location.href = `${normalizedBaseUrlQuyen}Home/Index`;
                     });
                 })
                 .catch(error => {
@@ -233,4 +235,3 @@ function prepareMatchResultFromUI() {
         result: result
     };
 }
-

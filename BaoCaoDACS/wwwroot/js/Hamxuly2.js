@@ -1,5 +1,8 @@
 ﻿
 //chấm điểm bính khí
+const baseUrlWeapon = (window.appBase || '/');
+const normalizedBaseUrlWeapon = baseUrlWeapon.endsWith('/') ? baseUrlWeapon : `${baseUrlWeapon}/`;
+
 window.initWeaponScoring = function () {
     // Gán sự kiện cho các nút
     attachWeaponScoreEvents();
@@ -69,7 +72,7 @@ function handleSubmitWeaponScore() {
             localStorage.setItem(`weaponScore_${currentMatchId}_${blueParticipantId}`, JSON.stringify(performanceData));
 
             // Gửi dữ liệu tới server
-            fetch('/ChamDiem/SubmitPerformanceScore', {
+            fetch(`${normalizedBaseUrlWeapon}ChamDiem/SubmitPerformanceScore`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -91,7 +94,7 @@ function handleSubmitWeaponScore() {
                         confirmButtonText: 'Đóng'
                     }).then(() => {
                         // Chuyển hướng sau khi lưu thành công
-                        window.location.href = '/Home/Index';
+                        window.location.href = `${normalizedBaseUrlWeapon}Home/Index`;
                     });
 
                     // Xóa localStorage sau khi gửi thành công (tùy chọn)

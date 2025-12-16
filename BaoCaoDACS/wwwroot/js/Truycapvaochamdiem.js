@@ -1,9 +1,12 @@
 ﻿
 
 // them nguoi tham gia
+const baseUrlAccess = (window.appBase || '/');
+const normalizedBaseUrlAccess = baseUrlAccess.endsWith('/') ? baseUrlAccess : `${baseUrlAccess}/`;
+
 function fetchMatchParticipants(match) {
 
-    return fetch(`/ChamDiem/GetMatchParticipants?matchId=${encodeURIComponent(match.matchId)}`)
+    return fetch(`${normalizedBaseUrlAccess}ChamDiem/GetMatchParticipants?matchId=${encodeURIComponent(match.matchId)}`)
         .then(response => {
             console.log('Response status:', response.status);
             console.log('Response headers:', Object.fromEntries(response.headers.entries()));
@@ -73,6 +76,9 @@ function fetchMatchParticipants(match) {
             }
         });
 }
+
+// Đảm bảo hàm có sẵn ở phạm vi global cho các script khác
+window.fetchMatchParticipants = fetchMatchParticipants;
 function renderCombatAthletes(data, container) {
     const blueAthleteCard = createAthleteCard(data.vanDongVien1, 'blue');
     const redAthleteCard = createAthleteCard(data.vanDongVien2, 'red');
@@ -266,13 +272,13 @@ document.addEventListener("DOMContentLoaded", function () {
             text: 'Không tìm thấy mã trận đấu',
             confirmButtonText: 'Quay lại'
         }).then(() => {
-            window.location.href = '/Home/Index'; // Điều hướng về trang chủ
+            window.location.href = `${normalizedBaseUrlAccess}Home/Index`; // Điều hướng về trang chủ
         });
         return;
     }
 
     // Gọi API với matchId cụ thể
-    fetch(`/ChamDiem/GetMatch?matchId=${encodeURIComponent(matchId)}`)
+    fetch(`${normalizedBaseUrlAccess}ChamDiem/GetMatch?matchId=${encodeURIComponent(matchId)}`)
         .then(response => {
             if (!response.ok) {
                 throw new Error('Không thể tải thông tin trận đấu');
@@ -438,7 +444,7 @@ function setupMatchUI(match) {
 
     function fetchMatchParticipants(match) {
 
-        return fetch(`/ChamDiem/GetMatchParticipants?matchId=${encodeURIComponent(match.matchId)}`)
+    return fetch(`${normalizedBaseUrlAccess}ChamDiem/GetMatchParticipants?matchId=${encodeURIComponent(match.matchId)}`)
             .then(response => {
                 console.log('Response status:', response.status);
                 console.log('Response headers:', Object.fromEntries(response.headers.entries()));
@@ -858,4 +864,3 @@ function creatteamAthlete(athlete, side) {
           `;
 
 }
-
