@@ -1,9 +1,12 @@
 ﻿
 
 // them nguoi tham gia
+const baseUrlAccess = (window.appBase || '/');
+const normalizedBaseUrlAccess = baseUrlAccess.endsWith('/') ? baseUrlAccess : `${baseUrlAccess}/`;
+
 function fetchMatchParticipants(match) {
 
-    return fetch(`/ChamDiem/GetMatchParticipants?matchId=${encodeURIComponent(match.matchId)}`)
+    return fetch(`${normalizedBaseUrlAccess}ChamDiem/GetMatchParticipants?matchId=${encodeURIComponent(match.matchId)}`)
         .then(response => {
             console.log('Response status:', response.status);
             console.log('Response headers:', Object.fromEntries(response.headers.entries()));
@@ -266,13 +269,13 @@ document.addEventListener("DOMContentLoaded", function () {
             text: 'Không tìm thấy mã trận đấu',
             confirmButtonText: 'Quay lại'
         }).then(() => {
-            window.location.href = '/Home/Index'; // Điều hướng về trang chủ
+            window.location.href = `${normalizedBaseUrlAccess}Home/Index`; // Điều hướng về trang chủ
         });
         return;
     }
 
     // Gọi API với matchId cụ thể
-    fetch(`/ChamDiem/GetMatch?matchId=${encodeURIComponent(matchId)}`)
+    fetch(`${normalizedBaseUrlAccess}ChamDiem/GetMatch?matchId=${encodeURIComponent(matchId)}`)
         .then(response => {
             if (!response.ok) {
                 throw new Error('Không thể tải thông tin trận đấu');
@@ -436,86 +439,86 @@ function setupMatchUI(match) {
 
 // them nguoi tham gia
 
-    function fetchMatchParticipants(match) {
+function fetchMatchParticipants(match) {
 
-        return fetch(`/ChamDiem/GetMatchParticipants?matchId=${encodeURIComponent(match.matchId)}`)
-            .then(response => {
-                console.log('Response status:', response.status);
-                console.log('Response headers:', Object.fromEntries(response.headers.entries()));
-                if (!response.ok) {
-                    return response.text().then(text => {
-                        console.error('Error response text:', text);
-                        throw new Error(`Không thể tải thông tin vận động viên: ${text}`);
-                    });
-                }
-                return response.json();
-            })
-            .then(data => {
-                console.log('Dữ liệu nhận được:', data);
-                const tabMapping = {
-                    'Đối Kháng': {
-                        selector: '.athlete-cards-container',
-                        renderFunction: renderCombatAthletes
-                    },
-                    'Quyền Pháp': {
-                        selector: '#performance-scoring-card',
-                        renderFunction: renderPerformanceAthlete
-                    },
-                    'Binh Khí': {
-                        selector: '#performance-weapon-scoring',
-                        renderFunction: renderWeaponAthlete
-                    },
-                    'Đồng Đội': {
-                        selector: '#performance-team-scoring',
-                        renderFunction: renderTeamAthlete
-                    }
-                };
-
-                const matchType = match.loaiHinhThiDau.name;
-                const tabConfig = tabMapping[matchType] || tabMapping['Đối Kháng'];
-
-                if (matchType === 'Đối Kháng') {
-                    const blueContainer = document.querySelector('.athlete-cards-1-container');
-                    const redContainer = document.querySelector('.athlete-cards-2-container');
-
-                    const blueAthleteCard = createAthleteCard(data.vanDongVien1, 'blue');
-                    const redAthleteCard = createAthleteCard(data.vanDongVien2, 'red');
-
-                    blueContainer.innerHTML = blueAthleteCard;
-                    redContainer.innerHTML = redAthleteCard;
-
-
-                    blueParticipantId = data.vanDongVien1.participantId;
-                    redParticipantId = data.vanDongVien2.participantId;
-                    currentMatchId = data.vanDongVien1.matchid;
-                    console.log('Dữ liệu nhận khác:', currentMatchId);
-                    console.log('Dữ liệu nhận khác:', blueParticipantId);
-                    console.log('Dữ liệu nhận khác:', redParticipantId);
-                } else {
-                    const container = document.querySelector(tabConfig.selector);
-                    if (container) {
-                        tabConfig.renderFunction(data, container);
-                    }
-                }
-            })
-            .catch(error => {
-                console.error('Full error details:', {
-                    message: error.message,
-                    stack: error.stack,
-                    name: error.name
+    return fetch(`${normalizedBaseUrlAccess}ChamDiem/GetMatchParticipants?matchId=${encodeURIComponent(match.matchId)}`)
+        .then(response => {
+            console.log('Response status:', response.status);
+            console.log('Response headers:', Object.fromEntries(response.headers.entries()));
+            if (!response.ok) {
+                return response.text().then(text => {
+                    console.error('Error response text:', text);
+                    throw new Error(`Không thể tải thông tin vận động viên: ${text}`);
                 });
-                if (typeof Swal !== 'undefined') {
-                    Swal.fire({
-                        icon: 'error',
-                        title: 'Lỗi kết nối',
-                        text: 'Không thể kết nối đến máy chủ',
-                        confirmButtonText: 'Thử lại'
-                    }).then(() => window.location.reload());
-                } else {
-                    alert('Lỗi hệ thống! Vui lòng tải lại trang');
+            }
+            return response.json();
+        })
+        .then(data => {
+            console.log('Dữ liệu nhận được:', data);
+            const tabMapping = {
+                'Đối Kháng': {
+                    selector: '.athlete-cards-container',
+                    renderFunction: renderCombatAthletes
+                },
+                'Quyền Pháp': {
+                    selector: '#performance-scoring-card',
+                    renderFunction: renderPerformanceAthlete
+                },
+                'Binh Khí': {
+                    selector: '#performance-weapon-scoring',
+                    renderFunction: renderWeaponAthlete
+                },
+                'Đồng Đội': {
+                    selector: '#performance-team-scoring',
+                    renderFunction: renderTeamAthlete
                 }
+            };
+
+            const matchType = match.loaiHinhThiDau.name;
+            const tabConfig = tabMapping[matchType] || tabMapping['Đối Kháng'];
+
+            if (matchType === 'Đối Kháng') {
+                const blueContainer = document.querySelector('.athlete-cards-1-container');
+                const redContainer = document.querySelector('.athlete-cards-2-container');
+
+                const blueAthleteCard = createAthleteCard(data.vanDongVien1, 'blue');
+                const redAthleteCard = createAthleteCard(data.vanDongVien2, 'red');
+
+                blueContainer.innerHTML = blueAthleteCard;
+                redContainer.innerHTML = redAthleteCard;
+
+
+                blueParticipantId = data.vanDongVien1.participantId;
+                redParticipantId = data.vanDongVien2.participantId;
+                currentMatchId = data.vanDongVien1.matchid;
+                console.log('Dữ liệu nhận khác:', currentMatchId);
+                console.log('Dữ liệu nhận khác:', blueParticipantId);
+                console.log('Dữ liệu nhận khác:', redParticipantId);
+            } else {
+                const container = document.querySelector(tabConfig.selector);
+                if (container) {
+                    tabConfig.renderFunction(data, container);
+                }
+            }
+        })
+        .catch(error => {
+            console.error('Full error details:', {
+                message: error.message,
+                stack: error.stack,
+                name: error.name
             });
-    }
+            if (typeof Swal !== 'undefined') {
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Lỗi kết nối',
+                    text: 'Không thể kết nối đến máy chủ',
+                    confirmButtonText: 'Thử lại'
+                }).then(() => window.location.reload());
+            } else {
+                alert('Lỗi hệ thống! Vui lòng tải lại trang');
+            }
+        });
+}
 
 function renderCombatAthletes(data, container) {
     const blueAthleteCard = createAthleteCard(data.vanDongVien1, 'blue');
@@ -542,33 +545,33 @@ function renderPerformanceAthlete(data, container) {
     // Đợi một khung hình để chắc chắn DOM đã render
     requestAnimationFrame(() => {
         initPerformanceScoring()
-        
+
     });
 }
 //BInh khí
-    function renderWeaponAthlete(data, container) {
-        const athlete = data.vanDongVien1; //  VĐV cho nội dung binh khí
-        console.log('Thông tin athlete:', athlete);
-        const performanceAthleteHtml = createweaponAthlete(athlete, 'weapon');
-        container.innerHTML = performanceAthleteHtml;
+function renderWeaponAthlete(data, container) {
+    const athlete = data.vanDongVien1; //  VĐV cho nội dung binh khí
+    console.log('Thông tin athlete:', athlete);
+    const performanceAthleteHtml = createweaponAthlete(athlete, 'weapon');
+    container.innerHTML = performanceAthleteHtml;
 
 
-        blueParticipantId = data.vanDongVien1.participantId;
-        currentMatchId = data.vanDongVien1.matchid;
-        console.log('Dữ liệu nhận khác:', currentMatchId);
-        console.log('Dữ liệu nhận khác:', blueParticipantId);
+    blueParticipantId = data.vanDongVien1.participantId;
+    currentMatchId = data.vanDongVien1.matchid;
+    console.log('Dữ liệu nhận khác:', currentMatchId);
+    console.log('Dữ liệu nhận khác:', blueParticipantId);
 
-        requestAnimationFrame(() => {
+    requestAnimationFrame(() => {
 
-            initWeaponScoring()
+        initWeaponScoring()
 
-        });
-        
-    }
-    //chấm điểm đồng đội
+    });
+
+}
+//chấm điểm đồng đội
 function renderTeamAthlete(data, container) {
     // thông tin đội
-    const athlete = data.vanDongVien1; 
+    const athlete = data.vanDongVien1;
     console.log('Thông tin athlete:', athlete);
     const performanceAthleteHtml = creatteamAthlete(athlete, 'team');
     container.innerHTML = performanceAthleteHtml;
@@ -687,7 +690,7 @@ function createPerformanceAthlete(athlete, side) {
                           </div>
                       </div>
           `;
- 
+
 }
 
 
@@ -858,4 +861,3 @@ function creatteamAthlete(athlete, side) {
           `;
 
 }
-

@@ -1,6 +1,9 @@
 ﻿
 
 //chamdiem bieudien
+const baseUrlPerformance = (window.appBase || '/');
+const normalizedBaseUrlPerformance = baseUrlPerformance.endsWith('/') ? baseUrlPerformance : `${baseUrlPerformance}/`;
+
 function initPerformanceScoring() {
 
     // Gán sự kiện cho các nút
@@ -128,9 +131,9 @@ window.handleSubmitPerformanceScore = async function () {
     const balanceCount = document.getElementById('perf-balance-count')?.textContent || '0';
 
 
-        Swal.fire({
-            title: 'Kết Quả Đánh Giá',
-            html: `
+    Swal.fire({
+        title: 'Kết Quả Đánh Giá',
+        html: `
         <div style="text-align: left; padding: 10px;">
             <p><strong>Kỹ thuật:</strong> ${techScore}</p>
             <p><strong>Sức mạnh/Nhịp điệu:</strong> ${powerScore}</p>
@@ -142,18 +145,18 @@ window.handleSubmitPerformanceScore = async function () {
             <h3 style="color: green;">Điểm cuối cùng: ${finalScore}</h3>
         </div>
     `,
-            icon: 'info',
-            confirmButtonText: 'Đóng',
-            confirmButtonColor: '#3085d6'
-        }).then(async (result) => {
-            if (result.isConfirmed) {
+        icon: 'info',
+        confirmButtonText: 'Đóng',
+        confirmButtonColor: '#3085d6'
+    }).then(async (result) => {
+        if (result.isConfirmed) {
 
-                // Tạo đối tượng dữ liệu để gửi
-                const performanceData = {
-                    finalScore: parseFloat(finalScore),
-                    matchId: currentMatchId,
-                    ParticipantId: blueParticipantId,
-                    danhgia: `Kết quả đánh giá biểu diễn:
+            // Tạo đối tượng dữ liệu để gửi
+            const performanceData = {
+                finalScore: parseFloat(finalScore),
+                matchId: currentMatchId,
+                ParticipantId: blueParticipantId,
+                danhgia: `Kết quả đánh giá biểu diễn:
                 - Kỹ thuật: ${techScore}
                 - Sức mạnh/Nhịp điệu: ${powerScore}
                 - Thần thái: ${spiritScore}
@@ -161,47 +164,47 @@ window.handleSubmitPerformanceScore = async function () {
                 - Lỗi thừa thiếu động tác: ${surplusCount}
                 - Lỗi mất thăng bằng: ${balanceCount}
                 Điểm cuối cùng: ${finalScore}`
-                };
+            };
 
 
-                // Gửi dữ liệu tới server
-                const response = await fetch('/ChamDiem/SubmitPerformanceScore', {
-                    method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/json',
-                        'Accept': 'application/json'
-                    },
-                    body: JSON.stringify(performanceData)
-                }).then(response => {
-                    if (!response.ok) {
-                        return response.json().then(errorData => {
-                            throw new Error(errorData.message || 'Lỗi khi submit kết quả');
-                        });
-                    }
-                    return response.json();
-                })
-                    .then(data => {
-                        Swal.fire({
-                            icon: 'success',
-                            title: 'Cập Nhật Thành Công',
-                            html: `
+            // Gửi dữ liệu tới server
+            const response = await fetch(`${normalizedBaseUrlPerformance}ChamDiem/SubmitPerformanceScore`, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Accept': 'application/json'
+                },
+                body: JSON.stringify(performanceData)
+            }).then(response => {
+                if (!response.ok) {
+                    return response.json().then(errorData => {
+                        throw new Error(errorData.message || 'Lỗi khi submit kết quả');
+                    });
+                }
+                return response.json();
+            })
+                .then(data => {
+                    Swal.fire({
+                        icon: 'success',
+                        title: 'Cập Nhật Thành Công',
+                        html: `
                             <p>Đã lưu kết quả trận đấu</p>
                         `,
-                            confirmButtonText: 'OK'
-                        }).then(() => {
-                            window.location.href = '/Home/Index';
-                        });
-                    })
-                    .catch(error => {
-                        console.error('Lỗi khi submit kết quả:', error);
-                        Swal.fire({
-                            icon: 'error',
-                            title: 'Lỗi',
-                            text: error.message || 'Không thể lưu kết quả. Vui lòng thử lại.',
-                            confirmButtonText: 'Đóng'
-                        });
+                        confirmButtonText: 'OK'
+                    }).then(() => {
+                        window.location.href = `${normalizedBaseUrlPerformance}Home/Index`;
                     });
-            }
-        }); 
+                })
+                .catch(error => {
+                    console.error('Lỗi khi submit kết quả:', error);
+                    Swal.fire({
+                        icon: 'error',
+                        title: 'Lỗi',
+                        text: error.message || 'Không thể lưu kết quả. Vui lòng thử lại.',
+                        confirmButtonText: 'Đóng'
+                    });
+                });
+        }
+    });
 
 }

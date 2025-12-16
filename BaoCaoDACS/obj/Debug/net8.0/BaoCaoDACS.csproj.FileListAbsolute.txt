@@ -967,11 +967,11 @@ D:\HOC\BAO_CAO_DACS\BaoCaoCN_copy\BaoCaoDACS\obj\Debug\net8.0\refint\BaoCaoDACS.
 D:\HOC\BAO_CAO_DACS\BaoCaoCN_copy\BaoCaoDACS\obj\Debug\net8.0\BaoCaoDACS.pdb
 D:\HOC\BAO_CAO_DACS\BaoCaoCN_copy\BaoCaoDACS\obj\Debug\net8.0\BaoCaoDACS.genruntimeconfig.cache
 D:\HOC\BAO_CAO_DACS\BaoCaoCN_copy\BaoCaoDACS\obj\Debug\net8.0\ref\BaoCaoDACS.dll
-D:\HOC\BAO_CAO_DACS\BaoCaoCN - Copy\BaoCaoDACS\bin\Debug\net8.0\BaoCaoDACS.exe
 D:\HOC\BAO_CAO_DACS\BaoCaoCN - Copy\BaoCaoDACS\bin\Debug\net8.0\appsettings.Development.json
 D:\HOC\BAO_CAO_DACS\BaoCaoCN - Copy\BaoCaoDACS\bin\Debug\net8.0\appsettings.json
 D:\HOC\BAO_CAO_DACS\BaoCaoCN - Copy\BaoCaoDACS\bin\Debug\net8.0\BaoCaoDACS.staticwebassets.runtime.json
 D:\HOC\BAO_CAO_DACS\BaoCaoCN - Copy\BaoCaoDACS\bin\Debug\net8.0\BaoCaoDACS.staticwebassets.endpoints.json
+D:\HOC\BAO_CAO_DACS\BaoCaoCN - Copy\BaoCaoDACS\bin\Debug\net8.0\BaoCaoDACS.exe
 D:\HOC\BAO_CAO_DACS\BaoCaoCN - Copy\BaoCaoDACS\bin\Debug\net8.0\BaoCaoDACS.deps.json
 D:\HOC\BAO_CAO_DACS\BaoCaoCN - Copy\BaoCaoDACS\bin\Debug\net8.0\BaoCaoDACS.runtimeconfig.json
 D:\HOC\BAO_CAO_DACS\BaoCaoCN - Copy\BaoCaoDACS\bin\Debug\net8.0\BaoCaoDACS.dll

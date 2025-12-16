@@ -3,12 +3,60 @@
   "WorkspaceRootPath": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4E3CD243-E8A5-4016-B757-743F9E0722F2}|BaoCaoDACS\\BaoCaoDACS.csproj|d:\\hoc\\bao_cao_dacs\\baocaocn - copy\\baocaodacs\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4E3CD243-E8A5-4016-B757-743F9E0722F2}|BaoCaoDACS\\BaoCaoDACS.csproj|solutionrelative:baocaodacs\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4E3CD243-E8A5-4016-B757-743F9E0722F2}|BaoCaoDACS\\BaoCaoDACS.csproj|d:\\hoc\\bao_cao_dacs\\baocaocn - copy\\baocaodacs\\wwwroot\\js\\loadthongtintrang.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{4E3CD243-E8A5-4016-B757-743F9E0722F2}|BaoCaoDACS\\BaoCaoDACS.csproj|solutionrelative:baocaodacs\\wwwroot\\js\\loadthongtintrang.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E3CD243-E8A5-4016-B757-743F9E0722F2}|BaoCaoDACS\\BaoCaoDACS.csproj|d:\\hoc\\bao_cao_dacs\\baocaocn - copy\\baocaodacs\\views\\home\\lichthidau.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4E3CD243-E8A5-4016-B757-743F9E0722F2}|BaoCaoDACS\\BaoCaoDACS.csproj|solutionrelative:baocaodacs\\views\\home\\lichthidau.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E3CD243-E8A5-4016-B757-743F9E0722F2}|BaoCaoDACS\\BaoCaoDACS.csproj|d:\\hoc\\bao_cao_dacs\\baocaocn - copy\\baocaodacs\\wwwroot\\js\\hamxuly.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{4E3CD243-E8A5-4016-B757-743F9E0722F2}|BaoCaoDACS\\BaoCaoDACS.csproj|solutionrelative:baocaodacs\\wwwroot\\js\\hamxuly.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E3CD243-E8A5-4016-B757-743F9E0722F2}|BaoCaoDACS\\BaoCaoDACS.csproj|d:\\hoc\\bao_cao_dacs\\baocaocn - copy\\baocaodacs\\wwwroot\\js\\hamxuly3.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{4E3CD243-E8A5-4016-B757-743F9E0722F2}|BaoCaoDACS\\BaoCaoDACS.csproj|solutionrelative:baocaodacs\\wwwroot\\js\\hamxuly3.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E3CD243-E8A5-4016-B757-743F9E0722F2}|BaoCaoDACS\\BaoCaoDACS.csproj|d:\\hoc\\bao_cao_dacs\\baocaocn - copy\\baocaodacs\\wwwroot\\js\\hamxuly2.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{4E3CD243-E8A5-4016-B757-743F9E0722F2}|BaoCaoDACS\\BaoCaoDACS.csproj|solutionrelative:baocaodacs\\wwwroot\\js\\hamxuly2.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E3CD243-E8A5-4016-B757-743F9E0722F2}|BaoCaoDACS\\BaoCaoDACS.csproj|d:\\hoc\\bao_cao_dacs\\baocaocn - copy\\baocaodacs\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4E3CD243-E8A5-4016-B757-743F9E0722F2}|BaoCaoDACS\\BaoCaoDACS.csproj|solutionrelative:baocaodacs\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E3CD243-E8A5-4016-B757-743F9E0722F2}|BaoCaoDACS\\BaoCaoDACS.csproj|d:\\hoc\\bao_cao_dacs\\baocaocn - copy\\baocaodacs\\views\\chamdiem\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4E3CD243-E8A5-4016-B757-743F9E0722F2}|BaoCaoDACS\\BaoCaoDACS.csproj|solutionrelative:baocaodacs\\views\\chamdiem\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E3CD243-E8A5-4016-B757-743F9E0722F2}|BaoCaoDACS\\BaoCaoDACS.csproj|d:\\hoc\\bao_cao_dacs\\baocaocn - copy\\baocaodacs\\wwwroot\\js\\hamxuly4.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{4E3CD243-E8A5-4016-B757-743F9E0722F2}|BaoCaoDACS\\BaoCaoDACS.csproj|solutionrelative:baocaodacs\\wwwroot\\js\\hamxuly4.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E3CD243-E8A5-4016-B757-743F9E0722F2}|BaoCaoDACS\\BaoCaoDACS.csproj|d:\\hoc\\bao_cao_dacs\\baocaocn - copy\\baocaodacs\\wwwroot\\js\\uploadvideo.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{4E3CD243-E8A5-4016-B757-743F9E0722F2}|BaoCaoDACS\\BaoCaoDACS.csproj|solutionrelative:baocaodacs\\wwwroot\\js\\uploadvideo.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E3CD243-E8A5-4016-B757-743F9E0722F2}|BaoCaoDACS\\BaoCaoDACS.csproj|d:\\hoc\\bao_cao_dacs\\baocaocn - copy\\baocaodacs\\wwwroot\\js\\layout.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{4E3CD243-E8A5-4016-B757-743F9E0722F2}|BaoCaoDACS\\BaoCaoDACS.csproj|solutionrelative:baocaodacs\\wwwroot\\js\\layout.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E3CD243-E8A5-4016-B757-743F9E0722F2}|BaoCaoDACS\\BaoCaoDACS.csproj|d:\\hoc\\bao_cao_dacs\\baocaocn - copy\\baocaodacs\\baocaodacs.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4E3CD243-E8A5-4016-B757-743F9E0722F2}|BaoCaoDACS\\BaoCaoDACS.csproj|solutionrelative:baocaodacs\\baocaodacs.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E3CD243-E8A5-4016-B757-743F9E0722F2}|BaoCaoDACS\\BaoCaoDACS.csproj|d:\\hoc\\bao_cao_dacs\\baocaocn - copy\\baocaodacs\\wwwroot\\js\\chamdiem.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{4E3CD243-E8A5-4016-B757-743F9E0722F2}|BaoCaoDACS\\BaoCaoDACS.csproj|solutionrelative:baocaodacs\\wwwroot\\js\\chamdiem.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E3CD243-E8A5-4016-B757-743F9E0722F2}|BaoCaoDACS\\BaoCaoDACS.csproj|d:\\hoc\\bao_cao_dacs\\baocaocn - copy\\baocaodacs\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4E3CD243-E8A5-4016-B757-743F9E0722F2}|BaoCaoDACS\\BaoCaoDACS.csproj|solutionrelative:baocaodacs\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E3CD243-E8A5-4016-B757-743F9E0722F2}|BaoCaoDACS\\BaoCaoDACS.csproj|d:\\hoc\\bao_cao_dacs\\baocaocn - copy\\baocaodacs\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E3CD243-E8A5-4016-B757-743F9E0722F2}|BaoCaoDACS\\BaoCaoDACS.csproj|solutionrelative:baocaodacs\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4E3CD243-E8A5-4016-B757-743F9E0722F2}|BaoCaoDACS\\BaoCaoDACS.csproj|d:\\hoc\\bao_cao_dacs\\baocaocn - copy\\baocaodacs\\controllers\\predictcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,18 +65,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{4E3CD243-E8A5-4016-B757-743F9E0722F2}|BaoCaoDACS\\BaoCaoDACS.csproj|d:\\hoc\\bao_cao_dacs\\baocaocn - copy\\baocaodacs\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4E3CD243-E8A5-4016-B757-743F9E0722F2}|BaoCaoDACS\\BaoCaoDACS.csproj|solutionrelative:baocaodacs\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4E3CD243-E8A5-4016-B757-743F9E0722F2}|BaoCaoDACS\\BaoCaoDACS.csproj|d:\\hoc\\bao_cao_dacs\\baocaocn - copy\\baocaodacs\\controllers\\chamdiemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4E3CD243-E8A5-4016-B757-743F9E0722F2}|BaoCaoDACS\\BaoCaoDACS.csproj|solutionrelative:baocaodacs\\controllers\\chamdiemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4E3CD243-E8A5-4016-B757-743F9E0722F2}|BaoCaoDACS\\BaoCaoDACS.csproj|d:\\hoc\\bao_cao_dacs\\baocaocn - copy\\baocaodacs\\baocaodacs.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{4E3CD243-E8A5-4016-B757-743F9E0722F2}|BaoCaoDACS\\BaoCaoDACS.csproj|solutionrelative:baocaodacs\\baocaodacs.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4E3CD243-E8A5-4016-B757-743F9E0722F2}|BaoCaoDACS\\BaoCaoDACS.csproj|d:\\hoc\\bao_cao_dacs\\baocaocn - copy\\baocaodacs\\views\\home\\lichthidau.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4E3CD243-E8A5-4016-B757-743F9E0722F2}|BaoCaoDACS\\BaoCaoDACS.csproj|solutionrelative:baocaodacs\\views\\home\\lichthidau.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4E3CD243-E8A5-4016-B757-743F9E0722F2}|BaoCaoDACS\\BaoCaoDACS.csproj|d:\\hoc\\bao_cao_dacs\\baocaocn - copy\\baocaodacs\\reponsitory\\efmatchpredictionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -131,10 +167,6 @@
       "RelativeMoniker": "D:0:0:{4E3CD243-E8A5-4016-B757-743F9E0722F2}|BaoCaoDACS\\BaoCaoDACS.csproj|solutionrelative:baocaodacs\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4E3CD243-E8A5-4016-B757-743F9E0722F2}|BaoCaoDACS\\BaoCaoDACS.csproj|d:\\hoc\\bao_cao_dacs\\baocaocn - copy\\baocaodacs\\views\\chamdiem\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4E3CD243-E8A5-4016-B757-743F9E0722F2}|BaoCaoDACS\\BaoCaoDACS.csproj|solutionrelative:baocaodacs\\views\\chamdiem\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4E3CD243-E8A5-4016-B757-743F9E0722F2}|BaoCaoDACS\\BaoCaoDACS.csproj|d:\\hoc\\bao_cao_dacs\\baocaocn - copy\\baocaodacs\\models\\match.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4E3CD243-E8A5-4016-B757-743F9E0722F2}|BaoCaoDACS\\BaoCaoDACS.csproj|solutionrelative:baocaodacs\\models\\match.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -163,28 +195,8 @@
       "RelativeMoniker": "D:0:0:{4E3CD243-E8A5-4016-B757-743F9E0722F2}|BaoCaoDACS\\BaoCaoDACS.csproj|solutionrelative:baocaodacs\\areas\\admin\\views\\giaidau\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4E3CD243-E8A5-4016-B757-743F9E0722F2}|BaoCaoDACS\\BaoCaoDACS.csproj|d:\\hoc\\bao_cao_dacs\\baocaocn - copy\\baocaodacs\\wwwroot\\js\\hamxuly4.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{4E3CD243-E8A5-4016-B757-743F9E0722F2}|BaoCaoDACS\\BaoCaoDACS.csproj|solutionrelative:baocaodacs\\wwwroot\\js\\hamxuly4.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4E3CD243-E8A5-4016-B757-743F9E0722F2}|BaoCaoDACS\\BaoCaoDACS.csproj|d:\\hoc\\bao_cao_dacs\\baocaocn - copy\\baocaodacs\\wwwroot\\js\\layout.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{4E3CD243-E8A5-4016-B757-743F9E0722F2}|BaoCaoDACS\\BaoCaoDACS.csproj|solutionrelative:baocaodacs\\wwwroot\\js\\layout.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4E3CD243-E8A5-4016-B757-743F9E0722F2}|BaoCaoDACS\\BaoCaoDACS.csproj|d:\\hoc\\bao_cao_dacs\\baocaocn - copy\\baocaodacs\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{4E3CD243-E8A5-4016-B757-743F9E0722F2}|BaoCaoDACS\\BaoCaoDACS.csproj|solutionrelative:baocaodacs\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4E3CD243-E8A5-4016-B757-743F9E0722F2}|BaoCaoDACS\\BaoCaoDACS.csproj|d:\\hoc\\bao_cao_dacs\\baocaocn - copy\\baocaodacs\\wwwroot\\js\\truycapvaochamdiem.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{4E3CD243-E8A5-4016-B757-743F9E0722F2}|BaoCaoDACS\\BaoCaoDACS.csproj|solutionrelative:baocaodacs\\wwwroot\\js\\truycapvaochamdiem.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4E3CD243-E8A5-4016-B757-743F9E0722F2}|BaoCaoDACS\\BaoCaoDACS.csproj|d:\\hoc\\bao_cao_dacs\\baocaocn - copy\\baocaodacs\\wwwroot\\js\\hamxuly.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{4E3CD243-E8A5-4016-B757-743F9E0722F2}|BaoCaoDACS\\BaoCaoDACS.csproj|solutionrelative:baocaodacs\\wwwroot\\js\\hamxuly.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4E3CD243-E8A5-4016-B757-743F9E0722F2}|BaoCaoDACS\\BaoCaoDACS.csproj|d:\\hoc\\bao_cao_dacs\\baocaocn - copy\\baocaodacs\\wwwroot\\js\\chamdiem.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{4E3CD243-E8A5-4016-B757-743F9E0722F2}|BaoCaoDACS\\BaoCaoDACS.csproj|solutionrelative:baocaodacs\\wwwroot\\js\\chamdiem.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4E3CD243-E8A5-4016-B757-743F9E0722F2}|BaoCaoDACS\\BaoCaoDACS.csproj|d:\\hoc\\bao_cao_dacs\\baocaocn - copy\\baocaodacs\\areas\\admin\\views\\ketqua\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -225,10 +237,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{4E3CD243-E8A5-4016-B757-743F9E0722F2}|BaoCaoDACS\\BaoCaoDACS.csproj|d:\\hoc\\bao_cao_dacs\\baocaocn - copy\\baocaodacs\\areas\\admin\\controllers\\loaihinhthidaucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4E3CD243-E8A5-4016-B757-743F9E0722F2}|BaoCaoDACS\\BaoCaoDACS.csproj|solutionrelative:baocaodacs\\areas\\admin\\controllers\\loaihinhthidaucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4E3CD243-E8A5-4016-B757-743F9E0722F2}|BaoCaoDACS\\BaoCaoDACS.csproj|d:\\hoc\\bao_cao_dacs\\baocaocn - copy\\baocaodacs\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{4E3CD243-E8A5-4016-B757-743F9E0722F2}|BaoCaoDACS\\BaoCaoDACS.csproj|solutionrelative:baocaodacs\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4E3CD243-E8A5-4016-B757-743F9E0722F2}|BaoCaoDACS\\BaoCaoDACS.csproj|d:\\hoc\\bao_cao_dacs\\baocaocn - copy\\baocaodacs\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -291,10 +299,6 @@
       "RelativeMoniker": "D:0:0:{4E3CD243-E8A5-4016-B757-743F9E0722F2}|BaoCaoDACS\\BaoCaoDACS.csproj|solutionrelative:baocaodacs\\reponsitory\\efketquareponsitory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4E3CD243-E8A5-4016-B757-743F9E0722F2}|BaoCaoDACS\\BaoCaoDACS.csproj|d:\\hoc\\bao_cao_dacs\\baocaocn - copy\\baocaodacs\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4E3CD243-E8A5-4016-B757-743F9E0722F2}|BaoCaoDACS\\BaoCaoDACS.csproj|solutionrelative:baocaodacs\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4E3CD243-E8A5-4016-B757-743F9E0722F2}|BaoCaoDACS\\BaoCaoDACS.csproj|d:\\hoc\\bao_cao_dacs\\baocaocn - copy\\baocaodacs\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{4E3CD243-E8A5-4016-B757-743F9E0722F2}|BaoCaoDACS\\BaoCaoDACS.csproj|solutionrelative:baocaodacs\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -309,10 +313,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{4E3CD243-E8A5-4016-B757-743F9E0722F2}|BaoCaoDACS\\BaoCaoDACS.csproj|d:\\hoc\\bao_cao_dacs\\baocaocn - copy\\baocaodacs\\views\\home\\thanhtoansucces.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{4E3CD243-E8A5-4016-B757-743F9E0722F2}|BaoCaoDACS\\BaoCaoDACS.csproj|solutionrelative:baocaodacs\\views\\home\\thanhtoansucces.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4E3CD243-E8A5-4016-B757-743F9E0722F2}|BaoCaoDACS\\BaoCaoDACS.csproj|d:\\hoc\\bao_cao_dacs\\baocaocn - copy\\baocaodacs\\wwwroot\\js\\uploadvideo.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{4E3CD243-E8A5-4016-B757-743F9E0722F2}|BaoCaoDACS\\BaoCaoDACS.csproj|solutionrelative:baocaodacs\\wwwroot\\js\\uploadvideo.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4E3CD243-E8A5-4016-B757-743F9E0722F2}|BaoCaoDACS\\BaoCaoDACS.csproj|d:\\hoc\\bao_cao_dacs\\baocaocn - copy\\baocaodacs\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -637,7 +637,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -645,92 +645,129 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "BaoCaoDACS\\Controllers\\HomeController.cs",
-              "ToolTip": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "BaoCaoDACS\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAHkAAAAAAAAAAAAqwIQAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T13:48:12.628Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ChamDiemController.cs",
-              "DocumentMoniker": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\Controllers\\ChamDiemController.cs",
-              "RelativeDocumentMoniker": "BaoCaoDACS\\Controllers\\ChamDiemController.cs",
-              "ToolTip": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\Controllers\\ChamDiemController.cs",
-              "RelativeToolTip": "BaoCaoDACS\\Controllers\\ChamDiemController.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAmwB8AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T13:49:26.157Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PredictController.cs",
-              "DocumentMoniker": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\Controllers\\PredictController.cs",
-              "RelativeDocumentMoniker": "BaoCaoDACS\\Controllers\\PredictController.cs",
-              "ToolTip": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\Controllers\\PredictController.cs",
-              "RelativeToolTip": "BaoCaoDACS\\Controllers\\PredictController.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAqwBQAAABMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-23T13:34:04.337Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\Program.cs",
-              "RelativeDocumentMoniker": "BaoCaoDACS\\Program.cs",
-              "ToolTip": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\Program.cs",
-              "RelativeToolTip": "BaoCaoDACS\\Program.cs",
-              "ViewState": "AgIAAIYAAAAAAAAAAABAPTIAAABQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T11:53:17.895Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "loadthongtintrang.js",
               "DocumentMoniker": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\js\\loadthongtintrang.js",
               "RelativeDocumentMoniker": "BaoCaoDACS\\wwwroot\\js\\loadthongtintrang.js",
               "ToolTip": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\js\\loadthongtintrang.js",
               "RelativeToolTip": "BaoCaoDACS\\wwwroot\\js\\loadthongtintrang.js",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAAEIAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAIgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-05-25T09:26:42.717Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "PredictMatchViewModel.cs",
-              "DocumentMoniker": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\Models\\PredictMatchViewModel.cs",
-              "RelativeDocumentMoniker": "BaoCaoDACS\\Models\\PredictMatchViewModel.cs",
-              "ToolTip": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\Models\\PredictMatchViewModel.cs",
-              "RelativeToolTip": "BaoCaoDACS\\Models\\PredictMatchViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-23T13:33:36.141Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "EFMatchPredictionService.cs",
-              "DocumentMoniker": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\Reponsitory\\EFMatchPredictionService.cs",
-              "RelativeDocumentMoniker": "BaoCaoDACS\\Reponsitory\\EFMatchPredictionService.cs",
-              "ToolTip": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\Reponsitory\\EFMatchPredictionService.cs",
-              "RelativeToolTip": "BaoCaoDACS\\Reponsitory\\EFMatchPredictionService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-14T13:42:48.156Z"
+              "WhenOpened": "2025-12-16T14:59:15.139Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "BaoCaoDACS\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "BaoCaoDACS\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAEEBAAAAAAAAAAAAALcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-08T08:43:57.159Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Hamxuly2.js",
+              "DocumentMoniker": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\js\\Hamxuly2.js",
+              "RelativeDocumentMoniker": "BaoCaoDACS\\wwwroot\\js\\Hamxuly2.js",
+              "ToolTip": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\js\\Hamxuly2.js",
+              "RelativeToolTip": "BaoCaoDACS\\wwwroot\\js\\Hamxuly2.js",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAAAEsAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-12-16T14:18:43.714Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Hamxuly3.js",
+              "DocumentMoniker": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\js\\Hamxuly3.js",
+              "RelativeDocumentMoniker": "BaoCaoDACS\\wwwroot\\js\\Hamxuly3.js",
+              "ToolTip": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\js\\Hamxuly3.js",
+              "RelativeToolTip": "BaoCaoDACS\\wwwroot\\js\\Hamxuly3.js",
+              "ViewState": "AgIAALEAAAAAAAAAAAAYwNEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-12-16T14:19:11.988Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "hamxuly.js",
+              "DocumentMoniker": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\js\\hamxuly.js",
+              "RelativeDocumentMoniker": "BaoCaoDACS\\wwwroot\\js\\hamxuly.js",
+              "ToolTip": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\js\\hamxuly.js",
+              "RelativeToolTip": "BaoCaoDACS\\wwwroot\\js\\hamxuly.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-12-13T11:28:36.657Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\Views\\ChamDiem\\Index.cshtml",
+              "RelativeDocumentMoniker": "BaoCaoDACS\\Views\\ChamDiem\\Index.cshtml",
+              "ToolTip": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\Views\\ChamDiem\\Index.cshtml",
+              "RelativeToolTip": "BaoCaoDACS\\Views\\ChamDiem\\Index.cshtml",
+              "ViewState": "AgIAAEwBAAAAAAAAAAAAAGIBAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-01T12:31:47.096Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LichThidau.cshtml",
+              "DocumentMoniker": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\Views\\Home\\LichThidau.cshtml",
+              "RelativeDocumentMoniker": "BaoCaoDACS\\Views\\Home\\LichThidau.cshtml",
+              "ToolTip": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\Views\\Home\\LichThidau.cshtml",
+              "RelativeToolTip": "BaoCaoDACS\\Views\\Home\\LichThidau.cshtml",
+              "ViewState": "AgIAAJsBAAAAAAAAAAAAALEBAABwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-27T14:53:07.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Hamxuly4.js",
+              "DocumentMoniker": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\js\\Hamxuly4.js",
+              "RelativeDocumentMoniker": "BaoCaoDACS\\wwwroot\\js\\Hamxuly4.js",
+              "ToolTip": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\js\\Hamxuly4.js",
+              "RelativeToolTip": "BaoCaoDACS\\wwwroot\\js\\Hamxuly4.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-12-13T12:50:44.31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Uploadvideo.js",
+              "DocumentMoniker": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\js\\Uploadvideo.js",
+              "RelativeDocumentMoniker": "BaoCaoDACS\\wwwroot\\js\\Uploadvideo.js",
+              "ToolTip": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\js\\Uploadvideo.js",
+              "RelativeToolTip": "BaoCaoDACS\\wwwroot\\js\\Uploadvideo.js",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAYwCgAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-05-28T03:37:14.254Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Layout.js",
+              "DocumentMoniker": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\js\\Layout.js",
+              "RelativeDocumentMoniker": "BaoCaoDACS\\wwwroot\\js\\Layout.js",
+              "ToolTip": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\js\\Layout.js",
+              "RelativeToolTip": "BaoCaoDACS\\wwwroot\\js\\Layout.js",
+              "ViewState": "AgIAAIYBAAAAAAAAAAAYwKcBAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-05-25T08:20:01.205Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "BaoCaoDACS.csproj",
               "DocumentMoniker": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\BaoCaoDACS.csproj",
               "RelativeDocumentMoniker": "BaoCaoDACS\\BaoCaoDACS.csproj",
@@ -742,19 +779,91 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "LichThidau.cshtml",
-              "DocumentMoniker": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\Views\\Home\\LichThidau.cshtml",
-              "RelativeDocumentMoniker": "BaoCaoDACS\\Views\\Home\\LichThidau.cshtml",
-              "ToolTip": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\Views\\Home\\LichThidau.cshtml",
-              "RelativeToolTip": "BaoCaoDACS\\Views\\Home\\LichThidau.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGcBAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-27T14:53:07.133Z"
+              "DocumentIndex": 11,
+              "Title": "Chamdiem.js",
+              "DocumentMoniker": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\js\\Chamdiem.js",
+              "RelativeDocumentMoniker": "BaoCaoDACS\\wwwroot\\js\\Chamdiem.js",
+              "ToolTip": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\js\\Chamdiem.js",
+              "RelativeToolTip": "BaoCaoDACS\\wwwroot\\js\\Chamdiem.js",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAkwFcAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-05-21T18:27:52.971Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\appsettings.json",
+              "RelativeDocumentMoniker": "BaoCaoDACS\\appsettings.json",
+              "ToolTip": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\appsettings.json",
+              "RelativeToolTip": "BaoCaoDACS\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-07T11:11:44.411Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "PredictMatchViewModel.cs",
+              "DocumentMoniker": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\Models\\PredictMatchViewModel.cs",
+              "RelativeDocumentMoniker": "BaoCaoDACS\\Models\\PredictMatchViewModel.cs",
+              "ToolTip": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\Models\\PredictMatchViewModel.cs",
+              "RelativeToolTip": "BaoCaoDACS\\Models\\PredictMatchViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T13:33:36.141Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\Program.cs",
+              "RelativeDocumentMoniker": "BaoCaoDACS\\Program.cs",
+              "ToolTip": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\Program.cs",
+              "RelativeToolTip": "BaoCaoDACS\\Program.cs",
+              "ViewState": "AgIAAIYAAAAAAAAAAABAPTIAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T11:53:17.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PredictController.cs",
+              "DocumentMoniker": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\Controllers\\PredictController.cs",
+              "RelativeDocumentMoniker": "BaoCaoDACS\\Controllers\\PredictController.cs",
+              "ToolTip": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\Controllers\\PredictController.cs",
+              "RelativeToolTip": "BaoCaoDACS\\Controllers\\PredictController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAqwBQAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T13:34:04.337Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "BaoCaoDACS\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "BaoCaoDACS\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAHkAAAAAAAAAAAAqwIQAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T13:48:12.628Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "EFMatchPredictionService.cs",
+              "DocumentMoniker": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\Reponsitory\\EFMatchPredictionService.cs",
+              "RelativeDocumentMoniker": "BaoCaoDACS\\Reponsitory\\EFMatchPredictionService.cs",
+              "ToolTip": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\Reponsitory\\EFMatchPredictionService.cs",
+              "RelativeToolTip": "BaoCaoDACS\\Reponsitory\\EFMatchPredictionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T13:42:48.156Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "Socre.cs",
               "DocumentMoniker": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\Models\\Socre.cs",
               "RelativeDocumentMoniker": "BaoCaoDACS\\Models\\Socre.cs",
@@ -766,7 +875,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 19,
               "Title": "Tournament.cs",
               "DocumentMoniker": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\Models\\Tournament.cs",
               "RelativeDocumentMoniker": "BaoCaoDACS\\Models\\Tournament.cs",
@@ -778,7 +887,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 20,
               "Title": "MatchScheduleVM.cs",
               "DocumentMoniker": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\Models\\MatchScheduleVM.cs",
               "RelativeDocumentMoniker": "BaoCaoDACS\\Models\\MatchScheduleVM.cs",
@@ -790,7 +899,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 21,
               "Title": "IMatchPredictionService.cs",
               "DocumentMoniker": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\Reponsitory\\IMatchPredictionService.cs",
               "RelativeDocumentMoniker": "BaoCaoDACS\\Reponsitory\\IMatchPredictionService.cs",
@@ -802,7 +911,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 22,
               "Title": "MatchTrainingSample.cs",
               "DocumentMoniker": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\Models\\MatchTrainingSample.cs",
               "RelativeDocumentMoniker": "BaoCaoDACS\\Models\\MatchTrainingSample.cs",
@@ -814,7 +923,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 23,
               "Title": "EFRankingService .cs",
               "DocumentMoniker": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\Reponsitory\\EFRankingService .cs",
               "RelativeDocumentMoniker": "BaoCaoDACS\\Reponsitory\\EFRankingService .cs",
@@ -826,7 +935,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 24,
               "Title": "EFNguoiDungreponsitory.cs",
               "DocumentMoniker": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\Reponsitory\\EFNguoiDungreponsitory.cs",
               "RelativeDocumentMoniker": "BaoCaoDACS\\Reponsitory\\EFNguoiDungreponsitory.cs",
@@ -838,7 +947,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 25,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\appsettings.Development.json",
               "RelativeDocumentMoniker": "BaoCaoDACS\\appsettings.Development.json",
@@ -850,7 +959,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 26,
               "Title": "ScaffoldingReadMe.txt",
               "DocumentMoniker": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\ScaffoldingReadMe.txt",
               "RelativeDocumentMoniker": "BaoCaoDACS\\ScaffoldingReadMe.txt",
@@ -862,7 +971,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 27,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS.MLTrain\\Program.cs",
               "RelativeDocumentMoniker": "BaoCaoDACS.MLTrain\\Program.cs",
@@ -874,7 +983,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 31,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS.MLTrain\\AppDbContext.cs",
               "RelativeDocumentMoniker": "BaoCaoDACS.MLTrain\\AppDbContext.cs",
@@ -886,7 +995,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 28,
               "Title": "EFGiaDaureponsitory.cs",
               "DocumentMoniker": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\Reponsitory\\EFGiaDaureponsitory.cs",
               "RelativeDocumentMoniker": "BaoCaoDACS\\Reponsitory\\EFGiaDaureponsitory.cs",
@@ -898,7 +1007,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 32,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS.MLTrain\\appsettings.json",
               "RelativeDocumentMoniker": "BaoCaoDACS.MLTrain\\appsettings.json",
@@ -910,7 +1019,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 29,
               "Title": "ITranDaureponsitory.cs",
               "DocumentMoniker": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\Reponsitory\\ITranDaureponsitory.cs",
               "RelativeDocumentMoniker": "BaoCaoDACS\\Reponsitory\\ITranDaureponsitory.cs",
@@ -922,7 +1031,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 30,
               "Title": "TournamentRanking.cs",
               "DocumentMoniker": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\Models\\TournamentRanking.cs",
               "RelativeDocumentMoniker": "BaoCaoDACS\\Models\\TournamentRanking.cs",
@@ -934,7 +1043,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 33,
               "Title": "PaymentController.cs",
               "DocumentMoniker": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\Controllers\\PaymentController.cs",
               "RelativeDocumentMoniker": "BaoCaoDACS\\Controllers\\PaymentController.cs",
@@ -946,7 +1055,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 34,
               "Title": "MatchPredictionOutput.cs",
               "DocumentMoniker": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\Models\\MatchPredictionOutput.cs",
               "RelativeDocumentMoniker": "BaoCaoDACS\\Models\\MatchPredictionOutput.cs",
@@ -958,7 +1067,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 35,
               "Title": "ApplicationUser.cs",
               "DocumentMoniker": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\Models\\ApplicationUser.cs",
               "RelativeDocumentMoniker": "BaoCaoDACS\\Models\\ApplicationUser.cs",
@@ -970,7 +1079,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 36,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\Views\\Predict\\Index.cshtml",
               "RelativeDocumentMoniker": "BaoCaoDACS\\Views\\Predict\\Index.cshtml",
@@ -982,7 +1091,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 37,
               "Title": "PaymentError.cshtml",
               "DocumentMoniker": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\Views\\Payment\\PaymentError.cshtml",
               "RelativeDocumentMoniker": "BaoCaoDACS\\Views\\Payment\\PaymentError.cshtml",
@@ -994,7 +1103,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 38,
               "Title": "MyActiveParticipants.cshtml",
               "DocumentMoniker": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\Views\\Home\\MyActiveParticipants.cshtml",
               "RelativeDocumentMoniker": "BaoCaoDACS\\Views\\Home\\MyActiveParticipants.cshtml",
@@ -1006,7 +1115,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 39,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "BaoCaoDACS\\Models\\ErrorViewModel.cs",
@@ -1018,7 +1127,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 40,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\Models\\AppDbContext.cs",
               "RelativeDocumentMoniker": "BaoCaoDACS\\Models\\AppDbContext.cs",
@@ -1030,19 +1139,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\Views\\ChamDiem\\Index.cshtml",
-              "RelativeDocumentMoniker": "BaoCaoDACS\\Views\\ChamDiem\\Index.cshtml",
-              "ToolTip": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\Views\\ChamDiem\\Index.cshtml",
-              "RelativeToolTip": "BaoCaoDACS\\Views\\ChamDiem\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-01T12:31:47.096Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 41,
               "Title": "Match.cs",
               "DocumentMoniker": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\Models\\Match.cs",
               "RelativeDocumentMoniker": "BaoCaoDACS\\Models\\Match.cs",
@@ -1054,7 +1151,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 42,
               "Title": "LoaiHinhThiDau.cs",
               "DocumentMoniker": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\Models\\LoaiHinhThiDau.cs",
               "RelativeDocumentMoniker": "BaoCaoDACS\\Models\\LoaiHinhThiDau.cs",
@@ -1066,7 +1163,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 43,
               "Title": "Update.cshtml",
               "DocumentMoniker": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\Areas\\Admin\\Views\\GiaiDau\\Update.cshtml",
               "RelativeDocumentMoniker": "BaoCaoDACS\\Areas\\Admin\\Views\\GiaiDau\\Update.cshtml",
@@ -1078,7 +1175,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 45,
               "Title": "Display.cshtml",
               "DocumentMoniker": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\Areas\\Admin\\Views\\GiaiDau\\Display.cshtml",
               "RelativeDocumentMoniker": "BaoCaoDACS\\Areas\\Admin\\Views\\GiaiDau\\Display.cshtml",
@@ -1090,7 +1187,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 46,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\Areas\\Admin\\Views\\GiaiDau\\Delete.cshtml",
               "RelativeDocumentMoniker": "BaoCaoDACS\\Areas\\Admin\\Views\\GiaiDau\\Delete.cshtml",
@@ -1102,7 +1199,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 47,
               "Title": "Add.cshtml",
               "DocumentMoniker": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\Areas\\Admin\\Views\\GiaiDau\\Add.cshtml",
               "RelativeDocumentMoniker": "BaoCaoDACS\\Areas\\Admin\\Views\\GiaiDau\\Add.cshtml",
@@ -1114,31 +1211,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "Hamxuly4.js",
-              "DocumentMoniker": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\js\\Hamxuly4.js",
-              "RelativeDocumentMoniker": "BaoCaoDACS\\wwwroot\\js\\Hamxuly4.js",
-              "ToolTip": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\js\\Hamxuly4.js",
-              "RelativeToolTip": "BaoCaoDACS\\wwwroot\\js\\Hamxuly4.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-12-13T12:50:44.31Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "Layout.js",
-              "DocumentMoniker": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\js\\Layout.js",
-              "RelativeDocumentMoniker": "BaoCaoDACS\\wwwroot\\js\\Layout.js",
-              "ToolTip": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\js\\Layout.js",
-              "RelativeToolTip": "BaoCaoDACS\\wwwroot\\js\\Layout.js",
-              "ViewState": "AgIAANMAAAAAAAAAAAAAAJ4BAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-05-25T08:20:01.205Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 48,
               "Title": "site.js",
               "DocumentMoniker": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\js\\site.js",
               "RelativeDocumentMoniker": "BaoCaoDACS\\wwwroot\\js\\site.js",
@@ -1150,7 +1223,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 44,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\Areas\\Admin\\Views\\GiaiDau\\Index.cshtml",
               "RelativeDocumentMoniker": "BaoCaoDACS\\Areas\\Admin\\Views\\GiaiDau\\Index.cshtml",
@@ -1162,43 +1235,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "Truycapvaochamdiem.js",
-              "DocumentMoniker": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\js\\Truycapvaochamdiem.js",
-              "RelativeDocumentMoniker": "BaoCaoDACS\\wwwroot\\js\\Truycapvaochamdiem.js",
-              "ToolTip": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\js\\Truycapvaochamdiem.js",
-              "RelativeToolTip": "BaoCaoDACS\\wwwroot\\js\\Truycapvaochamdiem.js",
-              "ViewState": "AgIAACEDAAAAAAAAAAAAAI0AAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-05-23T12:27:02.799Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "hamxuly.js",
-              "DocumentMoniker": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\js\\hamxuly.js",
-              "RelativeDocumentMoniker": "BaoCaoDACS\\wwwroot\\js\\hamxuly.js",
-              "ToolTip": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\js\\hamxuly.js",
-              "RelativeToolTip": "BaoCaoDACS\\wwwroot\\js\\hamxuly.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-12-13T11:28:36.657Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "Chamdiem.js",
-              "DocumentMoniker": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\js\\Chamdiem.js",
-              "RelativeDocumentMoniker": "BaoCaoDACS\\wwwroot\\js\\Chamdiem.js",
-              "ToolTip": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\js\\Chamdiem.js",
-              "RelativeToolTip": "BaoCaoDACS\\wwwroot\\js\\Chamdiem.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFcAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-05-21T18:27:52.971Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 49,
               "Title": "Add.cshtml",
               "DocumentMoniker": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\Areas\\Admin\\Views\\KetQua\\Add.cshtml",
               "RelativeDocumentMoniker": "BaoCaoDACS\\Areas\\Admin\\Views\\KetQua\\Add.cshtml",
@@ -1210,7 +1247,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 50,
               "Title": "Display.cshtml",
               "DocumentMoniker": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\Areas\\Admin\\Views\\KetQua\\Display.cshtml",
               "RelativeDocumentMoniker": "BaoCaoDACS\\Areas\\Admin\\Views\\KetQua\\Display.cshtml",
@@ -1222,7 +1259,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 51,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\Areas\\Admin\\Views\\KetQua\\Delete.cshtml",
               "RelativeDocumentMoniker": "BaoCaoDACS\\Areas\\Admin\\Views\\KetQua\\Delete.cshtml",
@@ -1234,7 +1271,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 52,
               "Title": "KetQuaController.cs",
               "DocumentMoniker": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\Areas\\Admin\\Controllers\\KetQuaController.cs",
               "RelativeDocumentMoniker": "BaoCaoDACS\\Areas\\Admin\\Controllers\\KetQuaController.cs",
@@ -1246,7 +1283,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 53,
               "Title": "Add.cshtml",
               "DocumentMoniker": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\Areas\\Admin\\Views\\TranDau\\Add.cshtml",
               "RelativeDocumentMoniker": "BaoCaoDACS\\Areas\\Admin\\Views\\TranDau\\Add.cshtml",
@@ -1258,7 +1295,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 54,
               "Title": "TranDauController.cs",
               "DocumentMoniker": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\Areas\\Admin\\Controllers\\TranDauController.cs",
               "RelativeDocumentMoniker": "BaoCaoDACS\\Areas\\Admin\\Controllers\\TranDauController.cs",
@@ -1270,7 +1307,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 55,
               "Title": "IRankingService.cs",
               "DocumentMoniker": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\Reponsitory\\IRankingService.cs",
               "RelativeDocumentMoniker": "BaoCaoDACS\\Reponsitory\\IRankingService.cs",
@@ -1282,7 +1319,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 56,
               "Title": "IKetquareponsitory.cs",
               "DocumentMoniker": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\Reponsitory\\IKetquareponsitory.cs",
               "RelativeDocumentMoniker": "BaoCaoDACS\\Reponsitory\\IKetquareponsitory.cs",
@@ -1294,7 +1331,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 57,
               "Title": "TrangQLController.cs",
               "DocumentMoniker": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\Areas\\Admin\\Controllers\\TrangQLController.cs",
               "RelativeDocumentMoniker": "BaoCaoDACS\\Areas\\Admin\\Controllers\\TrangQLController.cs",
@@ -1306,7 +1343,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 58,
               "Title": "LoaiHinhThiDauController.cs",
               "DocumentMoniker": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\Areas\\Admin\\Controllers\\LoaiHinhThiDauController.cs",
               "RelativeDocumentMoniker": "BaoCaoDACS\\Areas\\Admin\\Controllers\\LoaiHinhThiDauController.cs",
@@ -1330,19 +1367,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\appsettings.json",
-              "RelativeDocumentMoniker": "BaoCaoDACS\\appsettings.json",
-              "ToolTip": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\appsettings.json",
-              "RelativeToolTip": "BaoCaoDACS\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-07T11:11:44.411Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 59,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "BaoCaoDACS\\Views\\Home\\Index.cshtml",
@@ -1354,7 +1379,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 60,
               "Title": "Participant.cs",
               "DocumentMoniker": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\Models\\Participant.cs",
               "RelativeDocumentMoniker": "BaoCaoDACS\\Models\\Participant.cs",
@@ -1366,7 +1391,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 61,
               "Title": "20251213160139_suaranking2.cs",
               "DocumentMoniker": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\Migrations\\20251213160139_suaranking2.cs",
               "RelativeDocumentMoniker": "BaoCaoDACS\\Migrations\\20251213160139_suaranking2.cs",
@@ -1378,7 +1403,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 62,
               "Title": "20251213143216_suaranking2.cs",
               "DocumentMoniker": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\Migrations\\20251213143216_suaranking2.cs",
               "RelativeDocumentMoniker": "BaoCaoDACS\\Migrations\\20251213143216_suaranking2.cs",
@@ -1390,7 +1415,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 63,
               "Title": "20251213142941_suaranking1.cs",
               "DocumentMoniker": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\Migrations\\20251213142941_suaranking1.cs",
               "RelativeDocumentMoniker": "BaoCaoDACS\\Migrations\\20251213142941_suaranking1.cs",
@@ -1402,7 +1427,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 64,
               "Title": "MomoInfoModel.cs",
               "DocumentMoniker": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\Models\\MomoInfoModel.cs",
               "RelativeDocumentMoniker": "BaoCaoDACS\\Models\\MomoInfoModel.cs",
@@ -1414,7 +1439,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 65,
               "Title": "20251213142427_suaranking1.cs",
               "DocumentMoniker": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\Migrations\\20251213142427_suaranking1.cs",
               "RelativeDocumentMoniker": "BaoCaoDACS\\Migrations\\20251213142427_suaranking1.cs",
@@ -1426,7 +1451,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 66,
               "Title": "20251213142114_suaranking.cs",
               "DocumentMoniker": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\Migrations\\20251213142114_suaranking.cs",
               "RelativeDocumentMoniker": "BaoCaoDACS\\Migrations\\20251213142114_suaranking.cs",
@@ -1438,7 +1463,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 67,
               "Title": "NguoiDungController.cs",
               "DocumentMoniker": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\Areas\\Admin\\Controllers\\NguoiDungController.cs",
               "RelativeDocumentMoniker": "BaoCaoDACS\\Areas\\Admin\\Controllers\\NguoiDungController.cs",
@@ -1450,7 +1475,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 68,
               "Title": "IGiaiDaureponsitory.cs",
               "DocumentMoniker": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\Reponsitory\\IGiaiDaureponsitory.cs",
               "RelativeDocumentMoniker": "BaoCaoDACS\\Reponsitory\\IGiaiDaureponsitory.cs",
@@ -1462,7 +1487,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 69,
               "Title": "INguoidungreponsitory.cs",
               "DocumentMoniker": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\Reponsitory\\INguoidungreponsitory.cs",
               "RelativeDocumentMoniker": "BaoCaoDACS\\Reponsitory\\INguoidungreponsitory.cs",
@@ -1474,7 +1499,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 70,
               "Title": "ILoaiHinhreponsitory.cs",
               "DocumentMoniker": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\Reponsitory\\ILoaiHinhreponsitory.cs",
               "RelativeDocumentMoniker": "BaoCaoDACS\\Reponsitory\\ILoaiHinhreponsitory.cs",
@@ -1486,7 +1511,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 69,
+              "DocumentIndex": 71,
               "Title": "ThongKeController.cs",
               "DocumentMoniker": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\Areas\\Admin\\Controllers\\ThongKeController.cs",
               "RelativeDocumentMoniker": "BaoCaoDACS\\Areas\\Admin\\Controllers\\ThongKeController.cs",
@@ -1498,7 +1523,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 70,
+              "DocumentIndex": 72,
               "Title": "20251213120155_themranking.cs",
               "DocumentMoniker": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\Migrations\\20251213120155_themranking.cs",
               "RelativeDocumentMoniker": "BaoCaoDACS\\Migrations\\20251213120155_themranking.cs",
@@ -1510,7 +1535,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 71,
+              "DocumentIndex": 73,
               "Title": "EFKetquareponsitory.cs",
               "DocumentMoniker": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\Reponsitory\\EFKetquareponsitory.cs",
               "RelativeDocumentMoniker": "BaoCaoDACS\\Reponsitory\\EFKetquareponsitory.cs",
@@ -1522,19 +1547,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 72,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "BaoCaoDACS\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "BaoCaoDACS\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAFMBAAAAAAAAAAArwGcBAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-08T08:43:57.159Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 73,
+              "DocumentIndex": 74,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "BaoCaoDACS\\Views\\Home\\Privacy.cshtml",
@@ -1546,7 +1559,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 74,
+              "DocumentIndex": 75,
               "Title": "Profile.cshtml",
               "DocumentMoniker": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\Views\\Home\\Profile.cshtml",
               "RelativeDocumentMoniker": "BaoCaoDACS\\Views\\Home\\Profile.cshtml",
@@ -1558,7 +1571,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 75,
+              "DocumentIndex": 76,
               "Title": "ThanhToan.cshtml",
               "DocumentMoniker": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\Views\\Home\\ThanhToan.cshtml",
               "RelativeDocumentMoniker": "BaoCaoDACS\\Views\\Home\\ThanhToan.cshtml",
@@ -1570,7 +1583,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 76,
+              "DocumentIndex": 77,
               "Title": "ThanhToansucces.cshtml",
               "DocumentMoniker": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\Views\\Home\\ThanhToansucces.cshtml",
               "RelativeDocumentMoniker": "BaoCaoDACS\\Views\\Home\\ThanhToansucces.cshtml",
@@ -1579,18 +1592,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-06-07T13:09:07.894Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 77,
-              "Title": "Uploadvideo.js",
-              "DocumentMoniker": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\js\\Uploadvideo.js",
-              "RelativeDocumentMoniker": "BaoCaoDACS\\wwwroot\\js\\Uploadvideo.js",
-              "ToolTip": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\js\\Uploadvideo.js",
-              "RelativeToolTip": "BaoCaoDACS\\wwwroot\\js\\Uploadvideo.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-05-28T03:37:14.254Z"
             },
             {
               "$type": "Document",

@@ -378,7 +378,8 @@
                     Swal.fire('Cảnh báo', 'Vui lòng chọn trận đấu hợp lệ', 'warning');
                     return;
                 }
-
+                  const baseUrl = (window.appBase || '/');
+                const normalizedBaseUrl = baseUrl.endsWith('/') ? baseUrl : `${baseUrl}/`;
                 // 1. Gọi API kiểm tra trạng thái trận đấu
                 const response = await fetch(`/ChamDiem/GetMatchParticipants?matchId=${encodeURIComponent(matchId)}`, {
                     method: 'GET',
@@ -413,7 +414,7 @@
                     });
 
                     if (isConfirmed) {
-                        window.location.href = '/Home/Index';
+                            window.location.href = `${normalizedBaseUrl}Home/Index`;
                     }
                     return;
                 }
@@ -430,7 +431,7 @@
 
                 if (isConfirmed) {
                     const searchParams = new URLSearchParams({ matchId });
-                    window.location.href = `/ChamDiem/Index?${searchParams.toString()}`;
+                         window.location.href = `${normalizedBaseUrl}ChamDiem/Index?${searchParams.toString()}`;
                 }
 
 

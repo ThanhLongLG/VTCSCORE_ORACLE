@@ -351,3 +351,4 @@ D:\HOC\BAO_CAO_DACS\BaoCaoCN - Copy\BaoCaoDACS\obj\Release\net8.0\refint\BaoCaoD
 D:\HOC\BAO_CAO_DACS\BaoCaoCN - Copy\BaoCaoDACS\obj\Release\net8.0\BaoCaoDACS.pdb
 D:\HOC\BAO_CAO_DACS\BaoCaoCN - Copy\BaoCaoDACS\obj\Release\net8.0\BaoCaoDACS.genruntimeconfig.cache
 D:\HOC\BAO_CAO_DACS\BaoCaoCN - Copy\BaoCaoDACS\obj\Release\net8.0\ref\BaoCaoDACS.dll
+D:\HOC\BAO_CAO_DACS\BaoCaoCN - Copy\BaoCaoDACS\obj\Release\net8.0\staticwebassets.upToDateCheck.txt

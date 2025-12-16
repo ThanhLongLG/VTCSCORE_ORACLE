@@ -1,113 +1,116 @@
 ﻿
 
 
-    let activeTournamentId = null;
+const baseUrlLayout = (window.appBase || '/');
+const normalizedBaseUrlLayout = baseUrlLayout.endsWith('/') ? baseUrlLayout : `${baseUrlLayout}/`;
 
-      
-     function showRegisterModal(event, tournamentId) {
-        event.stopPropagation();
-        const modal = document.getElementById('register-tournament-modal');
-        modal.dataset.tournamentId = tournamentId;
-        modal.style.display = 'block';
+let activeTournamentId = null;
+
+
+function showRegisterModal(event, tournamentId) {
+    event.stopPropagation();
+    const modal = document.getElementById('register-tournament-modal');
+    modal.dataset.tournamentId = tournamentId;
+    modal.style.display = 'block';
+}
+
+
+function closeModal(modalId) {
+    const modal = document.getElementById(modalId);
+    if (modal) {
+        modal.style.display = 'none';  // Ẩn modal
+    } else {
+        console.error("Không tìm thấy modal:", modalId);
+    }
+}
+
+// Gắn sự kiện
+document.addEventListener('DOMContentLoaded', () => {
+    const modalClose = document.querySelector('#register-tournament-modal .modal-close');
+    if (modalClose) {
+        modalClose.addEventListener('click', () => {
+            const modal = document.getElementById('register-tournament-modal');
+            modal.style.display = 'none';
+            document.body.classList.remove('modal-open');
+        });
+    }
+});
+
+//ham gửi dữ liệu đăng kí
+document.querySelector('#register-tournament-modal form').addEventListener('submit', async function (e) {
+    e.preventDefault();
+
+    const tournamentId = document.querySelector('#register-tournament-modal').dataset.tournamentId;
+    const formData = {
+        ParticipantID: `PART-${Date.now()}-${Math.floor(Math.random() * 1000)}`,
+        FullName: document.getElementById('register-name').value,
+        Club: document.getElementById('register-club').value || "Không có",
+        sdt: document.getElementById('register-phone').value,
+        email: document.getElementById('register-email').value,
+        TournamentID: parseInt(tournamentId, 10),
+        Score: 0
+    };
+
+
+    if (!formData.FullName || !formData.TournamentID) {
+        Swal.fire('Lỗi', 'Vui lòng nhập họ tên và chọn giải.', 'warning');
+        return;
     }
 
+    try {
 
-        function closeModal(modalId) {
-        const modal = document.getElementById(modalId);
-        if (modal) {
-            modal.style.display = 'none';  // Ẩn modal
-        } else {
-            console.error("Không tìm thấy modal:", modalId);
-        }
-    }
+        const tokenInput = document.querySelector('input[name="__RequestVerificationToken"]');
+        const headers = { 'Content-Type': 'application/json' };
+        if (tokenInput) headers['RequestVerificationToken'] = tokenInput.value;
 
-     // Gắn sự kiện
-      document.addEventListener('DOMContentLoaded', () => {
-        const modalClose = document.querySelector('#register-tournament-modal .modal-close');
-        if (modalClose) {
-            modalClose.addEventListener('click', () => {
-                const modal = document.getElementById('register-tournament-modal');
-                modal.style.display = 'none';
-                document.body.classList.remove('modal-open');
+        const resp = await fetch(`${normalizedBaseUrlLayout}Home/PostParticipant`, {
+            method: 'POST',
+            headers,
+            credentials: 'same-origin',
+            body: JSON.stringify(formData)
+        });
+
+        const text = await resp.text();
+        let payload = null;
+        try { payload = text ? JSON.parse(text) : null; } catch { payload = text; }
+
+        console.log('POST /Home/PostParticipant =>', resp.status, payload);
+
+        if (!resp.ok) {
+
+            let msg = 'Đã có lỗi xảy ra.';
+            if (payload) {
+                if (typeof payload === 'string') msg = payload;
+                else if (payload.Message) msg = payload.Message;
+                else if (payload.detail) msg = payload.detail || payload.Detail || JSON.stringify(payload);
+                else msg = JSON.stringify(payload);
+            } else {
+                msg = `HTTP ${resp.status}`;
+            }
+
+            Swal.fire({
+                title: 'Đăng ký thất bại',
+                html: `<pre style="white-space:pre-wrap">${escapeHtml(msg)}</pre>`,
+                icon: 'error'
             });
-        }
-      });
-       
-    //ham gửi dữ liệu đăng kí
-    document.querySelector('#register-tournament-modal form').addEventListener('submit', async function (e) {
-        e.preventDefault();
-
-        const tournamentId = document.querySelector('#register-tournament-modal').dataset.tournamentId;
-        const formData = {
-            ParticipantID: `PART-${Date.now()}-${Math.floor(Math.random() * 1000)}`,
-            FullName: document.getElementById('register-name').value,
-            Club: document.getElementById('register-club').value || "Không có",
-            sdt: document.getElementById('register-phone').value,
-            email: document.getElementById('register-email').value,
-            TournamentID: parseInt(tournamentId, 10),
-            Score: 0
-        };
-
-       
-        if (!formData.FullName || !formData.TournamentID) {
-            Swal.fire('Lỗi', 'Vui lòng nhập họ tên và chọn giải.', 'warning');
             return;
         }
+        Swal.fire({
+            title: 'Thành công!',
+            text: 'Đăng ký thành công!',
+            icon: 'success',
+            confirmButtonText: 'OK'
+        }).then(() => {
+            closeModal('register-tournament-modal');
+            resetForm();
+            // optionally refresh list: location.reload();
+        });
 
-        try {
-            
-            const tokenInput = document.querySelector('input[name="__RequestVerificationToken"]');
-            const headers = { 'Content-Type': 'application/json' };
-            if (tokenInput) headers['RequestVerificationToken'] = tokenInput.value;
-
-            const resp = await fetch('/Home/PostParticipant', {
-                method: 'POST',
-                headers,
-                credentials: 'same-origin',
-                body: JSON.stringify(formData)
-            });
-
-            const text = await resp.text(); 
-            let payload = null;
-            try { payload = text ? JSON.parse(text) : null; } catch { payload = text; }
-
-            console.log('POST /Home/PostParticipant =>', resp.status, payload);
-
-            if (!resp.ok) {
-               
-                let msg = 'Đã có lỗi xảy ra.';
-                if (payload) {
-                    if (typeof payload === 'string') msg = payload;
-                    else if (payload.Message) msg = payload.Message;
-                    else if (payload.detail) msg = payload.detail || payload.Detail || JSON.stringify(payload);
-                    else msg = JSON.stringify(payload);
-                } else {
-                    msg = `HTTP ${resp.status}`;
-                }
-
-                Swal.fire({
-                    title: 'Đăng ký thất bại',
-                    html: `<pre style="white-space:pre-wrap">${escapeHtml(msg)}</pre>`,
-                    icon: 'error'
-                });
-                return;
-            }
-            Swal.fire({
-                title: 'Thành công!',
-                text: 'Đăng ký thành công!',
-                icon: 'success',
-                confirmButtonText: 'OK'
-            }).then(() => {
-                closeModal('register-tournament-modal');
-                resetForm();
-                // optionally refresh list: location.reload();
-            });
-
-        } catch (err) {
-            console.error('Fetch error:', err);
-            Swal.fire('Lỗi hệ thống', escapeHtml(err.message || 'Không thể kết nối tới server'), 'error');
-        }
-    });
+    } catch (err) {
+        console.error('Fetch error:', err);
+        Swal.fire('Lỗi hệ thống', escapeHtml(err.message || 'Không thể kết nối tới server'), 'error');
+    }
+});
 
 // helper to avoid HTML injection when showing server text
 function escapeHtml(s) {
@@ -118,99 +121,99 @@ function escapeHtml(s) {
 }
 
 
-    // Hàm hỗ trợ
-     function handleRegistrationError(error) {
-        const errorMessages = {
-            400: 'Dữ liệu không hợp lệ',
-            401: 'Yêu cầu đăng nhập',
-            404: 'API endpoint không tồn tại',
-            500: 'Lỗi hệ thống'
-        };
+// Hàm hỗ trợ
+function handleRegistrationError(error) {
+    const errorMessages = {
+        400: 'Dữ liệu không hợp lệ',
+        401: 'Yêu cầu đăng nhập',
+        404: 'API endpoint không tồn tại',
+        500: 'Lỗi hệ thống'
+    };
 
-        alert(errorMessages[error.status] || `Lỗi không xác định: ${error.message}`);
-    }
-       function resetForm() {
-        const form = document.getElementById('register-tournament-modal').querySelector('form');
-        if(form) form.reset();
-    }
-  
+    alert(errorMessages[error.status] || `Lỗi không xác định: ${error.message}`);
+}
+function resetForm() {
+    const form = document.getElementById('register-tournament-modal').querySelector('form');
+    if (form) form.reset();
+}
 
- 
-  
 
-    // Hàm hỗ trợ để lấy class trạng thái
-    function getStatusClass(status) {
-        switch (status) {
-            case "Upcoming":
-                return "bg-primary";
-            case "Ongoing":
-                return "bg-success";
-            case "Completed":
-                return "bg-secondary";
-            case "Cancelled":
-                return "bg-danger";
-            default:
-                return "bg-primary";
-        }
-    }
 
-    // Hàm hỗ trợ để lấy text trạng thái
-    function getStatusText(status) {
-        switch (status) {
-            case "Upcoming":
-                return "Sắp diễn ra";
-            case "Ongoing":
-                return "Đang diễn ra";
-            case "Completed":
-                return "Đã kết thúc";
-            case "Cancelled":
-                return "Đã hủy";
-            default:
-                return status;
-        }
+
+
+// Hàm hỗ trợ để lấy class trạng thái
+function getStatusClass(status) {
+    switch (status) {
+        case "Upcoming":
+            return "bg-primary";
+        case "Ongoing":
+            return "bg-success";
+        case "Completed":
+            return "bg-secondary";
+        case "Cancelled":
+            return "bg-danger";
+        default:
+            return "bg-primary";
     }
-    //thanhcong
-   
+}
+
+// Hàm hỗ trợ để lấy text trạng thái
+function getStatusText(status) {
+    switch (status) {
+        case "Upcoming":
+            return "Sắp diễn ra";
+        case "Ongoing":
+            return "Đang diễn ra";
+        case "Completed":
+            return "Đã kết thúc";
+        case "Cancelled":
+            return "Đã hủy";
+        default:
+            return status;
+    }
+}
+//thanhcong
+
 
 
 
 //gọi render touterments
-    fetch('/Home/GetTournaments')
-        .then(response => response.json())
-        .then(data => {
-            // Xử lý dữ liệu
-            const now = new Date();
-            const promises = data.map(tournament => {
-                console.log(tournament);
-                let actionButtonHtml;
-                const isEnded = new Date(tournament.endDate) < now;
-                if (isAuthenticated) {
-                    if (isEnded) {
-                        actionButtonHtml = `
+fetch(`${normalizedBaseUrlLayout}Home/GetTournaments`)
+    .then(response => response.json())
+    .then(data => {
+        // Xử lý dữ liệu
+        const now = new Date();
+        const promises = data.map(tournament => {
+            console.log(tournament);
+            let actionButtonHtml;
+            const isEnded = new Date(tournament.endDate) < now;
+            if (isAuthenticated) {
+                if (isEnded) {
+                    actionButtonHtml = `
                         <button class="btn btn-secondary w-100" disabled title="Giải đấu đã kết thúc">
                             Đã Kết Thúc
                         </button>`;
-                    } else {
-                        actionButtonHtml = `
+                } else {
+                    actionButtonHtml = `
                         <button class="btn btn-primary w-100" onclick="showRegisterModal(event, ${tournament.tournamentID})">
                             Đăng Ký Tham Gia
                         </button>`;
-                    }
-                } else {
-                    if (isEnded) {
-                        actionButtonHtml = `
+                }
+            } else {
+                if (isEnded) {
+                    actionButtonHtml = `
                         <button class="btn btn-secondary w-100" disabled title="Giải đấu đã kết thúc">
                             Đã Kết Thúc
                         </button>`;
-                    } else {
-                        actionButtonHtml = `
+                } else {
+                    actionButtonHtml = `
                         <button class="btn btn-secondary w-100" disabled title="Vui lòng đăng nhập để đăng ký">
                             Đăng Ký Tham Gia
                         </button>`;
-                    }
                 }
-                // Đẩy dữ liệu lên web
-                var html = `
+            }
+            // Đẩy dữ liệu lên web
+            var html = `
                          <div class="card tournament-card h-100" data-tournament-id="${tournament.tournamentID}">
                             <!-- Hình ảnh giải đấu -->
                             <div class="tournament-img card-img-top" style="height: 200px; background-image: url('${tournament.imageUrl}'); background-size: cover; background-position: center;"></div>
@@ -272,27 +275,27 @@ function escapeHtml(s) {
                             </div>
                         </div>
                     `;
-                const cardElement = document.createElement('div');
-                cardElement.innerHTML = html;
-                document.getElementById("tournaments").appendChild(cardElement);
-                new Countdown(cardElement.querySelector('.countdown-container'), tournament.endDate);
-          
-                return fetch(`/Home/GetNumberOfParticipants/${tournament.tournamentID}`)
-                    .then(response => response.json())
-                    .then(data => {
-                        cardElement.querySelector(`#number-of-participants-${tournament.tournamentID}`).innerHTML = `
+            const cardElement = document.createElement('div');
+            cardElement.innerHTML = html;
+            document.getElementById("tournaments").appendChild(cardElement);
+            new Countdown(cardElement.querySelector('.countdown-container'), tournament.endDate);
+
+            return fetch(`${normalizedBaseUrlLayout}Home/GetNumberOfParticipants/${tournament.tournamentID}`)
+                .then(response => response.json())
+                .then(data => {
+                    cardElement.querySelector(`#number-of-participants-${tournament.tournamentID}`).innerHTML = `
                             <i class="bi bi-people me-2 text-muted"></i>
                             <span>${data.count} VĐV</span>
                         `;
-                  
-                    });
-            });
-            return Promise.all(promises);
-        })
-        .then(() => {
-            
-        })
-        .catch(error => console.error(error));
+
+                });
+        });
+        return Promise.all(promises);
+    })
+    .then(() => {
+
+    })
+    .catch(error => console.error(error));
 
 
 

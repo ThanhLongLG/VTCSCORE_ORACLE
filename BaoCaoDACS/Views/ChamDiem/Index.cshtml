@@ -1,4 +1,4 @@
-﻿@{
+﻿﻿@{
     Layout = null;
 }
 @using BAO_CAO.Models
@@ -16,9 +16,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hệ Thống Chấm Điểm Võ Cổ Truyền</title>
     <link href="~/css/Chamdiem.css" rel="stylesheet" />
-    <!-- Bootstrap CSS --> 
-      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-	<link href="~/css/video.css" rel="stylesheet" />
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="~/css/video.css" rel="stylesheet" />
 </head>
 <body>
     <!-- Header -->
@@ -30,20 +30,20 @@
                 </div>
                 <div class="user-info">
                     @if (SignInManager.IsSignedIn(User))
-                        {
-                    <span class="user-name">Trọng tài: @UserManager.GetUserName(User)</span>
-                   
-                    
+                    {
+                        <span class="user-name">Trọng tài: @UserManager.GetUserName(User)</span>
+
+
                         <form class="p-0" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
                             <button type="submit" class="logout-btn">Log out</button>
-                             <a class="btn btn-primary text-white" href="/Home/Index">Trang Chủ</a>
+                            <a class="btn btn-primary text-white" href="/Home/Index">Trang Chủ</a>
                         </form>
-                        }
-                            else
-                        {
-                                <a class="btn btn-primary text-white" id="login" asp-area="Identity" asp-page="/Account/Login">Login</a>
-                                <a class="btn btn-primary text-white" href="/Home/Index">Trang Chủ</a>
-                        }
+                    }
+                    else
+                    {
+                        <a class="btn btn-primary text-white" id="login" asp-area="Identity" asp-page="/Account/Login">Login</a>
+                        <a class="btn btn-primary text-white" href="/Home/Index">Trang Chủ</a>
+                    }
                 </div>
             </div>
         </div>
@@ -62,10 +62,9 @@
 
     <!-- Main Content -->
     <main>
-        <div class="container" >
+        <div class="container">
             <!-- Match Information for each tab -->
-            <div class ="container" id="match-container">
-
+            <div class="container" id="match-container">
             </div>
             <!-- Tabs for different scoring types -->
             <div class="scoring-tabs">
@@ -79,7 +78,7 @@
             <div id="combat-scoring" class="tab-content active">
                 <!-- Timer Section -->
 
-                
+
                 <section class="timer-section">
                     <div class="timer-container">
                         <span class="timer-label">THỜI GIAN HIỆP</span>
@@ -96,12 +95,11 @@
                 <section class="scoring-area">
                     <!-- Blue Corner -->
                     <div class="athlete-cards-1-container">
-
                     </div>
                     <div class="athlete-cards-2-container">
                     </div>
 
-                    
+
                 </section>
 
                 <!-- Result Selection Section -->
@@ -149,13 +147,12 @@
 
             <!-- Performance Scoring -->
             <div id="performance-scoring" class="tab-content">
-                <section class="performance-scoring" >
-                 
-                   
+                <section class="performance-scoring">
+
+
                     <div class="performance-card" id="performance-scoring-card">
-                    
                     </div>
-                   
+
 
 
                     <section class="submit-section">
@@ -165,8 +162,8 @@
                     <div id="errorAnalysisView">
                         <h3>Phân tích lỗi kỹ thuật </h3>
                         <div class="video-container" style="margin-bottom:1rem;">
-                            <video id="performanceVideo" width="100%" height="340" controls style="background:#000;">
-                                <source src="duongdan.mp4">
+                            <video id="performanceVideo" width="100%" height="340" controls preload="none" style="background:#000;">
+                                <!-- Video nguồn sẽ được gắn khi người dùng upload hoặc chọn -->
                             </video>
                         </div>
                         <div class="video-controls">
@@ -176,10 +173,10 @@
                             <button class="video-btn" type="button" id="perfUploadVideoBtn">⬆️ Up video</button>
                             <input type="file" id="perfVideoFileInput" accept="video/*" style="display:none;">
                         </div>
-                      
-                      
+
+
                     </div>
-                   
+
                 </section>
             </div>
 
@@ -187,7 +184,6 @@
             <div id="weapon-scoring" class="tab-content">
                 <section class="performance-scoring">
                     <div class="performance-card" id="performance-weapon-scoring">
-                        
                     </div>
                     <section class="submit-section">
                         <button class="submit-btn" id="submit-weapon">Gửi kết quả binh khí</button>
@@ -199,7 +195,6 @@
             <div id="team-scoring" class="tab-content">
                 <section class="performance-scoring">
                     <div class="performance-card" id="performance-team-scoring">
-                        
                     </div>
                     <section class="submit-section">
                         <button class="submit-btn" id="submit-team">Gửi kết quả đồng đội</button>
@@ -210,10 +205,8 @@
     </main>
 
     <!-- Lịch thi đấu -->
-
-
     <!-- Kết quả -->
-    <section class="main-section tab-main-section" >
+    <section class="main-section tab-main-section">
         <div class="section-header">Kết quả</div>
         <div class="section-body" id="ketqua-section">
             <ul>
@@ -293,17 +286,21 @@
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
     <br />
-  
+
 </body>
 
 <script src="~/js/hamxuly.js"></script>
+<script>
+    window.appBase = '@Url.Content("~/")';
+</script>
 <script src="~/js/hamxuly2.js"></script>
 <script src="~/js/hamxuly3.js"></script>
-<script src="~/js/chamdiemtrandau.js" ></script>
+<script src="~/js/chamdiemtrandau.js"></script>
 <script src="~/js/chamdiem.js"></script>
 <script src="~/js/loadthongtintrang.js"></script>
 <script src="~/js/uploadvideo.js"></script>
 <script src="~/js/hamxuly4.js"></script>
+<script src="~/js/Truycapvaochamdiem.js"></script>
 </html>
 
 <script>
@@ -314,7 +311,10 @@
     let TournamentId = "";
 
        function renderTournamentResults(currentMatchId) {
-        fetch(`/ChamDiem/GetMatchesByTournament?tournamentId=${encodeURIComponent(currentMatchId)}`)
+        const baseUrl = (window.appBase || '/');
+        const normalizedBaseUrl = baseUrl.endsWith('/') ? baseUrl : `${baseUrl}/`;
+
+        fetch(`${normalizedBaseUrl}ChamDiem/GetMatchesByTournament?tournamentId=${encodeURIComponent(currentMatchId)}`)
             .then(response => {
                 if (!response.ok) throw new Error('Không thể lấy dữ liệu kết quả');
                 return response.json();
@@ -347,9 +347,11 @@
             });
     }
 
-    // Gọi hàm khi trang tải xong 
+    // Gọi hàm khi trang tải xong
     document.addEventListener('DOMContentLoaded', function() {
-        renderTournamentResults(currentMatchId);
+        if (TournamentId) {
+            renderTournamentResults(TournamentId);
+        }
     });
 
 </script>

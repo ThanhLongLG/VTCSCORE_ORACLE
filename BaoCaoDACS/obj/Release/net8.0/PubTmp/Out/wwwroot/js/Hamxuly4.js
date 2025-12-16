@@ -1,4 +1,6 @@
 ﻿//chấm điểm quyền pháp
+const baseUrlQuyen = (window.appBase || '/');
+const normalizedBaseUrlQuyen = baseUrlQuyen.endsWith('/') ? baseUrlQuyen : `${baseUrlQuyen}/`;
 
 
 document.addEventListener('DOMContentLoaded', function () {
@@ -10,104 +12,104 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 
-// Xử lý sự kiện click cho các nút chấm điểm
-document.addEventListener('click', function (event) {
-    const btn = event.target.closest('.score-btn');
-    if (!btn) return;
+    // Xử lý sự kiện click cho các nút chấm điểm
+    document.addEventListener('click', function (event) {
+        const btn = event.target.closest('.score-btn');
+        if (!btn) return;
 
-    // Lấy thông tin từ nút
-    const target = btn.getAttribute('data-target');
-    const value = btn.getAttribute('data-value');
-    const scoreElement = document.getElementById(`${target}-score`);
+        // Lấy thông tin từ nút
+        const target = btn.getAttribute('data-target');
+        const value = btn.getAttribute('data-value');
+        const scoreElement = document.getElementById(`${target}-score`);
 
-    // Xử lý từng loại điểm
-    if (value === 'caution') {
-        // Quản lý cảnh cáo
-        cautionState[target]++;
+        // Xử lý từng loại điểm
+        if (value === 'caution') {
+            // Quản lý cảnh cáo
+            cautionState[target]++;
 
-        // Hiển thị thông báo cảnh cáo
-        const cautionMessage = `Cảnh cáo ${target === 'blue' ? 'Xanh' : 'Đỏ'} (Lần: ${cautionState[target]})`;
+            // Hiển thị thông báo cảnh cáo
+            const cautionMessage = `Cảnh cáo ${target === 'blue' ? 'Xanh' : 'Đỏ'} (Lần: ${cautionState[target]})`;
 
-        // Sử dụng SweetAlert để thông báo
-        Swal.fire({
-            icon: 'warning',
-            title: 'Cảnh Cáo',
-            text: cautionMessage,
-            toast: true,
-            position: 'top-end',
-            showConfirmButton: false,
-            timer: 3000
-        });
-
-        // Xử lý logic khi số lần cảnh cáo vượt quá giới hạn
-        if (cautionState[target] >= 3) {
+            // Sử dụng SweetAlert để thông báo
             Swal.fire({
-                icon: 'error',
-                title: 'Truất Quyền',
-                text: `Vận động viên ${target === 'blue' ? 'Xanh' : 'Đỏ'} bị truất quyền do quá 3 lần cảnh cáo`,
-                confirmButtonText: 'Xác Nhận'
+                icon: 'warning',
+                title: 'Cảnh Cáo',
+                text: cautionMessage,
+                toast: true,
+                position: 'top-end',
+                showConfirmButton: false,
+                timer: 3000
             });
 
-            // Đặt điểm về 0 khi bị truất quyền
-            document.getElementById(`${target}-score`).textContent = '0';
+            // Xử lý logic khi số lần cảnh cáo vượt quá giới hạn
+            if (cautionState[target] >= 3) {
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Truất Quyền',
+                    text: `Vận động viên ${target === 'blue' ? 'Xanh' : 'Đỏ'} bị truất quyền do quá 3 lần cảnh cáo`,
+                    confirmButtonText: 'Xác Nhận'
+                });
+
+                // Đặt điểm về 0 khi bị truất quyền
+                document.getElementById(`${target}-score`).textContent = '0';
+            }
+            return;
         }
-        return;
-    }
 
-    // Xử lý điểm số
-    const currentScore = parseInt(scoreElement.textContent);
-    const newScore = currentScore + parseInt(value);
+        // Xử lý điểm số
+        const currentScore = parseInt(scoreElement.textContent);
+        const newScore = currentScore + parseInt(value);
 
-    // Đảm bảo điểm không âm
-    scoreElement.textContent = Math.max(0, newScore);
+        // Đảm bảo điểm không âm
+        scoreElement.textContent = Math.max(0, newScore);
 
-    // Hiệu ứng nhấp nháy khi thay đổi điểm
-    scoreElement.classList.add('score-changed');
-    setTimeout(() => {
-        scoreElement.classList.remove('score-changed');
-    }, 300);
-});
+        // Hiệu ứng nhấp nháy khi thay đổi điểm
+        scoreElement.classList.add('score-changed');
+        setTimeout(() => {
+            scoreElement.classList.remove('score-changed');
+        }, 300);
+    });
 
-// Xử lý submit kết quả
-const submitButton = document.getElementById('submit-combat');
-if (submitButton) {
-    submitButton.addEventListener('click', function () {
-        // Lấy kết quả đã chọn
-        const selectedResult = document.querySelector('input[name="combat-result"]:checked').value;
+    // Xử lý submit kết quả
+    const submitButton = document.getElementById('submit-combat');
+    if (submitButton) {
+        submitButton.addEventListener('click', function () {
+            // Lấy kết quả đã chọn
+            const selectedResult = document.querySelector('input[name="combat-result"]:checked').value;
 
-        // Lấy điểm số
-        const blueScore = document.getElementById('blue-score').textContent;
-        const redScore = document.getElementById('red-score').textContent;
+            // Lấy điểm số
+            const blueScore = document.getElementById('blue-score').textContent;
+            const redScore = document.getElementById('red-score').textContent;
 
-        // Xác nhận trước khi submit
-        Swal.fire({
-            title: 'Xác Nhận Kết Quả',
-            html: `
+            // Xác nhận trước khi submit
+            Swal.fire({
+                title: 'Xác Nhận Kết Quả',
+                html: `
                         <p>Điểm Xanh: ${blueScore}</p>
                         <p>Điểm Đỏ: ${redScore}</p>
                         <p>Kết Quả: ${selectedResult}</p>
                         <p>Cảnh Cáo Xanh: ${cautionState.blue}</p>
                         <p>Cảnh Cáo Đỏ: ${cautionState.red}</p>
                     `,
-            icon: 'question',
-            showCancelButton: true,
-            confirmButtonText: 'Xác Nhận',
-            cancelButtonText: 'Hủy'
-        }).then((result) => {
-            if (result.isConfirmed) {
-                // Gọi hàm submit kết quả
-                submitMatchResult({
-                    blueScore: blueScore,
-                    redScore: redScore,
-                    result: selectedResult,
-                    blueCautions: cautionState.blue,
-                    redCautions: cautionState.red
-                });
-            }
+                icon: 'question',
+                showCancelButton: true,
+                confirmButtonText: 'Xác Nhận',
+                cancelButtonText: 'Hủy'
+            }).then((result) => {
+                if (result.isConfirmed) {
+                    // Gọi hàm submit kết quả
+                    submitMatchResult({
+                        blueScore: blueScore,
+                        redScore: redScore,
+                        result: selectedResult,
+                        blueCautions: cautionState.blue,
+                        redCautions: cautionState.red
+                    });
+                }
+            });
         });
-    });
-}
-    });
+    }
+});
 
 //hamxuly
 function submitMatchResult(matchResult) {
@@ -156,7 +158,7 @@ function submitMatchResult(matchResult) {
             };
 
             // Gọi API submit kết quả
-            fetch('/ChamDiem/SubmitMatchResult', {
+            fetch(`${normalizedBaseUrlQuyen}ChamDiem/SubmitMatchResult`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -184,7 +186,7 @@ function submitMatchResult(matchResult) {
                         confirmButtonText: 'OK'
                     }).then(() => {
                         // Chuyển hướng sau khi lưu thành công
-                        window.location.href = '/Home/Index';
+                        window.location.href = `${normalizedBaseUrlQuyen}Home/Index`;
                     });
                 })
                 .catch(error => {
@@ -233,4 +235,3 @@ function prepareMatchResultFromUI() {
         result: result
     };
 }
-

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "QsaFczatNPA27doYi/hwobyCGHqxqAppIPtyh7a0/sg=",
+  "Hash": "4Ek90bn7LMOB2lcJAmO62fqtiHzlm0Z7CVODUlEAb7o=",
   "Source": "BaoCaoDACS",
   "BasePath": "_content/BaoCaoDACS",
   "Mode": "Default",
@@ -78,6 +78,174 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\js\\site.js"
+    },
+    {
+      "Identity": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "SourceId": "Microsoft.AspNetCore.Identity.UI",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\",
+      "BasePath": "Identity",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mpyigms19s",
+      "Integrity": "xlexqj9/k3uobVwGfciZcj/eDdooaNgcf4OFLtLUygM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Identity": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "SourceId": "Microsoft.AspNetCore.Identity.UI",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\",
+      "BasePath": "Identity",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "73kdqttayv",
+      "Integrity": "DRvWr0gangj5/5Q3DRn6ttzpcWDzl3OpHoAwAzNDR5Q=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "SourceId": "Microsoft.AspNetCore.Identity.UI",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\",
+      "BasePath": "Identity",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bpk8xqwxhs",
+      "Integrity": "z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "SourceId": "Microsoft.AspNetCore.Identity.UI",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\",
+      "BasePath": "Identity",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8inm30yfxf",
+      "Integrity": "gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "SourceId": "Microsoft.AspNetCore.Identity.UI",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\",
+      "BasePath": "Identity",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ve6x09088i",
+      "Integrity": "SZ2mKaD4A+b+HIvttwl+TvLFnVy8o8/X40j+EKVwyvY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Identity": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "SourceId": "Microsoft.AspNetCore.Identity.UI",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\",
+      "BasePath": "Identity",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4gxs3k148c",
+      "Integrity": "VFvmi/ZSwQFmjS6Pry9B8zXeZ/GA168TXLyykDhNMZE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "SourceId": "Microsoft.AspNetCore.Identity.UI",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\",
+      "BasePath": "Identity",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9b9oa1qrmt",
+      "Integrity": "22wR6QTidoeiRZXp6zkRQyMSUb/FB+Av11jqmZJF6uU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "SourceId": "Microsoft.AspNetCore.Identity.UI",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\",
+      "BasePath": "Identity",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "fctod5rc9n",
+      "Integrity": "j7uqK5VoTT4rUHMr911QEU5Sa94lR3uh9E28XBMlzrM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
       "Identity": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
@@ -584,174 +752,6 @@
       "OriginalItemSpec": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css",
-      "SourceId": "Microsoft.AspNetCore.Identity.UI",
-      "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\",
-      "BasePath": "Identity",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "mpyigms19s",
-      "Integrity": "xlexqj9/k3uobVwGfciZcj/eDdooaNgcf4OFLtLUygM=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css"
-    },
-    {
-      "Identity": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
-      "SourceId": "Microsoft.AspNetCore.Identity.UI",
-      "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\",
-      "BasePath": "Identity",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "73kdqttayv",
-      "Integrity": "DRvWr0gangj5/5Q3DRn6ttzpcWDzl3OpHoAwAzNDR5Q=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
-    },
-    {
-      "Identity": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
-      "SourceId": "Microsoft.AspNetCore.Identity.UI",
-      "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\",
-      "BasePath": "Identity",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "bpk8xqwxhs",
-      "Integrity": "z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
-    },
-    {
-      "Identity": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
-      "SourceId": "Microsoft.AspNetCore.Identity.UI",
-      "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\",
-      "BasePath": "Identity",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "8inm30yfxf",
-      "Integrity": "gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
-    },
-    {
-      "Identity": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
-      "SourceId": "Microsoft.AspNetCore.Identity.UI",
-      "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\",
-      "BasePath": "Identity",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "ve6x09088i",
-      "Integrity": "SZ2mKaD4A+b+HIvttwl+TvLFnVy8o8/X40j+EKVwyvY=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
-    },
-    {
-      "Identity": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
-      "SourceId": "Microsoft.AspNetCore.Identity.UI",
-      "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\",
-      "BasePath": "Identity",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "4gxs3k148c",
-      "Integrity": "VFvmi/ZSwQFmjS6Pry9B8zXeZ/GA168TXLyykDhNMZE=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
-    },
-    {
-      "Identity": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
-      "SourceId": "Microsoft.AspNetCore.Identity.UI",
-      "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\",
-      "BasePath": "Identity",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "9b9oa1qrmt",
-      "Integrity": "22wR6QTidoeiRZXp6zkRQyMSUb/FB+Av11jqmZJF6uU=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
-    },
-    {
-      "Identity": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
-      "SourceId": "Microsoft.AspNetCore.Identity.UI",
-      "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\",
-      "BasePath": "Identity",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "fctod5rc9n",
-      "Integrity": "j7uqK5VoTT4rUHMr911QEU5Sa94lR3uh9E28XBMlzrM=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
-    },
-    {
       "Identity": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
@@ -1025,12 +1025,12 @@
       "OriginalItemSpec": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\",
       "BasePath": "Identity",
-      "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1039,19 +1039,19 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "47otxtyo56",
-      "Integrity": "wJQaJ0XynBE2fq6CexXXhxKu7fstVmQc7V2MHNTo+WQ=",
+      "Fingerprint": "fwhahm2icz",
+      "Integrity": "H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+      "OriginalItemSpec": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\",
       "BasePath": "Identity",
-      "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1060,19 +1060,19 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "4v8eqarkd7",
-      "Integrity": "YJa7W8EiQdQpkk93iGEjjnLSUWRpRJbSfzfURh1kxz4=",
+      "Fingerprint": "dd6z7egasc",
+      "Integrity": "/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+      "OriginalItemSpec": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\",
       "BasePath": "Identity",
-      "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1081,11 +1081,32 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "356vix0kms",
-      "Integrity": "16aFlqtpsG9RyieKZUUUjkJpqTgcJtWXwT312I4Iz1s=",
+      "Fingerprint": "5pze98is44",
+      "Integrity": "OZVI+w57FGwS9boYCZpH1ZSpcP7pYhLu4KtIUvPlZ4I=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+      "OriginalItemSpec": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Identity": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\lib\\jquery\\LICENSE.txt",
+      "SourceId": "Microsoft.AspNetCore.Identity.UI",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\",
+      "BasePath": "Identity",
+      "RelativePath": "lib/jquery/LICENSE.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mlv21k5csn",
+      "Integrity": "hjIBkvmgxQXbNXK3B9YQ3t06RwLuQSQzC/dpvuB/lMk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\lib\\jquery\\LICENSE.txt"
     },
     {
       "Identity": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\additional-methods.js",
@@ -1193,12 +1214,12 @@
       "OriginalItemSpec": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\",
       "BasePath": "Identity",
-      "RelativePath": "lib/jquery/dist/jquery.js",
+      "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1207,19 +1228,19 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "fwhahm2icz",
-      "Integrity": "H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=",
+      "Fingerprint": "47otxtyo56",
+      "Integrity": "wJQaJ0XynBE2fq6CexXXhxKu7fstVmQc7V2MHNTo+WQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.js"
+      "OriginalItemSpec": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\",
       "BasePath": "Identity",
-      "RelativePath": "lib/jquery/dist/jquery.min.js",
+      "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1228,19 +1249,19 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "dd6z7egasc",
-      "Integrity": "/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=",
+      "Fingerprint": "4v8eqarkd7",
+      "Integrity": "YJa7W8EiQdQpkk93iGEjjnLSUWRpRJbSfzfURh1kxz4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.js"
+      "OriginalItemSpec": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\",
       "BasePath": "Identity",
-      "RelativePath": "lib/jquery/dist/jquery.min.map",
+      "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1249,32 +1270,11 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "5pze98is44",
-      "Integrity": "OZVI+w57FGwS9boYCZpH1ZSpcP7pYhLu4KtIUvPlZ4I=",
+      "Fingerprint": "356vix0kms",
+      "Integrity": "16aFlqtpsG9RyieKZUUUjkJpqTgcJtWXwT312I4Iz1s=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.map"
-    },
-    {
-      "Identity": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\lib\\jquery\\LICENSE.txt",
-      "SourceId": "Microsoft.AspNetCore.Identity.UI",
-      "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\",
-      "BasePath": "Identity",
-      "RelativePath": "lib/jquery/LICENSE.txt",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "mlv21k5csn",
-      "Integrity": "hjIBkvmgxQXbNXK3B9YQ3t06RwLuQSQzC/dpvuB/lMk=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\lib\\jquery\\LICENSE.txt"
+      "OriginalItemSpec": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
       "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\obj\\Release\\net8.0\\scopedcss\\bundle\\BaoCaoDACS.styles.css",
@@ -1984,8 +1984,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "2bvki3i92f",
-      "Integrity": "gobWLz5FkY/SmgSQ8ZOL9kHLLNUBOrWtSA1h5A7J9II=",
+      "Fingerprint": "4dpg3eeazf",
+      "Integrity": "aB+OalLOrUpeJ4oPpRLiOT3YLGgyAtbE9R2kEdNSRrA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\hamxuly.js"
@@ -2005,8 +2005,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "i4blya0kpd",
-      "Integrity": "kvWqrwkCt2UHs9+7p5702kWwNFhcUopAHm1jgaCIeAM=",
+      "Fingerprint": "saf13fjbtj",
+      "Integrity": "tHKBo5v/CsMtfJxTkHqUD+2AnoGj8zqT39MWkdbnGHQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\Hamxuly2.js"
@@ -2026,8 +2026,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "58c0pgyx4j",
-      "Integrity": "G2kOt3Ry45jnv+1OqHTjfBs7IBUuhPHqu/XWO4JLliA=",
+      "Fingerprint": "osd5cs7cg4",
+      "Integrity": "GMEVdnLzhfYJYrRlecVzZCWMTx5AHz3XdGsWdCzifnI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\Hamxuly3.js"
@@ -2047,8 +2047,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "wh537jetnf",
-      "Integrity": "lPGyToPgctA5unfV/x9Gat7U4//M5mJRh4wlvT25m8Y=",
+      "Fingerprint": "4tlv8u4dej",
+      "Integrity": "2L9N0Isb+TvlS+ED2Ca3dRmvwsm49T5JZg/znMnJoTk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\Hamxuly4.js"
@@ -2068,8 +2068,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "jtlqyrp431",
-      "Integrity": "9y4CibxQ4cdZLZFB/IsKh0kKfnhWg3A94+sUKo/5thc=",
+      "Fingerprint": "3iaqdpsexn",
+      "Integrity": "qygULSPI91Y1gXyIHTM1LBomdgMzfOzj0JjeBp6pT/o=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\Layout.js"
@@ -2089,8 +2089,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "f5jld17kt3",
-      "Integrity": "M5WGDpjBZD99CtlzZVu79tly/u/QqNHUIbtQT2ATBnA=",
+      "Fingerprint": "lxwk43mvnm",
+      "Integrity": "uXPJvql0gsMlzlH/tReLxp6sNvR20FutGii3kvqPYWk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\loadthongtintrang.js"
@@ -2131,8 +2131,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "9iqyplk1m1",
-      "Integrity": "T5ixvnDNeSKqoJ5N7FGxmn4Ubr2lmG2PpCgXxVDYSSw=",
+      "Fingerprint": "xf3vw1ll99",
+      "Integrity": "LXe5s1lnMplk0mC3ac0YC1gDyBe4SynwOO/rS4XPz4E=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\Truycapvaochamdiem.js"
@@ -2157,6 +2157,174 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\Uploadvideo.js"
+    },
+    {
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "SourceId": "BaoCaoDACS",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
+      "BasePath": "_content/BaoCaoDACS",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mpyigms19s",
+      "Integrity": "xlexqj9/k3uobVwGfciZcj/eDdooaNgcf4OFLtLUygM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "SourceId": "BaoCaoDACS",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
+      "BasePath": "_content/BaoCaoDACS",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.css#[.{fingerprint}]?.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "73kdqttayv",
+      "Integrity": "DRvWr0gangj5/5Q3DRn6ttzpcWDzl3OpHoAwAzNDR5Q=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "SourceId": "BaoCaoDACS",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
+      "BasePath": "_content/BaoCaoDACS",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.min#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bpk8xqwxhs",
+      "Integrity": "z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "SourceId": "BaoCaoDACS",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
+      "BasePath": "_content/BaoCaoDACS",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css#[.{fingerprint}]?.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8inm30yfxf",
+      "Integrity": "gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "SourceId": "BaoCaoDACS",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
+      "BasePath": "_content/BaoCaoDACS",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ve6x09088i",
+      "Integrity": "SZ2mKaD4A+b+HIvttwl+TvLFnVy8o8/X40j+EKVwyvY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "SourceId": "BaoCaoDACS",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
+      "BasePath": "_content/BaoCaoDACS",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css#[.{fingerprint}]?.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4gxs3k148c",
+      "Integrity": "VFvmi/ZSwQFmjS6Pry9B8zXeZ/GA168TXLyykDhNMZE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "SourceId": "BaoCaoDACS",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
+      "BasePath": "_content/BaoCaoDACS",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9b9oa1qrmt",
+      "Integrity": "22wR6QTidoeiRZXp6zkRQyMSUb/FB+Av11jqmZJF6uU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "SourceId": "BaoCaoDACS",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
+      "BasePath": "_content/BaoCaoDACS",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css#[.{fingerprint}]?.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "fctod5rc9n",
+      "Integrity": "j7uqK5VoTT4rUHMr911QEU5Sa94lR3uh9E28XBMlzrM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
       "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
@@ -2663,174 +2831,6 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
-      "SourceId": "BaoCaoDACS",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
-      "BasePath": "_content/BaoCaoDACS",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap#[.{fingerprint}]?.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "mpyigms19s",
-      "Integrity": "xlexqj9/k3uobVwGfciZcj/eDdooaNgcf4OFLtLUygM=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
-    },
-    {
-      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
-      "SourceId": "BaoCaoDACS",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
-      "BasePath": "_content/BaoCaoDACS",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.css#[.{fingerprint}]?.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "73kdqttayv",
-      "Integrity": "DRvWr0gangj5/5Q3DRn6ttzpcWDzl3OpHoAwAzNDR5Q=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
-    },
-    {
-      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
-      "SourceId": "BaoCaoDACS",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
-      "BasePath": "_content/BaoCaoDACS",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.min#[.{fingerprint}]?.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "bpk8xqwxhs",
-      "Integrity": "z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
-    },
-    {
-      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
-      "SourceId": "BaoCaoDACS",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
-      "BasePath": "_content/BaoCaoDACS",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css#[.{fingerprint}]?.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "8inm30yfxf",
-      "Integrity": "gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
-    },
-    {
-      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
-      "SourceId": "BaoCaoDACS",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
-      "BasePath": "_content/BaoCaoDACS",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl#[.{fingerprint}]?.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "ve6x09088i",
-      "Integrity": "SZ2mKaD4A+b+HIvttwl+TvLFnVy8o8/X40j+EKVwyvY=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
-    },
-    {
-      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
-      "SourceId": "BaoCaoDACS",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
-      "BasePath": "_content/BaoCaoDACS",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css#[.{fingerprint}]?.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "4gxs3k148c",
-      "Integrity": "VFvmi/ZSwQFmjS6Pry9B8zXeZ/GA168TXLyykDhNMZE=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
-    },
-    {
-      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
-      "SourceId": "BaoCaoDACS",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
-      "BasePath": "_content/BaoCaoDACS",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min#[.{fingerprint}]?.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "9b9oa1qrmt",
-      "Integrity": "22wR6QTidoeiRZXp6zkRQyMSUb/FB+Av11jqmZJF6uU=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
-    },
-    {
-      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
-      "SourceId": "BaoCaoDACS",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
-      "BasePath": "_content/BaoCaoDACS",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css#[.{fingerprint}]?.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "fctod5rc9n",
-      "Integrity": "j7uqK5VoTT4rUHMr911QEU5Sa94lR3uh9E28XBMlzrM=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
-    },
-    {
       "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "BaoCaoDACS",
       "SourceType": "Discovered",
@@ -3104,12 +3104,12 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "BaoCaoDACS",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
       "BasePath": "_content/BaoCaoDACS",
-      "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive#[.{fingerprint}]?.js",
+      "RelativePath": "lib/jquery/dist/jquery#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -3118,19 +3118,19 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "47otxtyo56",
-      "Integrity": "wJQaJ0XynBE2fq6CexXXhxKu7fstVmQc7V2MHNTo+WQ=",
+      "Fingerprint": "fwhahm2icz",
+      "Integrity": "H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "BaoCaoDACS",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
       "BasePath": "_content/BaoCaoDACS",
-      "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min#[.{fingerprint}]?.js",
+      "RelativePath": "lib/jquery/dist/jquery.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -3139,19 +3139,19 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "4v8eqarkd7",
-      "Integrity": "YJa7W8EiQdQpkk93iGEjjnLSUWRpRJbSfzfURh1kxz4=",
+      "Fingerprint": "dd6z7egasc",
+      "Integrity": "/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "BaoCaoDACS",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
       "BasePath": "_content/BaoCaoDACS",
-      "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE#[.{fingerprint}]?.txt",
+      "RelativePath": "lib/jquery/dist/jquery.min#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -3160,11 +3160,32 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "356vix0kms",
-      "Integrity": "16aFlqtpsG9RyieKZUUUjkJpqTgcJtWXwT312I4Iz1s=",
+      "Fingerprint": "5pze98is44",
+      "Integrity": "OZVI+w57FGwS9boYCZpH1ZSpcP7pYhLu4KtIUvPlZ4I=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "SourceId": "BaoCaoDACS",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
+      "BasePath": "_content/BaoCaoDACS",
+      "RelativePath": "lib/jquery/LICENSE#[.{fingerprint}]?.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mlv21k5csn",
+      "Integrity": "hjIBkvmgxQXbNXK3B9YQ3t06RwLuQSQzC/dpvuB/lMk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
       "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
@@ -3272,12 +3293,12 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "BaoCaoDACS",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
       "BasePath": "_content/BaoCaoDACS",
-      "RelativePath": "lib/jquery/dist/jquery#[.{fingerprint}]?.js",
+      "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -3286,19 +3307,19 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "fwhahm2icz",
-      "Integrity": "H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=",
+      "Fingerprint": "47otxtyo56",
+      "Integrity": "wJQaJ0XynBE2fq6CexXXhxKu7fstVmQc7V2MHNTo+WQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "BaoCaoDACS",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
       "BasePath": "_content/BaoCaoDACS",
-      "RelativePath": "lib/jquery/dist/jquery.min#[.{fingerprint}]?.js",
+      "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -3307,19 +3328,19 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "dd6z7egasc",
-      "Integrity": "/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=",
+      "Fingerprint": "4v8eqarkd7",
+      "Integrity": "YJa7W8EiQdQpkk93iGEjjnLSUWRpRJbSfzfURh1kxz4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "BaoCaoDACS",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
       "BasePath": "_content/BaoCaoDACS",
-      "RelativePath": "lib/jquery/dist/jquery.min#[.{fingerprint}]?.map",
+      "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE#[.{fingerprint}]?.txt",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -3328,32 +3349,11 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "5pze98is44",
-      "Integrity": "OZVI+w57FGwS9boYCZpH1ZSpcP7pYhLu4KtIUvPlZ4I=",
+      "Fingerprint": "356vix0kms",
+      "Integrity": "16aFlqtpsG9RyieKZUUUjkJpqTgcJtWXwT312I4Iz1s=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
-    },
-    {
-      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\jquery\\LICENSE.txt",
-      "SourceId": "BaoCaoDACS",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
-      "BasePath": "_content/BaoCaoDACS",
-      "RelativePath": "lib/jquery/LICENSE#[.{fingerprint}]?.txt",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "mlv21k5csn",
-      "Integrity": "hjIBkvmgxQXbNXK3B9YQ3t06RwLuQSQzC/dpvuB/lMk=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
       "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\Models\\match_predictor.zip",
@@ -5130,6 +5130,302 @@
       ]
     },
     {
+      "Route": "Identity/lib/bootstrap/dist/css/bootstrap.css",
+      "AssetFile": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "204136"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xlexqj9/k3uobVwGfciZcj/eDdooaNgcf4OFLtLUygM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Oct 2024 23:38:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xlexqj9/k3uobVwGfciZcj/eDdooaNgcf4OFLtLUygM="
+        }
+      ]
+    },
+    {
+      "Route": "Identity/lib/bootstrap/dist/css/bootstrap.css.map",
+      "AssetFile": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "536547"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DRvWr0gangj5/5Q3DRn6ttzpcWDzl3OpHoAwAzNDR5Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Oct 2024 23:38:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-DRvWr0gangj5/5Q3DRn6ttzpcWDzl3OpHoAwAzNDR5Q="
+        }
+      ]
+    },
+    {
+      "Route": "Identity/lib/bootstrap/dist/css/bootstrap.min.css",
+      "AssetFile": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "162720"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Oct 2024 23:38:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg="
+        }
+      ]
+    },
+    {
+      "Route": "Identity/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "AssetFile": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "449111"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Oct 2024 23:38:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ="
+        }
+      ]
+    },
+    {
+      "Route": "Identity/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "AssetFile": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "203803"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SZ2mKaD4A+b+HIvttwl+TvLFnVy8o8/X40j+EKVwyvY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Oct 2024 23:38:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SZ2mKaD4A+b+HIvttwl+TvLFnVy8o8/X40j+EKVwyvY="
+        }
+      ]
+    },
+    {
+      "Route": "Identity/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "AssetFile": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "536461"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VFvmi/ZSwQFmjS6Pry9B8zXeZ/GA168TXLyykDhNMZE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Oct 2024 23:38:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-VFvmi/ZSwQFmjS6Pry9B8zXeZ/GA168TXLyykDhNMZE="
+        }
+      ]
+    },
+    {
+      "Route": "Identity/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "AssetFile": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "162825"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"22wR6QTidoeiRZXp6zkRQyMSUb/FB+Av11jqmZJF6uU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Oct 2024 23:38:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-22wR6QTidoeiRZXp6zkRQyMSUb/FB+Av11jqmZJF6uU="
+        }
+      ]
+    },
+    {
+      "Route": "Identity/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "661035"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"j7uqK5VoTT4rUHMr911QEU5Sa94lR3uh9E28XBMlzrM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Oct 2024 23:38:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-j7uqK5VoTT4rUHMr911QEU5Sa94lR3uh9E28XBMlzrM="
+        }
+      ]
+    },
+    {
       "Route": "Identity/lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetFile": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "Selectors": [],
@@ -6018,302 +6314,6 @@
       ]
     },
     {
-      "Route": "Identity/lib/bootstrap/dist/css/bootstrap.css",
-      "AssetFile": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "204136"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"xlexqj9/k3uobVwGfciZcj/eDdooaNgcf4OFLtLUygM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 21 Oct 2024 23:38:10 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-xlexqj9/k3uobVwGfciZcj/eDdooaNgcf4OFLtLUygM="
-        }
-      ]
-    },
-    {
-      "Route": "Identity/lib/bootstrap/dist/css/bootstrap.css.map",
-      "AssetFile": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "536547"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/plain"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"DRvWr0gangj5/5Q3DRn6ttzpcWDzl3OpHoAwAzNDR5Q=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 21 Oct 2024 23:38:10 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-DRvWr0gangj5/5Q3DRn6ttzpcWDzl3OpHoAwAzNDR5Q="
-        }
-      ]
-    },
-    {
-      "Route": "Identity/lib/bootstrap/dist/css/bootstrap.min.css",
-      "AssetFile": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "162720"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 21 Oct 2024 23:38:10 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg="
-        }
-      ]
-    },
-    {
-      "Route": "Identity/lib/bootstrap/dist/css/bootstrap.min.css.map",
-      "AssetFile": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "449111"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/plain"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 21 Oct 2024 23:38:10 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ="
-        }
-      ]
-    },
-    {
-      "Route": "Identity/lib/bootstrap/dist/css/bootstrap.rtl.css",
-      "AssetFile": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "203803"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"SZ2mKaD4A+b+HIvttwl+TvLFnVy8o8/X40j+EKVwyvY=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 21 Oct 2024 23:38:10 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-SZ2mKaD4A+b+HIvttwl+TvLFnVy8o8/X40j+EKVwyvY="
-        }
-      ]
-    },
-    {
-      "Route": "Identity/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
-      "AssetFile": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "536461"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/plain"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"VFvmi/ZSwQFmjS6Pry9B8zXeZ/GA168TXLyykDhNMZE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 21 Oct 2024 23:38:10 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-VFvmi/ZSwQFmjS6Pry9B8zXeZ/GA168TXLyykDhNMZE="
-        }
-      ]
-    },
-    {
-      "Route": "Identity/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
-      "AssetFile": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "162825"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"22wR6QTidoeiRZXp6zkRQyMSUb/FB+Av11jqmZJF6uU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 21 Oct 2024 23:38:10 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-22wR6QTidoeiRZXp6zkRQyMSUb/FB+Av11jqmZJF6uU="
-        }
-      ]
-    },
-    {
-      "Route": "Identity/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
-      "AssetFile": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "661035"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/plain"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"j7uqK5VoTT4rUHMr911QEU5Sa94lR3uh9E28XBMlzrM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 21 Oct 2024 23:38:10 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-j7uqK5VoTT4rUHMr911QEU5Sa94lR3uh9E28XBMlzrM="
-        }
-      ]
-    },
-    {
       "Route": "Identity/lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetFile": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "Selectors": [],
@@ -6795,8 +6795,8 @@
       ]
     },
     {
-      "Route": "Identity/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
-      "AssetFile": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Route": "Identity/lib/jquery/dist/jquery.js",
+      "AssetFile": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6805,7 +6805,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "19385"
+          "Value": "288580"
         },
         {
           "Name": "Content-Type",
@@ -6813,7 +6813,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"wJQaJ0XynBE2fq6CexXXhxKu7fstVmQc7V2MHNTo+WQ=\""
+          "Value": "\"H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=\""
         },
         {
           "Name": "Last-Modified",
@@ -6827,13 +6827,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-wJQaJ0XynBE2fq6CexXXhxKu7fstVmQc7V2MHNTo+WQ="
+          "Value": "sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
         }
       ]
     },
     {
-      "Route": "Identity/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
-      "AssetFile": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Route": "Identity/lib/jquery/dist/jquery.min.js",
+      "AssetFile": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6842,7 +6842,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5824"
+          "Value": "89501"
         },
         {
           "Name": "Content-Type",
@@ -6850,7 +6850,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"YJa7W8EiQdQpkk93iGEjjnLSUWRpRJbSfzfURh1kxz4=\""
+          "Value": "\"/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=\""
         },
         {
           "Name": "Last-Modified",
@@ -6864,13 +6864,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-YJa7W8EiQdQpkk93iGEjjnLSUWRpRJbSfzfURh1kxz4="
+          "Value": "sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
         }
       ]
     },
     {
-      "Route": "Identity/lib/jquery-validation-unobtrusive/LICENSE.txt",
-      "AssetFile": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Route": "Identity/lib/jquery/dist/jquery.min.map",
+      "AssetFile": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6879,7 +6879,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1139"
+          "Value": "137972"
         },
         {
           "Name": "Content-Type",
@@ -6887,7 +6887,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"16aFlqtpsG9RyieKZUUUjkJpqTgcJtWXwT312I4Iz1s=\""
+          "Value": "\"OZVI+w57FGwS9boYCZpH1ZSpcP7pYhLu4KtIUvPlZ4I=\""
         },
         {
           "Name": "Last-Modified",
@@ -6901,7 +6901,44 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-16aFlqtpsG9RyieKZUUUjkJpqTgcJtWXwT312I4Iz1s="
+          "Value": "sha256-OZVI+w57FGwS9boYCZpH1ZSpcP7pYhLu4KtIUvPlZ4I="
+        }
+      ]
+    },
+    {
+      "Route": "Identity/lib/jquery/LICENSE.txt",
+      "AssetFile": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\lib\\jquery\\LICENSE.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1117"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hjIBkvmgxQXbNXK3B9YQ3t06RwLuQSQzC/dpvuB/lMk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Oct 2024 23:38:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hjIBkvmgxQXbNXK3B9YQ3t06RwLuQSQzC/dpvuB/lMk="
         }
       ]
     },
@@ -7091,8 +7128,8 @@
       ]
     },
     {
-      "Route": "Identity/lib/jquery/dist/jquery.js",
-      "AssetFile": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.js",
+      "Route": "Identity/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "AssetFile": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7101,7 +7138,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "288580"
+          "Value": "19385"
         },
         {
           "Name": "Content-Type",
@@ -7109,7 +7146,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=\""
+          "Value": "\"wJQaJ0XynBE2fq6CexXXhxKu7fstVmQc7V2MHNTo+WQ=\""
         },
         {
           "Name": "Last-Modified",
@@ -7123,13 +7160,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+          "Value": "sha256-wJQaJ0XynBE2fq6CexXXhxKu7fstVmQc7V2MHNTo+WQ="
         }
       ]
     },
     {
-      "Route": "Identity/lib/jquery/dist/jquery.min.js",
-      "AssetFile": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.js",
+      "Route": "Identity/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "AssetFile": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7138,7 +7175,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "89501"
+          "Value": "5824"
         },
         {
           "Name": "Content-Type",
@@ -7146,7 +7183,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=\""
+          "Value": "\"YJa7W8EiQdQpkk93iGEjjnLSUWRpRJbSfzfURh1kxz4=\""
         },
         {
           "Name": "Last-Modified",
@@ -7160,13 +7197,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+          "Value": "sha256-YJa7W8EiQdQpkk93iGEjjnLSUWRpRJbSfzfURh1kxz4="
         }
       ]
     },
     {
-      "Route": "Identity/lib/jquery/dist/jquery.min.map",
-      "AssetFile": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.map",
+      "Route": "Identity/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "AssetFile": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7175,7 +7212,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "137972"
+          "Value": "1139"
         },
         {
           "Name": "Content-Type",
@@ -7183,7 +7220,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"OZVI+w57FGwS9boYCZpH1ZSpcP7pYhLu4KtIUvPlZ4I=\""
+          "Value": "\"16aFlqtpsG9RyieKZUUUjkJpqTgcJtWXwT312I4Iz1s=\""
         },
         {
           "Name": "Last-Modified",
@@ -7197,44 +7234,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-OZVI+w57FGwS9boYCZpH1ZSpcP7pYhLu4KtIUvPlZ4I="
-        }
-      ]
-    },
-    {
-      "Route": "Identity/lib/jquery/LICENSE.txt",
-      "AssetFile": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\lib\\jquery\\LICENSE.txt",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1117"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/plain"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"hjIBkvmgxQXbNXK3B9YQ3t06RwLuQSQzC/dpvuB/lMk=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 21 Oct 2024 23:38:10 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-hjIBkvmgxQXbNXK3B9YQ3t06RwLuQSQzC/dpvuB/lMk="
+          "Value": "sha256-16aFlqtpsG9RyieKZUUUjkJpqTgcJtWXwT312I4Iz1s="
         }
       ]
     },
@@ -8305,7 +8305,7 @@
       ]
     },
     {
-      "Route": "js/hamxuly.2bvki3i92f.js",
+      "Route": "js/hamxuly.4dpg3eeazf.js",
       "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\js\\hamxuly.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -8315,7 +8315,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "13033"
+          "Value": "13217"
         },
         {
           "Name": "Content-Type",
@@ -8323,11 +8323,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"gobWLz5FkY/SmgSQ8ZOL9kHLLNUBOrWtSA1h5A7J9II=\""
+          "Value": "\"aB+OalLOrUpeJ4oPpRLiOT3YLGgyAtbE9R2kEdNSRrA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 26 May 2025 14:00:32 GMT"
+          "Value": "Tue, 16 Dec 2025 14:20:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8337,7 +8337,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "2bvki3i92f"
+          "Value": "4dpg3eeazf"
         },
         {
           "Name": "label",
@@ -8345,7 +8345,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-gobWLz5FkY/SmgSQ8ZOL9kHLLNUBOrWtSA1h5A7J9II="
+          "Value": "sha256-aB+OalLOrUpeJ4oPpRLiOT3YLGgyAtbE9R2kEdNSRrA="
         }
       ]
     },
@@ -8360,7 +8360,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "13033"
+          "Value": "13217"
         },
         {
           "Name": "Content-Type",
@@ -8368,11 +8368,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"gobWLz5FkY/SmgSQ8ZOL9kHLLNUBOrWtSA1h5A7J9II=\""
+          "Value": "\"aB+OalLOrUpeJ4oPpRLiOT3YLGgyAtbE9R2kEdNSRrA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 26 May 2025 14:00:32 GMT"
+          "Value": "Tue, 16 Dec 2025 14:20:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8382,52 +8382,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-gobWLz5FkY/SmgSQ8ZOL9kHLLNUBOrWtSA1h5A7J9II="
-        }
-      ]
-    },
-    {
-      "Route": "js/Hamxuly2.i4blya0kpd.js",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\js\\Hamxuly2.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "10173"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"kvWqrwkCt2UHs9+7p5702kWwNFhcUopAHm1jgaCIeAM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 25 May 2025 16:49:21 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "i4blya0kpd"
-        },
-        {
-          "Name": "label",
-          "Value": "js/Hamxuly2.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-kvWqrwkCt2UHs9+7p5702kWwNFhcUopAHm1jgaCIeAM="
+          "Value": "sha256-aB+OalLOrUpeJ4oPpRLiOT3YLGgyAtbE9R2kEdNSRrA="
         }
       ]
     },
@@ -8442,7 +8397,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "10173"
+          "Value": "10373"
         },
         {
           "Name": "Content-Type",
@@ -8450,11 +8405,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"kvWqrwkCt2UHs9+7p5702kWwNFhcUopAHm1jgaCIeAM=\""
+          "Value": "\"tHKBo5v/CsMtfJxTkHqUD+2AnoGj8zqT39MWkdbnGHQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 25 May 2025 16:49:21 GMT"
+          "Value": "Tue, 16 Dec 2025 14:20:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8464,13 +8419,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-kvWqrwkCt2UHs9+7p5702kWwNFhcUopAHm1jgaCIeAM="
+          "Value": "sha256-tHKBo5v/CsMtfJxTkHqUD+2AnoGj8zqT39MWkdbnGHQ="
         }
       ]
     },
     {
-      "Route": "js/Hamxuly3.58c0pgyx4j.js",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\js\\Hamxuly3.js",
+      "Route": "js/Hamxuly2.saf13fjbtj.js",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\js\\Hamxuly2.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8479,7 +8434,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8578"
+          "Value": "10373"
         },
         {
           "Name": "Content-Type",
@@ -8487,11 +8442,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"G2kOt3Ry45jnv+1OqHTjfBs7IBUuhPHqu/XWO4JLliA=\""
+          "Value": "\"tHKBo5v/CsMtfJxTkHqUD+2AnoGj8zqT39MWkdbnGHQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 30 May 2025 12:06:52 GMT"
+          "Value": "Tue, 16 Dec 2025 14:20:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8501,15 +8456,15 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "58c0pgyx4j"
+          "Value": "saf13fjbtj"
         },
         {
           "Name": "label",
-          "Value": "js/Hamxuly3.js"
+          "Value": "js/Hamxuly2.js"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-G2kOt3Ry45jnv+1OqHTjfBs7IBUuhPHqu/XWO4JLliA="
+          "Value": "sha256-tHKBo5v/CsMtfJxTkHqUD+2AnoGj8zqT39MWkdbnGHQ="
         }
       ]
     },
@@ -8524,7 +8479,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8578"
+          "Value": "8602"
         },
         {
           "Name": "Content-Type",
@@ -8532,11 +8487,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"G2kOt3Ry45jnv+1OqHTjfBs7IBUuhPHqu/XWO4JLliA=\""
+          "Value": "\"GMEVdnLzhfYJYrRlecVzZCWMTx5AHz3XdGsWdCzifnI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 30 May 2025 12:06:52 GMT"
+          "Value": "Tue, 16 Dec 2025 14:20:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8546,7 +8501,97 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-G2kOt3Ry45jnv+1OqHTjfBs7IBUuhPHqu/XWO4JLliA="
+          "Value": "sha256-GMEVdnLzhfYJYrRlecVzZCWMTx5AHz3XdGsWdCzifnI="
+        }
+      ]
+    },
+    {
+      "Route": "js/Hamxuly3.osd5cs7cg4.js",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\js\\Hamxuly3.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8602"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GMEVdnLzhfYJYrRlecVzZCWMTx5AHz3XdGsWdCzifnI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 16 Dec 2025 14:20:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "osd5cs7cg4"
+        },
+        {
+          "Name": "label",
+          "Value": "js/Hamxuly3.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-GMEVdnLzhfYJYrRlecVzZCWMTx5AHz3XdGsWdCzifnI="
+        }
+      ]
+    },
+    {
+      "Route": "js/Hamxuly4.4tlv8u4dej.js",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\js\\Hamxuly4.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9127"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2L9N0Isb+TvlS+ED2Ca3dRmvwsm49T5JZg/znMnJoTk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 16 Dec 2025 14:20:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4tlv8u4dej"
+        },
+        {
+          "Name": "label",
+          "Value": "js/Hamxuly4.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2L9N0Isb+TvlS+ED2Ca3dRmvwsm49T5JZg/znMnJoTk="
         }
       ]
     },
@@ -8561,7 +8606,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8628"
+          "Value": "9127"
         },
         {
           "Name": "Content-Type",
@@ -8569,11 +8614,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"lPGyToPgctA5unfV/x9Gat7U4//M5mJRh4wlvT25m8Y=\""
+          "Value": "\"2L9N0Isb+TvlS+ED2Ca3dRmvwsm49T5JZg/znMnJoTk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 13 Dec 2025 12:44:21 GMT"
+          "Value": "Tue, 16 Dec 2025 14:20:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8583,13 +8628,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-lPGyToPgctA5unfV/x9Gat7U4//M5mJRh4wlvT25m8Y="
+          "Value": "sha256-2L9N0Isb+TvlS+ED2Ca3dRmvwsm49T5JZg/znMnJoTk="
         }
       ]
     },
     {
-      "Route": "js/Hamxuly4.wh537jetnf.js",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\js\\Hamxuly4.js",
+      "Route": "js/Layout.3iaqdpsexn.js",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\js\\Layout.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8598,7 +8643,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8628"
+          "Value": "17449"
         },
         {
           "Name": "Content-Type",
@@ -8606,11 +8651,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"lPGyToPgctA5unfV/x9Gat7U4//M5mJRh4wlvT25m8Y=\""
+          "Value": "\"qygULSPI91Y1gXyIHTM1LBomdgMzfOzj0JjeBp6pT/o=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 13 Dec 2025 12:44:21 GMT"
+          "Value": "Tue, 16 Dec 2025 14:19:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8620,15 +8665,15 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "wh537jetnf"
+          "Value": "3iaqdpsexn"
         },
         {
           "Name": "label",
-          "Value": "js/Hamxuly4.js"
+          "Value": "js/Layout.js"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-lPGyToPgctA5unfV/x9Gat7U4//M5mJRh4wlvT25m8Y="
+          "Value": "sha256-qygULSPI91Y1gXyIHTM1LBomdgMzfOzj0JjeBp6pT/o="
         }
       ]
     },
@@ -8643,7 +8688,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "18027"
+          "Value": "17449"
         },
         {
           "Name": "Content-Type",
@@ -8651,11 +8696,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"9y4CibxQ4cdZLZFB/IsKh0kKfnhWg3A94+sUKo/5thc=\""
+          "Value": "\"qygULSPI91Y1gXyIHTM1LBomdgMzfOzj0JjeBp6pT/o=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 14 Dec 2025 07:53:59 GMT"
+          "Value": "Tue, 16 Dec 2025 14:19:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8665,97 +8710,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-9y4CibxQ4cdZLZFB/IsKh0kKfnhWg3A94+sUKo/5thc="
-        }
-      ]
-    },
-    {
-      "Route": "js/Layout.jtlqyrp431.js",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\js\\Layout.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "18027"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"9y4CibxQ4cdZLZFB/IsKh0kKfnhWg3A94+sUKo/5thc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 14 Dec 2025 07:53:59 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "jtlqyrp431"
-        },
-        {
-          "Name": "label",
-          "Value": "js/Layout.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-9y4CibxQ4cdZLZFB/IsKh0kKfnhWg3A94+sUKo/5thc="
-        }
-      ]
-    },
-    {
-      "Route": "js/loadthongtintrang.f5jld17kt3.js",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\js\\loadthongtintrang.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "10134"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"M5WGDpjBZD99CtlzZVu79tly/u/QqNHUIbtQT2ATBnA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 14 Dec 2025 16:49:33 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "f5jld17kt3"
-        },
-        {
-          "Name": "label",
-          "Value": "js/loadthongtintrang.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-M5WGDpjBZD99CtlzZVu79tly/u/QqNHUIbtQT2ATBnA="
+          "Value": "sha256-qygULSPI91Y1gXyIHTM1LBomdgMzfOzj0JjeBp6pT/o="
         }
       ]
     },
@@ -8770,7 +8725,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "10134"
+          "Value": "9850"
         },
         {
           "Name": "Content-Type",
@@ -8778,11 +8733,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"M5WGDpjBZD99CtlzZVu79tly/u/QqNHUIbtQT2ATBnA=\""
+          "Value": "\"uXPJvql0gsMlzlH/tReLxp6sNvR20FutGii3kvqPYWk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 14 Dec 2025 16:49:33 GMT"
+          "Value": "Tue, 16 Dec 2025 14:20:47 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8792,7 +8747,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-M5WGDpjBZD99CtlzZVu79tly/u/QqNHUIbtQT2ATBnA="
+          "Value": "sha256-uXPJvql0gsMlzlH/tReLxp6sNvR20FutGii3kvqPYWk="
+        }
+      ]
+    },
+    {
+      "Route": "js/loadthongtintrang.lxwk43mvnm.js",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\js\\loadthongtintrang.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9850"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uXPJvql0gsMlzlH/tReLxp6sNvR20FutGii3kvqPYWk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 16 Dec 2025 14:20:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lxwk43mvnm"
+        },
+        {
+          "Name": "label",
+          "Value": "js/loadthongtintrang.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-uXPJvql0gsMlzlH/tReLxp6sNvR20FutGii3kvqPYWk="
         }
       ]
     },
@@ -8879,51 +8879,6 @@
       ]
     },
     {
-      "Route": "js/Truycapvaochamdiem.9iqyplk1m1.js",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\js\\Truycapvaochamdiem.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "45511"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"T5ixvnDNeSKqoJ5N7FGxmn4Ubr2lmG2PpCgXxVDYSSw=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 01 Jun 2025 12:44:36 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "9iqyplk1m1"
-        },
-        {
-          "Name": "label",
-          "Value": "js/Truycapvaochamdiem.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-T5ixvnDNeSKqoJ5N7FGxmn4Ubr2lmG2PpCgXxVDYSSw="
-        }
-      ]
-    },
-    {
       "Route": "js/Truycapvaochamdiem.js",
       "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\js\\Truycapvaochamdiem.js",
       "Selectors": [],
@@ -8934,7 +8889,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "45511"
+          "Value": "45391"
         },
         {
           "Name": "Content-Type",
@@ -8942,11 +8897,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"T5ixvnDNeSKqoJ5N7FGxmn4Ubr2lmG2PpCgXxVDYSSw=\""
+          "Value": "\"LXe5s1lnMplk0mC3ac0YC1gDyBe4SynwOO/rS4XPz4E=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 01 Jun 2025 12:44:36 GMT"
+          "Value": "Tue, 16 Dec 2025 14:19:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8956,7 +8911,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-T5ixvnDNeSKqoJ5N7FGxmn4Ubr2lmG2PpCgXxVDYSSw="
+          "Value": "sha256-LXe5s1lnMplk0mC3ac0YC1gDyBe4SynwOO/rS4XPz4E="
+        }
+      ]
+    },
+    {
+      "Route": "js/Truycapvaochamdiem.xf3vw1ll99.js",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\js\\Truycapvaochamdiem.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "45391"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LXe5s1lnMplk0mC3ac0YC1gDyBe4SynwOO/rS4XPz4E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 16 Dec 2025 14:19:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xf3vw1ll99"
+        },
+        {
+          "Name": "label",
+          "Value": "js/Truycapvaochamdiem.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-LXe5s1lnMplk0mC3ac0YC1gDyBe4SynwOO/rS4XPz4E="
         }
       ]
     },
@@ -8983,7 +8983,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 28 May 2025 03:59:21 GMT"
+          "Value": "Tue, 16 Dec 2025 14:20:03 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9020,7 +9020,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 28 May 2025 03:59:21 GMT"
+          "Value": "Tue, 16 Dec 2025 14:20:03 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9039,6 +9039,662 @@
         {
           "Name": "integrity",
           "Value": "sha256-7y+mb53aESojU8ArDVFJwSmaunbvO2JmEzm6IiwwNKI="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.css",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "204136"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xlexqj9/k3uobVwGfciZcj/eDdooaNgcf4OFLtLUygM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Apr 2025 08:43:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xlexqj9/k3uobVwGfciZcj/eDdooaNgcf4OFLtLUygM="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.css.73kdqttayv.map",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "536547"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DRvWr0gangj5/5Q3DRn6ttzpcWDzl3OpHoAwAzNDR5Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Apr 2025 08:43:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "73kdqttayv"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/css/bootstrap.css.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-DRvWr0gangj5/5Q3DRn6ttzpcWDzl3OpHoAwAzNDR5Q="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.css.map",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "536547"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DRvWr0gangj5/5Q3DRn6ttzpcWDzl3OpHoAwAzNDR5Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Apr 2025 08:43:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-DRvWr0gangj5/5Q3DRn6ttzpcWDzl3OpHoAwAzNDR5Q="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.min.bpk8xqwxhs.css",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "162720"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Apr 2025 08:43:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bpk8xqwxhs"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/css/bootstrap.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.min.css",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "162720"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Apr 2025 08:43:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.min.css.8inm30yfxf.map",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "449111"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Apr 2025 08:43:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8inm30yfxf"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/css/bootstrap.min.css.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "449111"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Apr 2025 08:43:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.mpyigms19s.css",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "204136"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xlexqj9/k3uobVwGfciZcj/eDdooaNgcf4OFLtLUygM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Apr 2025 08:43:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mpyigms19s"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/css/bootstrap.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xlexqj9/k3uobVwGfciZcj/eDdooaNgcf4OFLtLUygM="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "203803"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SZ2mKaD4A+b+HIvttwl+TvLFnVy8o8/X40j+EKVwyvY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Apr 2025 08:43:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SZ2mKaD4A+b+HIvttwl+TvLFnVy8o8/X40j+EKVwyvY="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css.4gxs3k148c.map",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "536461"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VFvmi/ZSwQFmjS6Pry9B8zXeZ/GA168TXLyykDhNMZE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Apr 2025 08:43:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4gxs3k148c"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/css/bootstrap.rtl.css.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-VFvmi/ZSwQFmjS6Pry9B8zXeZ/GA168TXLyykDhNMZE="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "536461"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VFvmi/ZSwQFmjS6Pry9B8zXeZ/GA168TXLyykDhNMZE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Apr 2025 08:43:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-VFvmi/ZSwQFmjS6Pry9B8zXeZ/GA168TXLyykDhNMZE="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.9b9oa1qrmt.css",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "162825"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"22wR6QTidoeiRZXp6zkRQyMSUb/FB+Av11jqmZJF6uU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Apr 2025 08:43:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9b9oa1qrmt"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/css/bootstrap.rtl.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-22wR6QTidoeiRZXp6zkRQyMSUb/FB+Av11jqmZJF6uU="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "162825"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"22wR6QTidoeiRZXp6zkRQyMSUb/FB+Av11jqmZJF6uU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Apr 2025 08:43:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-22wR6QTidoeiRZXp6zkRQyMSUb/FB+Av11jqmZJF6uU="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.fctod5rc9n.map",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "661035"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"j7uqK5VoTT4rUHMr911QEU5Sa94lR3uh9E28XBMlzrM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Apr 2025 08:43:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fctod5rc9n"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-j7uqK5VoTT4rUHMr911QEU5Sa94lR3uh9E28XBMlzrM="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "661035"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"j7uqK5VoTT4rUHMr911QEU5Sa94lR3uh9E28XBMlzrM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Apr 2025 08:43:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-j7uqK5VoTT4rUHMr911QEU5Sa94lR3uh9E28XBMlzrM="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.rtl.ve6x09088i.css",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "203803"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SZ2mKaD4A+b+HIvttwl+TvLFnVy8o8/X40j+EKVwyvY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Apr 2025 08:43:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ve6x09088i"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/css/bootstrap.rtl.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-SZ2mKaD4A+b+HIvttwl+TvLFnVy8o8/X40j+EKVwyvY="
         }
       ]
     },
@@ -11011,662 +11667,6 @@
       ]
     },
     {
-      "Route": "lib/bootstrap/dist/css/bootstrap.css",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "204136"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"xlexqj9/k3uobVwGfciZcj/eDdooaNgcf4OFLtLUygM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 22 Apr 2025 08:43:33 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-xlexqj9/k3uobVwGfciZcj/eDdooaNgcf4OFLtLUygM="
-        }
-      ]
-    },
-    {
-      "Route": "lib/bootstrap/dist/css/bootstrap.css.73kdqttayv.map",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "536547"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/plain"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"DRvWr0gangj5/5Q3DRn6ttzpcWDzl3OpHoAwAzNDR5Q=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 22 Apr 2025 08:43:33 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "73kdqttayv"
-        },
-        {
-          "Name": "label",
-          "Value": "lib/bootstrap/dist/css/bootstrap.css.map"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-DRvWr0gangj5/5Q3DRn6ttzpcWDzl3OpHoAwAzNDR5Q="
-        }
-      ]
-    },
-    {
-      "Route": "lib/bootstrap/dist/css/bootstrap.css.map",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "536547"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/plain"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"DRvWr0gangj5/5Q3DRn6ttzpcWDzl3OpHoAwAzNDR5Q=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 22 Apr 2025 08:43:33 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-DRvWr0gangj5/5Q3DRn6ttzpcWDzl3OpHoAwAzNDR5Q="
-        }
-      ]
-    },
-    {
-      "Route": "lib/bootstrap/dist/css/bootstrap.min.bpk8xqwxhs.css",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "162720"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 22 Apr 2025 08:43:33 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "bpk8xqwxhs"
-        },
-        {
-          "Name": "label",
-          "Value": "lib/bootstrap/dist/css/bootstrap.min.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg="
-        }
-      ]
-    },
-    {
-      "Route": "lib/bootstrap/dist/css/bootstrap.min.css",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "162720"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 22 Apr 2025 08:43:33 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg="
-        }
-      ]
-    },
-    {
-      "Route": "lib/bootstrap/dist/css/bootstrap.min.css.8inm30yfxf.map",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "449111"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/plain"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 22 Apr 2025 08:43:33 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "8inm30yfxf"
-        },
-        {
-          "Name": "label",
-          "Value": "lib/bootstrap/dist/css/bootstrap.min.css.map"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ="
-        }
-      ]
-    },
-    {
-      "Route": "lib/bootstrap/dist/css/bootstrap.min.css.map",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "449111"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/plain"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 22 Apr 2025 08:43:33 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ="
-        }
-      ]
-    },
-    {
-      "Route": "lib/bootstrap/dist/css/bootstrap.mpyigms19s.css",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "204136"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"xlexqj9/k3uobVwGfciZcj/eDdooaNgcf4OFLtLUygM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 22 Apr 2025 08:43:33 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "mpyigms19s"
-        },
-        {
-          "Name": "label",
-          "Value": "lib/bootstrap/dist/css/bootstrap.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-xlexqj9/k3uobVwGfciZcj/eDdooaNgcf4OFLtLUygM="
-        }
-      ]
-    },
-    {
-      "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "203803"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"SZ2mKaD4A+b+HIvttwl+TvLFnVy8o8/X40j+EKVwyvY=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 22 Apr 2025 08:43:33 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-SZ2mKaD4A+b+HIvttwl+TvLFnVy8o8/X40j+EKVwyvY="
-        }
-      ]
-    },
-    {
-      "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css.4gxs3k148c.map",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "536461"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/plain"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"VFvmi/ZSwQFmjS6Pry9B8zXeZ/GA168TXLyykDhNMZE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 22 Apr 2025 08:43:33 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "4gxs3k148c"
-        },
-        {
-          "Name": "label",
-          "Value": "lib/bootstrap/dist/css/bootstrap.rtl.css.map"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-VFvmi/ZSwQFmjS6Pry9B8zXeZ/GA168TXLyykDhNMZE="
-        }
-      ]
-    },
-    {
-      "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "536461"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/plain"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"VFvmi/ZSwQFmjS6Pry9B8zXeZ/GA168TXLyykDhNMZE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 22 Apr 2025 08:43:33 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-VFvmi/ZSwQFmjS6Pry9B8zXeZ/GA168TXLyykDhNMZE="
-        }
-      ]
-    },
-    {
-      "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.9b9oa1qrmt.css",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "162825"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"22wR6QTidoeiRZXp6zkRQyMSUb/FB+Av11jqmZJF6uU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 22 Apr 2025 08:43:33 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "9b9oa1qrmt"
-        },
-        {
-          "Name": "label",
-          "Value": "lib/bootstrap/dist/css/bootstrap.rtl.min.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-22wR6QTidoeiRZXp6zkRQyMSUb/FB+Av11jqmZJF6uU="
-        }
-      ]
-    },
-    {
-      "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "162825"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"22wR6QTidoeiRZXp6zkRQyMSUb/FB+Av11jqmZJF6uU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 22 Apr 2025 08:43:33 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-22wR6QTidoeiRZXp6zkRQyMSUb/FB+Av11jqmZJF6uU="
-        }
-      ]
-    },
-    {
-      "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.fctod5rc9n.map",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "661035"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/plain"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"j7uqK5VoTT4rUHMr911QEU5Sa94lR3uh9E28XBMlzrM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 22 Apr 2025 08:43:33 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "fctod5rc9n"
-        },
-        {
-          "Name": "label",
-          "Value": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-j7uqK5VoTT4rUHMr911QEU5Sa94lR3uh9E28XBMlzrM="
-        }
-      ]
-    },
-    {
-      "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "661035"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/plain"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"j7uqK5VoTT4rUHMr911QEU5Sa94lR3uh9E28XBMlzrM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 22 Apr 2025 08:43:33 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-j7uqK5VoTT4rUHMr911QEU5Sa94lR3uh9E28XBMlzrM="
-        }
-      ]
-    },
-    {
-      "Route": "lib/bootstrap/dist/css/bootstrap.rtl.ve6x09088i.css",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "203803"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"SZ2mKaD4A+b+HIvttwl+TvLFnVy8o8/X40j+EKVwyvY=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 22 Apr 2025 08:43:33 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "ve6x09088i"
-        },
-        {
-          "Name": "label",
-          "Value": "lib/bootstrap/dist/css/bootstrap.rtl.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-SZ2mKaD4A+b+HIvttwl+TvLFnVy8o8/X40j+EKVwyvY="
-        }
-      ]
-    },
-    {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "Selectors": [],
@@ -12733,8 +12733,8 @@
       ]
     },
     {
-      "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.47otxtyo56.js",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Route": "lib/jquery/dist/jquery.fwhahm2icz.js",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12743,7 +12743,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "19385"
+          "Value": "288580"
         },
         {
           "Name": "Content-Type",
@@ -12751,7 +12751,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"wJQaJ0XynBE2fq6CexXXhxKu7fstVmQc7V2MHNTo+WQ=\""
+          "Value": "\"H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=\""
         },
         {
           "Name": "Last-Modified",
@@ -12765,21 +12765,21 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "47otxtyo56"
+          "Value": "fwhahm2icz"
         },
         {
           "Name": "label",
-          "Value": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
+          "Value": "lib/jquery/dist/jquery.js"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-wJQaJ0XynBE2fq6CexXXhxKu7fstVmQc7V2MHNTo+WQ="
+          "Value": "sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
         }
       ]
     },
     {
-      "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Route": "lib/jquery/dist/jquery.js",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12788,7 +12788,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "19385"
+          "Value": "288580"
         },
         {
           "Name": "Content-Type",
@@ -12796,7 +12796,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"wJQaJ0XynBE2fq6CexXXhxKu7fstVmQc7V2MHNTo+WQ=\""
+          "Value": "\"H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=\""
         },
         {
           "Name": "Last-Modified",
@@ -12810,13 +12810,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-wJQaJ0XynBE2fq6CexXXhxKu7fstVmQc7V2MHNTo+WQ="
+          "Value": "sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
         }
       ]
     },
     {
-      "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.4v8eqarkd7.js",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Route": "lib/jquery/dist/jquery.min.5pze98is44.map",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12825,89 +12825,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5824"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"YJa7W8EiQdQpkk93iGEjjnLSUWRpRJbSfzfURh1kxz4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 22 Apr 2025 08:43:33 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "4v8eqarkd7"
-        },
-        {
-          "Name": "label",
-          "Value": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-YJa7W8EiQdQpkk93iGEjjnLSUWRpRJbSfzfURh1kxz4="
-        }
-      ]
-    },
-    {
-      "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "5824"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"YJa7W8EiQdQpkk93iGEjjnLSUWRpRJbSfzfURh1kxz4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 22 Apr 2025 08:43:33 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-YJa7W8EiQdQpkk93iGEjjnLSUWRpRJbSfzfURh1kxz4="
-        }
-      ]
-    },
-    {
-      "Route": "lib/jquery-validation-unobtrusive/LICENSE.356vix0kms.txt",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1139"
+          "Value": "137972"
         },
         {
           "Name": "Content-Type",
@@ -12915,7 +12833,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"16aFlqtpsG9RyieKZUUUjkJpqTgcJtWXwT312I4Iz1s=\""
+          "Value": "\"OZVI+w57FGwS9boYCZpH1ZSpcP7pYhLu4KtIUvPlZ4I=\""
         },
         {
           "Name": "Last-Modified",
@@ -12929,21 +12847,21 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "356vix0kms"
+          "Value": "5pze98is44"
         },
         {
           "Name": "label",
-          "Value": "lib/jquery-validation-unobtrusive/LICENSE.txt"
+          "Value": "lib/jquery/dist/jquery.min.map"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-16aFlqtpsG9RyieKZUUUjkJpqTgcJtWXwT312I4Iz1s="
+          "Value": "sha256-OZVI+w57FGwS9boYCZpH1ZSpcP7pYhLu4KtIUvPlZ4I="
         }
       ]
     },
     {
-      "Route": "lib/jquery-validation-unobtrusive/LICENSE.txt",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Route": "lib/jquery/dist/jquery.min.dd6z7egasc.js",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12952,15 +12870,60 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1139"
+          "Value": "89501"
         },
         {
           "Name": "Content-Type",
-          "Value": "text/plain"
+          "Value": "text/javascript"
         },
         {
           "Name": "ETag",
-          "Value": "\"16aFlqtpsG9RyieKZUUUjkJpqTgcJtWXwT312I4Iz1s=\""
+          "Value": "\"/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Apr 2025 08:43:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dd6z7egasc"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/jquery/dist/jquery.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery/dist/jquery.min.js",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "89501"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=\""
         },
         {
           "Name": "Last-Modified",
@@ -12974,7 +12937,126 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-16aFlqtpsG9RyieKZUUUjkJpqTgcJtWXwT312I4Iz1s="
+          "Value": "sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery/dist/jquery.min.map",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "137972"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OZVI+w57FGwS9boYCZpH1ZSpcP7pYhLu4KtIUvPlZ4I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Apr 2025 08:43:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-OZVI+w57FGwS9boYCZpH1ZSpcP7pYhLu4KtIUvPlZ4I="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery/LICENSE.mlv21k5csn.txt",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1117"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hjIBkvmgxQXbNXK3B9YQ3t06RwLuQSQzC/dpvuB/lMk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Apr 2025 08:43:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mlv21k5csn"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/jquery/LICENSE.txt"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hjIBkvmgxQXbNXK3B9YQ3t06RwLuQSQzC/dpvuB/lMk="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery/LICENSE.txt",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1117"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hjIBkvmgxQXbNXK3B9YQ3t06RwLuQSQzC/dpvuB/lMk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Apr 2025 08:43:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hjIBkvmgxQXbNXK3B9YQ3t06RwLuQSQzC/dpvuB/lMk="
         }
       ]
     },
@@ -13389,8 +13471,8 @@
       ]
     },
     {
-      "Route": "lib/jquery/dist/jquery.fwhahm2icz.js",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.47otxtyo56.js",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -13399,7 +13481,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "288580"
+          "Value": "19385"
         },
         {
           "Name": "Content-Type",
@@ -13407,7 +13489,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=\""
+          "Value": "\"wJQaJ0XynBE2fq6CexXXhxKu7fstVmQc7V2MHNTo+WQ=\""
         },
         {
           "Name": "Last-Modified",
@@ -13421,21 +13503,21 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "fwhahm2icz"
+          "Value": "47otxtyo56"
         },
         {
           "Name": "label",
-          "Value": "lib/jquery/dist/jquery.js"
+          "Value": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+          "Value": "sha256-wJQaJ0XynBE2fq6CexXXhxKu7fstVmQc7V2MHNTo+WQ="
         }
       ]
     },
     {
-      "Route": "lib/jquery/dist/jquery.js",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -13444,7 +13526,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "288580"
+          "Value": "19385"
         },
         {
           "Name": "Content-Type",
@@ -13452,7 +13534,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=\""
+          "Value": "\"wJQaJ0XynBE2fq6CexXXhxKu7fstVmQc7V2MHNTo+WQ=\""
         },
         {
           "Name": "Last-Modified",
@@ -13466,13 +13548,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+          "Value": "sha256-wJQaJ0XynBE2fq6CexXXhxKu7fstVmQc7V2MHNTo+WQ="
         }
       ]
     },
     {
-      "Route": "lib/jquery/dist/jquery.min.5pze98is44.map",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.4v8eqarkd7.js",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -13481,15 +13563,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "137972"
+          "Value": "5824"
         },
         {
           "Name": "Content-Type",
-          "Value": "text/plain"
+          "Value": "text/javascript"
         },
         {
           "Name": "ETag",
-          "Value": "\"OZVI+w57FGwS9boYCZpH1ZSpcP7pYhLu4KtIUvPlZ4I=\""
+          "Value": "\"YJa7W8EiQdQpkk93iGEjjnLSUWRpRJbSfzfURh1kxz4=\""
         },
         {
           "Name": "Last-Modified",
@@ -13503,21 +13585,21 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "5pze98is44"
+          "Value": "4v8eqarkd7"
         },
         {
           "Name": "label",
-          "Value": "lib/jquery/dist/jquery.min.map"
+          "Value": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-OZVI+w57FGwS9boYCZpH1ZSpcP7pYhLu4KtIUvPlZ4I="
+          "Value": "sha256-YJa7W8EiQdQpkk93iGEjjnLSUWRpRJbSfzfURh1kxz4="
         }
       ]
     },
     {
-      "Route": "lib/jquery/dist/jquery.min.dd6z7egasc.js",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -13526,7 +13608,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "89501"
+          "Value": "5824"
         },
         {
           "Name": "Content-Type",
@@ -13534,7 +13616,44 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=\""
+          "Value": "\"YJa7W8EiQdQpkk93iGEjjnLSUWRpRJbSfzfURh1kxz4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Apr 2025 08:43:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-YJa7W8EiQdQpkk93iGEjjnLSUWRpRJbSfzfURh1kxz4="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery-validation-unobtrusive/LICENSE.356vix0kms.txt",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1139"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"16aFlqtpsG9RyieKZUUUjkJpqTgcJtWXwT312I4Iz1s=\""
         },
         {
           "Name": "Last-Modified",
@@ -13548,21 +13667,21 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "dd6z7egasc"
+          "Value": "356vix0kms"
         },
         {
           "Name": "label",
-          "Value": "lib/jquery/dist/jquery.min.js"
+          "Value": "lib/jquery-validation-unobtrusive/LICENSE.txt"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+          "Value": "sha256-16aFlqtpsG9RyieKZUUUjkJpqTgcJtWXwT312I4Iz1s="
         }
       ]
     },
     {
-      "Route": "lib/jquery/dist/jquery.min.js",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Route": "lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -13571,15 +13690,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "89501"
+          "Value": "1139"
         },
         {
           "Name": "Content-Type",
-          "Value": "text/javascript"
+          "Value": "text/plain"
         },
         {
           "Name": "ETag",
-          "Value": "\"/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=\""
+          "Value": "\"16aFlqtpsG9RyieKZUUUjkJpqTgcJtWXwT312I4Iz1s=\""
         },
         {
           "Name": "Last-Modified",
@@ -13593,126 +13712,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-        }
-      ]
-    },
-    {
-      "Route": "lib/jquery/dist/jquery.min.map",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "137972"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/plain"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"OZVI+w57FGwS9boYCZpH1ZSpcP7pYhLu4KtIUvPlZ4I=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 22 Apr 2025 08:43:33 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-OZVI+w57FGwS9boYCZpH1ZSpcP7pYhLu4KtIUvPlZ4I="
-        }
-      ]
-    },
-    {
-      "Route": "lib/jquery/LICENSE.mlv21k5csn.txt",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\jquery\\LICENSE.txt",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1117"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/plain"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"hjIBkvmgxQXbNXK3B9YQ3t06RwLuQSQzC/dpvuB/lMk=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 22 Apr 2025 08:43:33 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "mlv21k5csn"
-        },
-        {
-          "Name": "label",
-          "Value": "lib/jquery/LICENSE.txt"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-hjIBkvmgxQXbNXK3B9YQ3t06RwLuQSQzC/dpvuB/lMk="
-        }
-      ]
-    },
-    {
-      "Route": "lib/jquery/LICENSE.txt",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\jquery\\LICENSE.txt",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1117"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/plain"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"hjIBkvmgxQXbNXK3B9YQ3t06RwLuQSQzC/dpvuB/lMk=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 22 Apr 2025 08:43:33 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-hjIBkvmgxQXbNXK3B9YQ3t06RwLuQSQzC/dpvuB/lMk="
+          "Value": "sha256-16aFlqtpsG9RyieKZUUUjkJpqTgcJtWXwT312I4Iz1s="
         }
       ]
     },
