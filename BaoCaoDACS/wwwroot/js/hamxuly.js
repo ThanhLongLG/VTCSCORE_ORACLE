@@ -1,5 +1,8 @@
 ﻿
 //chấm điểm Biễu diền
+const baseUrlTeam = (window.appBase || '/');
+const normalizedBaseUrlTeam = baseUrlTeam.endsWith('/') ? baseUrlTeam : `${baseUrlTeam}/`;
+
 window.initTeamScoring = function () {
     attachTeamScoringEvents();
     updateTeamScoringEvents();
@@ -173,7 +176,7 @@ async function handleSubmitTeamScore() {
 
         if (confirmSubmit.isConfirmed) {
             // Gửi dữ liệu tới server
-            const response = await fetch('/ChamDiem/SubmitPerformanceScore', {
+            const response = await fetch(`${normalizedBaseUrlTeam}ChamDiem/SubmitPerformanceScore`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -202,7 +205,7 @@ async function handleSubmitTeamScore() {
             });
 
             // Chuyển hướng hoặc làm mới trang
-            window.location.href = '/Home/Index';
+            window.location.href = `${normalizedBaseUrlTeam}Home/Index`;
         }
     } catch (error) {
         // Xử lý lỗi
