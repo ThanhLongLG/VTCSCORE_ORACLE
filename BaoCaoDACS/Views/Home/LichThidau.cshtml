@@ -379,8 +379,11 @@
                     return;
                 }
 
+                const baseUrl = (window.appBase || '/');
+                const normalizedBaseUrl = baseUrl.endsWith('/') ? baseUrl : `${baseUrl}/`;
+
                 // 1. Gọi API kiểm tra trạng thái trận đấu
-                const response = await fetch(`/ChamDiem/GetMatchParticipants?matchId=${encodeURIComponent(matchId)}`, {
+                const response = await fetch(`${normalizedBaseUrl}ChamDiem/GetMatchParticipants?matchId=${encodeURIComponent(matchId)}`, {
                     method: 'GET',
                     headers: {
                         'Accept': 'application/json'
@@ -413,7 +416,7 @@
                     });
 
                     if (isConfirmed) {
-                        window.location.href = '/Home/Index';
+                        window.location.href = `${normalizedBaseUrl}Home/Index`;
                     }
                     return;
                 }
@@ -430,7 +433,7 @@
 
                 if (isConfirmed) {
                     const searchParams = new URLSearchParams({ matchId });
-                    window.location.href = `/ChamDiem/Index?${searchParams.toString()}`;
+                    window.location.href = `${normalizedBaseUrl}ChamDiem/Index?${searchParams.toString()}`;
                 }
 
 
@@ -441,4 +444,3 @@
         }
     </script>
 }
-

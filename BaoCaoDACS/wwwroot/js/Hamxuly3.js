@@ -1,6 +1,9 @@
 ﻿
 
 //chamdiem bieudien
+const baseUrlPerformance = (window.appBase || '/');
+const normalizedBaseUrlPerformance = baseUrlPerformance.endsWith('/') ? baseUrlPerformance : `${baseUrlPerformance}/`;
+
 function initPerformanceScoring() {
 
     // Gán sự kiện cho các nút
@@ -165,7 +168,7 @@ window.handleSubmitPerformanceScore = async function () {
 
 
                 // Gửi dữ liệu tới server
-                const response = await fetch('/ChamDiem/SubmitPerformanceScore', {
+                const response = await fetch(`${normalizedBaseUrlPerformance}ChamDiem/SubmitPerformanceScore`, {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',
@@ -189,7 +192,7 @@ window.handleSubmitPerformanceScore = async function () {
                         `,
                             confirmButtonText: 'OK'
                         }).then(() => {
-                            window.location.href = '/Home/Index';
+                            window.location.href = `${normalizedBaseUrlPerformance}Home/Index`;
                         });
                     })
                     .catch(error => {

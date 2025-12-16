@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/BaoCaoDACS.styles.css" asp-append-version="true" />
     <link href="~/css/layout.css" rel="stylesheet" />
+    <script>
+        window.appBase = '@Url.Content("~/")';
+    </script>
 </head>
 <body>
     <header class="header">
@@ -153,6 +156,8 @@
 
 
 <script>
+    const appBase = window.appBase || '@Url.Content("~/")';
+    window.appBase = appBase;
 
     function formatDate(dateString) {
         const date = new Date(dateString);
@@ -175,7 +180,7 @@
             modal.querySelector('.loading-spinner').style.display = 'block';
 
             // Giả sử dữ liệu đã được truyền trực tiếp
-            const response = await fetch('/Home/GetMatches', {
+            const response = await fetch(`${appBase}Home/GetMatches`, {
                 method: 'GET',
                 headers: {
                     'Content-Type': 'application/json',
@@ -228,7 +233,7 @@
                 return;
             }
               // Kiểm tra trạng thái trận đấu trước khi chuyển
-        const response = await fetch(`/ChamDiem/GetMatchParticipants?matchId=${matchId}`, {
+        const response = await fetch(`${appBase}ChamDiem/GetMatchParticipants?matchId=${matchId}`, {
             method: 'GET',
             headers: {
                 'Content-Type': 'application/json',
@@ -260,7 +265,7 @@
 
             if (isConfirmed) {
                 // Chuyển đến trang xem chi tiết kết quả
-                window.location.href = `/Home/index`;
+                window.location.href = `${appBase}Home/index`;
             }
             return;
         }
@@ -296,7 +301,7 @@
 
                 Swal.close();
                 setTimeout(() => {
-                    window.location.href = `/ChamDiem/Index?${searchParams.toString()}`;
+                    window.location.href = `${appBase}ChamDiem/Index?${searchParams.toString()}`;
                 }, 200);
 
 
@@ -369,4 +374,3 @@
     }
 
 </script>
-

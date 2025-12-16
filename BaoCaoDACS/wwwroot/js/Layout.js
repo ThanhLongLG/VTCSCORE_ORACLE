@@ -1,6 +1,9 @@
 ﻿
 
 
+    const baseUrlLayout = (window.appBase || '/');
+    const normalizedBaseUrlLayout = baseUrlLayout.endsWith('/') ? baseUrlLayout : `${baseUrlLayout}/`;
+
     let activeTournamentId = null;
 
       
@@ -60,7 +63,7 @@
             const headers = { 'Content-Type': 'application/json' };
             if (tokenInput) headers['RequestVerificationToken'] = tokenInput.value;
 
-            const resp = await fetch('/Home/PostParticipant', {
+            const resp = await fetch(`${normalizedBaseUrlLayout}Home/PostParticipant`, {
                 method: 'POST',
                 headers,
                 credentials: 'same-origin',
@@ -175,7 +178,7 @@ function escapeHtml(s) {
 
 
 //gọi render touterments
-    fetch('/Home/GetTournaments')
+    fetch(`${normalizedBaseUrlLayout}Home/GetTournaments`)
         .then(response => response.json())
         .then(data => {
             // Xử lý dữ liệu
@@ -277,7 +280,7 @@ function escapeHtml(s) {
                 document.getElementById("tournaments").appendChild(cardElement);
                 new Countdown(cardElement.querySelector('.countdown-container'), tournament.endDate);
           
-                return fetch(`/Home/GetNumberOfParticipants/${tournament.tournamentID}`)
+                return fetch(`${normalizedBaseUrlLayout}Home/GetNumberOfParticipants/${tournament.tournamentID}`)
                     .then(response => response.json())
                     .then(data => {
                         cardElement.querySelector(`#number-of-participants-${tournament.tournamentID}`).innerHTML = `

@@ -164,11 +164,11 @@
                     <!-- Video-->
                     <div id="errorAnalysisView">
                         <h3>Phân tích lỗi kỹ thuật </h3>
-                        <div class="video-container" style="margin-bottom:1rem;">
-                            <video id="performanceVideo" width="100%" height="340" controls style="background:#000;">
-                                <source src="duongdan.mp4">
-                            </video>
-                        </div>
+                            <div class="video-container" style="margin-bottom:1rem;">
+                                <video id="performanceVideo" width="100%" height="340" controls style="background:#000;">
+                                    <source src="~/videos/duongdan.mp4">
+                                </video>
+                            </div>
                         <div class="video-controls">
                             <button class="video-btn" type="button" id="playPauseBtn">▶️ Phát/Dừng</button>
                             <button class="video-btn" type="button" id="slowMotionBtn">🐢 Chậm</button>
@@ -297,6 +297,9 @@
 </body>
 
 <script src="~/js/hamxuly.js"></script>
+<script>
+    window.appBase = '@Url.Content("~/")';
+</script>
 <script src="~/js/hamxuly2.js"></script>
 <script src="~/js/hamxuly3.js"></script>
 <script src="~/js/chamdiemtrandau.js" ></script>
@@ -314,7 +317,10 @@
     let TournamentId = "";
 
        function renderTournamentResults(currentMatchId) {
-        fetch(`/ChamDiem/GetMatchesByTournament?tournamentId=${encodeURIComponent(currentMatchId)}`)
+        const baseUrl = (window.appBase || '/');
+        const normalizedBaseUrl = baseUrl.endsWith('/') ? baseUrl : `${baseUrl}/`;
+
+        fetch(`${normalizedBaseUrl}ChamDiem/GetMatchesByTournament?tournamentId=${encodeURIComponent(currentMatchId)}`)
             .then(response => {
                 if (!response.ok) throw new Error('Không thể lấy dữ liệu kết quả');
                 return response.json();
