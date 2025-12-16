@@ -165,8 +165,8 @@
                     <div id="errorAnalysisView">
                         <h3>Phân tích lỗi kỹ thuật </h3>
                             <div class="video-container" style="margin-bottom:1rem;">
-                                <video id="performanceVideo" width="100%" height="340" controls style="background:#000;">
-                                    <source src="~/videos/duongdan.mp4">
+                                <video id="performanceVideo" width="100%" height="340" controls preload="none" style="background:#000;">
+                                    <!-- Video nguồn sẽ được gắn khi người dùng upload hoặc chọn -->
                                 </video>
                             </div>
                         <div class="video-controls">
@@ -304,6 +304,7 @@
 <script src="~/js/hamxuly3.js"></script>
 <script src="~/js/chamdiemtrandau.js" ></script>
 <script src="~/js/chamdiem.js"></script>
+<script src="~/js/Truycapvaochamdiem.js"></script>
 <script src="~/js/loadthongtintrang.js"></script>
 <script src="~/js/uploadvideo.js"></script>
 <script src="~/js/hamxuly4.js"></script>
@@ -316,11 +317,11 @@
     let currentMatchId = "";
     let TournamentId = "";
 
-       function renderTournamentResults(currentMatchId) {
+       function renderTournamentResults(tournamentId) {
         const baseUrl = (window.appBase || '/');
         const normalizedBaseUrl = baseUrl.endsWith('/') ? baseUrl : `${baseUrl}/`;
 
-        fetch(`${normalizedBaseUrl}ChamDiem/GetMatchesByTournament?tournamentId=${encodeURIComponent(currentMatchId)}`)
+        fetch(`${normalizedBaseUrl}ChamDiem/GetMatchesByTournament?tournamentId=${encodeURIComponent(tournamentId)}`)
             .then(response => {
                 if (!response.ok) throw new Error('Không thể lấy dữ liệu kết quả');
                 return response.json();
@@ -355,7 +356,9 @@
 
     // Gọi hàm khi trang tải xong 
     document.addEventListener('DOMContentLoaded', function() {
-        renderTournamentResults(currentMatchId);
+        if (TournamentId) {
+            renderTournamentResults(TournamentId);
+        }
     });
 
 </script>
