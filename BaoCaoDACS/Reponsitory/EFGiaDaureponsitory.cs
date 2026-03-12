@@ -13,17 +13,31 @@ namespace BaoCaoDACS.Reponsitory
         {
             _context = context;
         }
-        public async Task<IEnumerable<Tournament>> GetAllAsync(string? searchValue)
+        //public async Task<IEnumerable<Tournament>> GetAllAsync(string? searchValue)
+        //{
+        //    var query = _context.Tournaments
+        //        .Include(t => t.LoaiHinhThiDau)
+        //        .AsQueryable();
+        //    if (!string.IsNullOrEmpty(searchValue))
+        //    {
+        //        query = query.Where(c => c.Name.Contains(searchValue));
+        //    }
+        //    return await query.ToListAsync();
+        //}
+        public async Task<IEnumerable<V_Tournament_All>> GetAllAsync(string? searchValue)
         {
-            var query = _context.Tournaments
-                .Include(t => t.LoaiHinhThiDau)
-                .AsQueryable();
+            // Truy vấn trực tiếp từ View, dữ liệu đã được JOIN sẵn từ Oracle
+            var query = _context.V_Tournament_All.AsQueryable();
+
             if (!string.IsNullOrEmpty(searchValue))
             {
-                query = query.Where(c => c.Name.Contains(searchValue));
+                // Oracle phân biệt hoa thường, nên dùng ToUpper để tìm kiếm chính xác
+                query = query.Where(c => c.Name.ToUpper().Contains(searchValue.ToUpper()));
             }
+
             return await query.ToListAsync();
         }
+
         public async Task<IEnumerable<Tournament>> GetAllAsync()
         {
             return await _context.Tournaments.ToListAsync();
@@ -63,4 +77,5 @@ namespace BaoCaoDACS.Reponsitory
             await _context.SaveChangesAsync();
         }
     }
+
 }

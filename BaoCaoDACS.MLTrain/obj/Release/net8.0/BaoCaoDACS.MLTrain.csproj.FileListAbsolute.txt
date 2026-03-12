@@ -323,3 +323,12 @@ D:\HOC\BAO_CAO_DACS\BaoCaoCN - Copy\BaoCaoDACS.MLTrain\obj\Release\net8.0\refint
 D:\HOC\BAO_CAO_DACS\BaoCaoCN - Copy\BaoCaoDACS.MLTrain\obj\Release\net8.0\BaoCaoDACS.MLTrain.pdb
 D:\HOC\BAO_CAO_DACS\BaoCaoCN - Copy\BaoCaoDACS.MLTrain\obj\Release\net8.0\BaoCaoDACS.MLTrain.genruntimeconfig.cache
 D:\HOC\BAO_CAO_DACS\BaoCaoCN - Copy\BaoCaoDACS.MLTrain\obj\Release\net8.0\ref\BaoCaoDACS.MLTrain.dll
+D:\HOC\BAO_CAO_DACS\BaoCaoCN-banketnoioracle\BaoCaoDACS.MLTrain\obj\Release\net8.0\BaoCaoDACS.MLTrain.csproj.AssemblyReference.cache
+D:\HOC\BAO_CAO_DACS\BaoCaoCN-banketnoioracle\BaoCaoDACS.MLTrain\obj\Release\net8.0\BaoCaoDACS.MLTrain.GeneratedMSBuildEditorConfig.editorconfig
+D:\HOC\BAO_CAO_DACS\BaoCaoCN-banketnoioracle\BaoCaoDACS.MLTrain\obj\Release\net8.0\BaoCaoDACS.MLTrain.AssemblyInfoInputs.cache
+D:\HOC\BAO_CAO_DACS\BaoCaoCN-banketnoioracle\BaoCaoDACS.MLTrain\obj\Release\net8.0\BaoCaoDACS.MLTrain.AssemblyInfo.cs
+D:\HOC\BAO_CAO_DACS\BaoCaoCN-banketnoioracle\BaoCaoDACS.MLTrain\obj\Release\net8.0\BaoCaoDACS.MLTrain.csproj.CoreCompileInputs.cache
+D:\HOC\BAO_CAO_DACS\BaoCaoCN-banketnoioracle\BaoCaoDACS.MLTrain\obj\Release\net8.0\BaoCaoDACS.MLTrain.sourcelink.json
+D:\HOC\BAO_CAO_DACS\BaoCaoCN-banketnoioracle\BaoCaoDACS.MLTrain\obj\Release\net8.0\BaoCaoDACS.MLTrain.dll
+D:\HOC\BAO_CAO_DACS\BaoCaoCN-banketnoioracle\BaoCaoDACS.MLTrain\obj\Release\net8.0\refint\BaoCaoDACS.MLTrain.dll
+D:\HOC\BAO_CAO_DACS\BaoCaoCN-banketnoioracle\BaoCaoDACS.MLTrain\obj\Release\net8.0\BaoCaoDACS.MLTrain.pdb

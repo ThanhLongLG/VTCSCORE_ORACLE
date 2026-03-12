@@ -17,213 +17,217 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BaoCaoDACS
 build_property.RootNamespace = BaoCaoDACS
-build_property.ProjectDir = D:\HOC\BAO_CAO_DACS\BaoCaoCN - Copy\BaoCaoDACS\
+build_property.ProjectDir = D:\HOC\BAO_CAO_DACS\BaoCaoCN-banketnoioracle\BaoCaoDACS\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\HOC\BAO_CAO_DACS\BaoCaoCN - Copy\BaoCaoDACS
+build_property.MSBuildProjectDirectory = D:\HOC\BAO_CAO_DACS\BaoCaoCN-banketnoioracle\BaoCaoDACS
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[D:/HOC/BAO_CAO_DACS/BaoCaoCN - Copy/BaoCaoDACS/Areas/Admin/Views/GiaiDau/Add.cshtml]
+[D:/HOC/BAO_CAO_DACS/BaoCaoCN-banketnoioracle/BaoCaoDACS/Areas/Admin/Views/GiaiDau/Add.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcR2lhaURhdVxBZGQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HOC/BAO_CAO_DACS/BaoCaoCN - Copy/BaoCaoDACS/Areas/Admin/Views/GiaiDau/Delete.cshtml]
+[D:/HOC/BAO_CAO_DACS/BaoCaoCN-banketnoioracle/BaoCaoDACS/Areas/Admin/Views/GiaiDau/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcR2lhaURhdVxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HOC/BAO_CAO_DACS/BaoCaoCN - Copy/BaoCaoDACS/Areas/Admin/Views/GiaiDau/Display.cshtml]
+[D:/HOC/BAO_CAO_DACS/BaoCaoCN-banketnoioracle/BaoCaoDACS/Areas/Admin/Views/GiaiDau/Display.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcR2lhaURhdVxEaXNwbGF5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HOC/BAO_CAO_DACS/BaoCaoCN - Copy/BaoCaoDACS/Areas/Admin/Views/GiaiDau/Index.cshtml]
+[D:/HOC/BAO_CAO_DACS/BaoCaoCN-banketnoioracle/BaoCaoDACS/Areas/Admin/Views/GiaiDau/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcR2lhaURhdVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HOC/BAO_CAO_DACS/BaoCaoCN - Copy/BaoCaoDACS/Areas/Admin/Views/GiaiDau/Update.cshtml]
+[D:/HOC/BAO_CAO_DACS/BaoCaoCN-banketnoioracle/BaoCaoDACS/Areas/Admin/Views/GiaiDau/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcR2lhaURhdVxVcGRhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HOC/BAO_CAO_DACS/BaoCaoCN - Copy/BaoCaoDACS/Areas/Admin/Views/KetQua/Add.cshtml]
+[D:/HOC/BAO_CAO_DACS/BaoCaoCN-banketnoioracle/BaoCaoDACS/Areas/Admin/Views/KetQua/Add.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcS2V0UXVhXEFkZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HOC/BAO_CAO_DACS/BaoCaoCN - Copy/BaoCaoDACS/Areas/Admin/Views/KetQua/Delete.cshtml]
+[D:/HOC/BAO_CAO_DACS/BaoCaoCN-banketnoioracle/BaoCaoDACS/Areas/Admin/Views/KetQua/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcS2V0UXVhXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HOC/BAO_CAO_DACS/BaoCaoCN - Copy/BaoCaoDACS/Areas/Admin/Views/KetQua/Display.cshtml]
+[D:/HOC/BAO_CAO_DACS/BaoCaoCN-banketnoioracle/BaoCaoDACS/Areas/Admin/Views/KetQua/Display.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcS2V0UXVhXERpc3BsYXkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HOC/BAO_CAO_DACS/BaoCaoCN - Copy/BaoCaoDACS/Areas/Admin/Views/KetQua/Index.cshtml]
+[D:/HOC/BAO_CAO_DACS/BaoCaoCN-banketnoioracle/BaoCaoDACS/Areas/Admin/Views/KetQua/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcS2V0UXVhXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HOC/BAO_CAO_DACS/BaoCaoCN - Copy/BaoCaoDACS/Areas/Admin/Views/KetQua/Update.cshtml]
+[D:/HOC/BAO_CAO_DACS/BaoCaoCN-banketnoioracle/BaoCaoDACS/Areas/Admin/Views/KetQua/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcS2V0UXVhXFVwZGF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HOC/BAO_CAO_DACS/BaoCaoCN - Copy/BaoCaoDACS/Areas/Admin/Views/LoaiHinhThiDau/Create.cshtml]
+[D:/HOC/BAO_CAO_DACS/BaoCaoCN-banketnoioracle/BaoCaoDACS/Areas/Admin/Views/LoaiHinhThiDau/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTG9haUhpbmhUaGlEYXVcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HOC/BAO_CAO_DACS/BaoCaoCN - Copy/BaoCaoDACS/Areas/Admin/Views/LoaiHinhThiDau/Index.cshtml]
+[D:/HOC/BAO_CAO_DACS/BaoCaoCN-banketnoioracle/BaoCaoDACS/Areas/Admin/Views/LoaiHinhThiDau/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTG9haUhpbmhUaGlEYXVcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HOC/BAO_CAO_DACS/BaoCaoCN - Copy/BaoCaoDACS/Areas/Admin/Views/NguoiDung/Add.cshtml]
+[D:/HOC/BAO_CAO_DACS/BaoCaoCN-banketnoioracle/BaoCaoDACS/Areas/Admin/Views/NguoiDung/Add.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTmd1b2lEdW5nXEFkZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HOC/BAO_CAO_DACS/BaoCaoCN - Copy/BaoCaoDACS/Areas/Admin/Views/NguoiDung/Delete.cshtml]
+[D:/HOC/BAO_CAO_DACS/BaoCaoCN-banketnoioracle/BaoCaoDACS/Areas/Admin/Views/NguoiDung/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTmd1b2lEdW5nXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HOC/BAO_CAO_DACS/BaoCaoCN - Copy/BaoCaoDACS/Areas/Admin/Views/NguoiDung/Display.cshtml]
+[D:/HOC/BAO_CAO_DACS/BaoCaoCN-banketnoioracle/BaoCaoDACS/Areas/Admin/Views/NguoiDung/Display.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTmd1b2lEdW5nXERpc3BsYXkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HOC/BAO_CAO_DACS/BaoCaoCN - Copy/BaoCaoDACS/Areas/Admin/Views/NguoiDung/Index.cshtml]
+[D:/HOC/BAO_CAO_DACS/BaoCaoCN-banketnoioracle/BaoCaoDACS/Areas/Admin/Views/NguoiDung/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTmd1b2lEdW5nXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HOC/BAO_CAO_DACS/BaoCaoCN - Copy/BaoCaoDACS/Areas/Admin/Views/NguoiDung/Update.cshtml]
+[D:/HOC/BAO_CAO_DACS/BaoCaoCN-banketnoioracle/BaoCaoDACS/Areas/Admin/Views/NguoiDung/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTmd1b2lEdW5nXFVwZGF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HOC/BAO_CAO_DACS/BaoCaoCN - Copy/BaoCaoDACS/Areas/Admin/Views/ThongKe/Index.cshtml]
+[D:/HOC/BAO_CAO_DACS/BaoCaoCN-banketnoioracle/BaoCaoDACS/Areas/Admin/Views/ThongKe/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGhvbmdLZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HOC/BAO_CAO_DACS/BaoCaoCN - Copy/BaoCaoDACS/Areas/Admin/Views/TranDau/Add.cshtml]
+[D:/HOC/BAO_CAO_DACS/BaoCaoCN-banketnoioracle/BaoCaoDACS/Areas/Admin/Views/TranDau/Add.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVHJhbkRhdVxBZGQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HOC/BAO_CAO_DACS/BaoCaoCN - Copy/BaoCaoDACS/Areas/Admin/Views/TranDau/Delete.cshtml]
+[D:/HOC/BAO_CAO_DACS/BaoCaoCN-banketnoioracle/BaoCaoDACS/Areas/Admin/Views/TranDau/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVHJhbkRhdVxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HOC/BAO_CAO_DACS/BaoCaoCN - Copy/BaoCaoDACS/Areas/Admin/Views/TranDau/Display.cshtml]
+[D:/HOC/BAO_CAO_DACS/BaoCaoCN-banketnoioracle/BaoCaoDACS/Areas/Admin/Views/TranDau/Display.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVHJhbkRhdVxEaXNwbGF5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HOC/BAO_CAO_DACS/BaoCaoCN - Copy/BaoCaoDACS/Areas/Admin/Views/TranDau/Index.cshtml]
+[D:/HOC/BAO_CAO_DACS/BaoCaoCN-banketnoioracle/BaoCaoDACS/Areas/Admin/Views/TranDau/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVHJhbkRhdVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HOC/BAO_CAO_DACS/BaoCaoCN - Copy/BaoCaoDACS/Areas/Admin/Views/TranDau/Update.cshtml]
+[D:/HOC/BAO_CAO_DACS/BaoCaoCN-banketnoioracle/BaoCaoDACS/Areas/Admin/Views/TranDau/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVHJhbkRhdVxVcGRhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HOC/BAO_CAO_DACS/BaoCaoCN - Copy/BaoCaoDACS/Areas/Admin/Views/TrangQL/Index.cshtml]
+[D:/HOC/BAO_CAO_DACS/BaoCaoCN-banketnoioracle/BaoCaoDACS/Areas/Admin/Views/TrangQL/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVHJhbmdRTFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HOC/BAO_CAO_DACS/BaoCaoCN - Copy/BaoCaoDACS/Areas/Admin/Views/_ViewImports.cshtml]
+[D:/HOC/BAO_CAO_DACS/BaoCaoCN-banketnoioracle/BaoCaoDACS/Areas/Admin/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HOC/BAO_CAO_DACS/BaoCaoCN - Copy/BaoCaoDACS/Areas/Identity/Pages/Account/Login.cshtml]
+[D:/HOC/BAO_CAO_DACS/BaoCaoCN-banketnoioracle/BaoCaoDACS/Areas/Identity/Pages/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HOC/BAO_CAO_DACS/BaoCaoCN - Copy/BaoCaoDACS/Areas/Identity/Pages/Account/Logout.cshtml]
+[D:/HOC/BAO_CAO_DACS/BaoCaoCN-banketnoioracle/BaoCaoDACS/Areas/Identity/Pages/Account/Logout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HOC/BAO_CAO_DACS/BaoCaoCN - Copy/BaoCaoDACS/Areas/Identity/Pages/Account/Register.cshtml]
+[D:/HOC/BAO_CAO_DACS/BaoCaoCN-banketnoioracle/BaoCaoDACS/Areas/Identity/Pages/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HOC/BAO_CAO_DACS/BaoCaoCN - Copy/BaoCaoDACS/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+[D:/HOC/BAO_CAO_DACS/BaoCaoCN-banketnoioracle/BaoCaoDACS/Areas/Identity/Pages/Account/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HOC/BAO_CAO_DACS/BaoCaoCN - Copy/BaoCaoDACS/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+[D:/HOC/BAO_CAO_DACS/BaoCaoCN-banketnoioracle/BaoCaoDACS/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HOC/BAO_CAO_DACS/BaoCaoCN - Copy/BaoCaoDACS/Areas/Identity/Pages/_ViewImports.cshtml]
+[D:/HOC/BAO_CAO_DACS/BaoCaoCN-banketnoioracle/BaoCaoDACS/Areas/Identity/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HOC/BAO_CAO_DACS/BaoCaoCN - Copy/BaoCaoDACS/Areas/Identity/Pages/_ViewStart.cshtml]
+[D:/HOC/BAO_CAO_DACS/BaoCaoCN-banketnoioracle/BaoCaoDACS/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HOC/BAO_CAO_DACS/BaoCaoCN - Copy/BaoCaoDACS/Views/ChamDiem/Index.cshtml]
+[D:/HOC/BAO_CAO_DACS/BaoCaoCN-banketnoioracle/BaoCaoDACS/Views/ChamDiem/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhbURpZW1cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HOC/BAO_CAO_DACS/BaoCaoCN - Copy/BaoCaoDACS/Views/Home/Index.cshtml]
+[D:/HOC/BAO_CAO_DACS/BaoCaoCN-banketnoioracle/BaoCaoDACS/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HOC/BAO_CAO_DACS/BaoCaoCN - Copy/BaoCaoDACS/Views/Home/LichThidau.cshtml]
+[D:/HOC/BAO_CAO_DACS/BaoCaoCN-banketnoioracle/BaoCaoDACS/Views/Home/LichThidau.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMaWNoVGhpZGF1LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HOC/BAO_CAO_DACS/BaoCaoCN - Copy/BaoCaoDACS/Views/Home/MyActiveParticipants.cshtml]
+[D:/HOC/BAO_CAO_DACS/BaoCaoCN-banketnoioracle/BaoCaoDACS/Views/Home/MyActiveParticipants.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxNeUFjdGl2ZVBhcnRpY2lwYW50cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HOC/BAO_CAO_DACS/BaoCaoCN - Copy/BaoCaoDACS/Views/Home/Privacy.cshtml]
+[D:/HOC/BAO_CAO_DACS/BaoCaoCN-banketnoioracle/BaoCaoDACS/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HOC/BAO_CAO_DACS/BaoCaoCN - Copy/BaoCaoDACS/Views/Home/Profile.cshtml]
+[D:/HOC/BAO_CAO_DACS/BaoCaoCN-banketnoioracle/BaoCaoDACS/Views/Home/Profile.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcm9maWxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HOC/BAO_CAO_DACS/BaoCaoCN - Copy/BaoCaoDACS/Views/Home/ThanhToan.cshtml]
+[D:/HOC/BAO_CAO_DACS/BaoCaoCN-banketnoioracle/BaoCaoDACS/Views/Home/ThanhToan.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUaGFuaFRvYW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HOC/BAO_CAO_DACS/BaoCaoCN - Copy/BaoCaoDACS/Views/Home/ThanhToansucces.cshtml]
+[D:/HOC/BAO_CAO_DACS/BaoCaoCN-banketnoioracle/BaoCaoDACS/Views/Home/ThanhToansucces.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUaGFuaFRvYW5zdWNjZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HOC/BAO_CAO_DACS/BaoCaoCN - Copy/BaoCaoDACS/Views/Payment/PaymentError.cshtml]
+[D:/HOC/BAO_CAO_DACS/BaoCaoCN-banketnoioracle/BaoCaoDACS/Views/Payment/PaymentError.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF5bWVudFxQYXltZW50RXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HOC/BAO_CAO_DACS/BaoCaoCN - Copy/BaoCaoDACS/Views/Predict/Index.cshtml]
+[D:/HOC/BAO_CAO_DACS/BaoCaoCN-banketnoioracle/BaoCaoDACS/Views/Predict/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJlZGljdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HOC/BAO_CAO_DACS/BaoCaoCN - Copy/BaoCaoDACS/Views/Shared/Admin_layout.cshtml]
+[D:/HOC/BAO_CAO_DACS/BaoCaoCN-banketnoioracle/BaoCaoDACS/Views/Shared/Admin_layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEFkbWluX2xheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HOC/BAO_CAO_DACS/BaoCaoCN - Copy/BaoCaoDACS/Views/Shared/Error.cshtml]
+[D:/HOC/BAO_CAO_DACS/BaoCaoCN-banketnoioracle/BaoCaoDACS/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HOC/BAO_CAO_DACS/BaoCaoCN - Copy/BaoCaoDACS/Views/Shared/_LoginPartial.cshtml]
+[D:/HOC/BAO_CAO_DACS/BaoCaoCN-banketnoioracle/BaoCaoDACS/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HOC/BAO_CAO_DACS/BaoCaoCN - Copy/BaoCaoDACS/Views/Shared/_Options.cshtml]
+[D:/HOC/BAO_CAO_DACS/BaoCaoCN-banketnoioracle/BaoCaoDACS/Views/Shared/_Options.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9PcHRpb25zLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HOC/BAO_CAO_DACS/BaoCaoCN - Copy/BaoCaoDACS/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/HOC/BAO_CAO_DACS/BaoCaoCN-banketnoioracle/BaoCaoDACS/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HOC/BAO_CAO_DACS/BaoCaoCN - Copy/BaoCaoDACS/Views/_ViewImports.cshtml]
+[D:/HOC/BAO_CAO_DACS/BaoCaoCN-banketnoioracle/BaoCaoDACS/Views/VideoCheck/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmlkZW9DaGVja1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/HOC/BAO_CAO_DACS/BaoCaoCN-banketnoioracle/BaoCaoDACS/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HOC/BAO_CAO_DACS/BaoCaoCN - Copy/BaoCaoDACS/Views/_ViewStart.cshtml]
+[D:/HOC/BAO_CAO_DACS/BaoCaoCN-banketnoioracle/BaoCaoDACS/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HOC/BAO_CAO_DACS/BaoCaoCN - Copy/BaoCaoDACS/Views/Shared/_Layout.cshtml]
+[D:/HOC/BAO_CAO_DACS/BaoCaoCN-banketnoioracle/BaoCaoDACS/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-3g8j8m939j

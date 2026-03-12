@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BaoCaoDACS.MLTrain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+735144a934d29e8b132c914731fb4d3bac6a319e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f8da5d0128cb89f78532d291114d26b4f2037ec9")]
 [assembly: System.Reflection.AssemblyProductAttribute("BaoCaoDACS.MLTrain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BaoCaoDACS.MLTrain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

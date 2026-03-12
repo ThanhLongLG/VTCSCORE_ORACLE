@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\BaoCaoDACS.csproj": {}
+    "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\BaoCaoDACS.csproj": {}
   },
   "projects": {
-    "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\BaoCaoDACS.csproj": {
+    "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\BaoCaoDACS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\BaoCaoDACS.csproj",
+        "projectUniqueName": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\BaoCaoDACS.csproj",
         "projectName": "BaoCaoDACS",
-        "projectPath": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\BaoCaoDACS.csproj",
+        "projectPath": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\BaoCaoDACS.csproj",
         "packagesPath": "C:\\Users\\hello\\.nuget\\packages\\",
-        "outputPath": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\obj\\",
+        "outputPath": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -60,21 +60,13 @@
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[9.0.2, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[9.0.2, )"
-            },
-            "Microsoft.EntityFrameworkCore.Sqlite": {
-              "target": "Package",
               "version": "[8.0.11, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.2, )"
+              "version": "[8.0.11, )"
             },
             "Microsoft.ML": {
               "target": "Package",
@@ -87,6 +79,10 @@
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[8.0.7, )"
+            },
+            "Oracle.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.23.26100, )"
             },
             "RestSharp": {
               "target": "Package",

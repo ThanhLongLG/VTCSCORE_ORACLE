@@ -1,400 +1,412 @@
 {
   "Files": [
     {
-      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BaoCaoDACS.bundle.scp.css",
+      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BaoCaoDACS.bundle.scp.css",
       "PackagePath": "staticwebassets\\BaoCaoDACS.u1ax6g7t3g.bundle.scp.css"
     },
     {
-      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\Models\\match_predictor.zip",
+      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\Models\\match_predictor.zip",
       "PackagePath": "staticwebassets\\Models\\match_predictor.zip"
     },
     {
-      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\chart.js\\Chart.bundle.js",
+      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\chart.js\\Chart.bundle.js",
       "PackagePath": "staticwebassets\\chart.js\\Chart.bundle.js"
     },
     {
-      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\chart.js\\Chart.bundle.min.js",
+      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\chart.js\\Chart.bundle.min.js",
       "PackagePath": "staticwebassets\\chart.js\\Chart.bundle.min.js"
     },
     {
-      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\chart.js\\Chart.js",
+      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\chart.js\\Chart.js",
       "PackagePath": "staticwebassets\\chart.js\\Chart.js"
     },
     {
-      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\chart.js\\Chart.min.js",
+      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\chart.js\\Chart.min.js",
       "PackagePath": "staticwebassets\\chart.js\\Chart.min.js"
     },
     {
-      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\css\\Chamdiem.css",
+      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\css\\Chamdiem.css",
       "PackagePath": "staticwebassets\\css\\Chamdiem.css"
     },
     {
-      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\css\\Chart.css",
+      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\css\\Chart.css",
       "PackagePath": "staticwebassets\\css\\Chart.css"
     },
     {
-      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\css\\Chart.min.css",
+      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\css\\Chart.min.css",
       "PackagePath": "staticwebassets\\css\\Chart.min.css"
     },
     {
-      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\css\\DangKi.css",
+      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\css\\DangKi.css",
       "PackagePath": "staticwebassets\\css\\DangKi.css"
     },
     {
-      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\css\\Layout.css",
+      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\css\\Layout.css",
       "PackagePath": "staticwebassets\\css\\Layout.css"
     },
     {
-      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\css\\Profile.css",
+      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\css\\Profile.css",
       "PackagePath": "staticwebassets\\css\\Profile.css"
     },
     {
-      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\css\\Video.css",
+      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\css\\Video.css",
       "PackagePath": "staticwebassets\\css\\Video.css"
     },
     {
-      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\css\\admin.css",
-      "PackagePath": "staticwebassets\\css\\admin.css"
-    },
-    {
-      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\css\\adminLayout.css",
-      "PackagePath": "staticwebassets\\css\\adminLayout.css"
-    },
-    {
-      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\css\\adminlte.css",
-      "PackagePath": "staticwebassets\\css\\adminlte.css"
-    },
-    {
-      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\css\\app.css",
+      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\css\\app.css",
       "PackagePath": "staticwebassets\\css\\app.css"
     },
     {
-      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\css\\reset.css",
+      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\css\\auth-modal.css",
+      "PackagePath": "staticwebassets\\css\\auth-modal.css"
+    },
+    {
+      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\css\\components.css",
+      "PackagePath": "staticwebassets\\css\\components.css"
+    },
+    {
+      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\css\\dashboard.css",
+      "PackagePath": "staticwebassets\\css\\dashboard.css"
+    },
+    {
+      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\css\\main.css",
+      "PackagePath": "staticwebassets\\css\\main.css"
+    },
+    {
+      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\css\\reset.css",
       "PackagePath": "staticwebassets\\css\\reset.css"
     },
     {
-      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\css\\site.css",
+      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\favicon.ico",
+      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\images\\09889bf0-c953-430b-b476-f930ab497af3.png",
+      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\images\\09889bf0-c953-430b-b476-f930ab497af3.png",
       "PackagePath": "staticwebassets\\images\\09889bf0-c953-430b-b476-f930ab497af3.png"
     },
     {
-      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\images\\10a1.jpg",
+      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\images\\10a1.jpg",
       "PackagePath": "staticwebassets\\images\\10a1.jpg"
     },
     {
-      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\images\\96fd27ca-f799-4e9c-ae5e-678b4ce91573.jpg",
+      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\images\\96fd27ca-f799-4e9c-ae5e-678b4ce91573.jpg",
       "PackagePath": "staticwebassets\\images\\96fd27ca-f799-4e9c-ae5e-678b4ce91573.jpg"
     },
     {
-      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\images\\BBB.webp",
+      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\images\\BBB.webp",
       "PackagePath": "staticwebassets\\images\\BBB.webp"
     },
     {
-      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\images\\Vctlogo.jpg",
+      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\images\\Vctlogo.jpg",
       "PackagePath": "staticwebassets\\images\\Vctlogo.jpg"
     },
     {
-      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\images\\ca1fcdd4-e312-43fd-a98d-f5ea589f351c.webp",
+      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\images\\ca1fcdd4-e312-43fd-a98d-f5ea589f351c.webp",
       "PackagePath": "staticwebassets\\images\\ca1fcdd4-e312-43fd-a98d-f5ea589f351c.webp"
     },
     {
-      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\images\\giai-dau-vo-thuat-viet-nam-5.jpg",
+      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\images\\giai-dau-vo-thuat-viet-nam-5.jpg",
       "PackagePath": "staticwebassets\\images\\giai-dau-vo-thuat-viet-nam-5.jpg"
     },
     {
-      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\images\\images.jpg",
+      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\images\\images.jpg",
       "PackagePath": "staticwebassets\\images\\images.jpg"
     },
     {
-      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\img\\10a1.jpg",
+      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\img\\10a1.jpg",
       "PackagePath": "staticwebassets\\img\\10a1.jpg"
     },
     {
-      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\img\\Vctlogo.jpg",
+      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\img\\Vctlogo.jpg",
       "PackagePath": "staticwebassets\\img\\Vctlogo.jpg"
     },
     {
-      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\img\\Vocotruyen.jpg",
+      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\img\\Vocotruyen.jpg",
       "PackagePath": "staticwebassets\\img\\Vocotruyen.jpg"
     },
     {
-      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\img\\anime3.png",
+      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\img\\anime3.png",
       "PackagePath": "staticwebassets\\img\\anime3.png"
     },
     {
-      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\js\\Chamdiem.js",
+      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\js\\Chamdiem.js",
       "PackagePath": "staticwebassets\\js\\Chamdiem.js"
     },
     {
-      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\js\\Hamxuly2.js",
+      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\js\\Hamxuly2.js",
       "PackagePath": "staticwebassets\\js\\Hamxuly2.js"
     },
     {
-      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\js\\Hamxuly3.js",
+      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\js\\Hamxuly3.js",
       "PackagePath": "staticwebassets\\js\\Hamxuly3.js"
     },
     {
-      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\js\\Hamxuly4.js",
+      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\js\\Hamxuly4.js",
       "PackagePath": "staticwebassets\\js\\Hamxuly4.js"
     },
     {
-      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\js\\Layout.js",
+      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\js\\Layout.js",
       "PackagePath": "staticwebassets\\js\\Layout.js"
     },
     {
-      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\js\\Truycapvaochamdiem.js",
+      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\js\\Truycapvaochamdiem.js",
       "PackagePath": "staticwebassets\\js\\Truycapvaochamdiem.js"
     },
     {
-      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\js\\Uploadvideo.js",
+      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\js\\Uploadvideo.js",
       "PackagePath": "staticwebassets\\js\\Uploadvideo.js"
     },
     {
-      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\js\\hamxuly.js",
+      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\js\\hamxuly.js",
       "PackagePath": "staticwebassets\\js\\hamxuly.js"
     },
     {
-      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\js\\loadthongtintrang.js",
+      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\js\\loadthongtintrang.js",
       "PackagePath": "staticwebassets\\js\\loadthongtintrang.js"
     },
     {
-      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\js\\site.js",
+      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\uploads\\66481946-0fa6-463b-b78f-c0e4ed0ec370.mp4",
+      "PackagePath": "staticwebassets\\uploads\\66481946-0fa6-463b-b78f-c0e4ed0ec370.mp4"
+    },
+    {
+      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\uploads\\output_308c231a-fbf6-494f-8104-c3d1e7a3cb74.mp4",
+      "PackagePath": "staticwebassets\\uploads\\output_308c231a-fbf6-494f-8104-c3d1e7a3cb74.mp4"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.BaoCaoDACS.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",

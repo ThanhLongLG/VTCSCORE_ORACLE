@@ -4,7 +4,8 @@ using BaoCaoDACS.Reponsitory;
 using BaoCaoDACS.Reponsitory.Services;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.ML;  
+using Microsoft.ML;
+using Oracle.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -40,6 +41,8 @@ builder.Services.ConfigureApplicationCookie(options =>
     options.LoginPath = "/Identity/Account/Login";
     options.LogoutPath = "/Identity/Account/Logout";
     options.AccessDeniedPath = "/Identity/Account/AccessDenied";
+    options.SlidingExpiration = true;
+    options.ExpireTimeSpan = TimeSpan.FromDays(30);
 });
 builder.Services.AddScoped<INguoidungreponsitory, EFNguoiDungreponsitory>();
 builder.Services.AddScoped<IGiaiDaureponsitory, MOMOService>();
@@ -54,7 +57,7 @@ builder.Services.AddScoped<IMomoService, MomoService>();
 
 
 builder.Services.AddDbContext<AppDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("QLTAPVO")));
+    options.UseOracle(builder.Configuration.GetConnectionString("QLTAPVO")));
 
 builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
     .AddDefaultUI()
@@ -112,6 +115,21 @@ if (!app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+// Add cache control headers middleware
+app.Use(async (context, next) =>
+{
+    // Prevent caching for HTML pages
+    if (context.Request.Path.HasValue && !context.Request.Path.Value.StartsWith("/css/") && 
+        !context.Request.Path.Value.StartsWith("/js/") && !context.Request.Path.Value.StartsWith("/lib/"))
+    {
+        context.Response.Headers.Add("Cache-Control", "no-cache, no-store, must-revalidate");
+        context.Response.Headers.Add("Pragma", "no-cache");
+        context.Response.Headers.Add("Expires", "0");
+    }
+    await next();
+});
+
 app.UseStaticFiles();
 
 app.UseRouting();

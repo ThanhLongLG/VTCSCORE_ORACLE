@@ -297,10 +297,10 @@
 <script src="~/js/hamxuly3.js"></script>
 <script src="~/js/chamdiemtrandau.js"></script>
 <script src="~/js/chamdiem.js"></script>
+<script src="~/js/Truycapvaochamdiem.js"></script>
 <script src="~/js/loadthongtintrang.js"></script>
 <script src="~/js/uploadvideo.js"></script>
 <script src="~/js/hamxuly4.js"></script>
-<script src="~/js/Truycapvaochamdiem.js"></script>
 </html>
 
 <script>
@@ -310,11 +310,11 @@
     let currentMatchId = "";
     let TournamentId = "";
 
-       function renderTournamentResults(currentMatchId) {
+       function renderTournamentResults(tournamentId) {
         const baseUrl = (window.appBase || '/');
         const normalizedBaseUrl = baseUrl.endsWith('/') ? baseUrl : `${baseUrl}/`;
 
-        fetch(`${normalizedBaseUrl}ChamDiem/GetMatchesByTournament?tournamentId=${encodeURIComponent(currentMatchId)}`)
+        fetch(`${normalizedBaseUrl}ChamDiem/GetMatchesByTournament?tournamentId=${encodeURIComponent(tournamentId)}`)
             .then(response => {
                 if (!response.ok) throw new Error('Không thể lấy dữ liệu kết quả');
                 return response.json();

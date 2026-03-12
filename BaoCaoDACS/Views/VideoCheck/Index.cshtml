@@ -1,0 +1,141 @@
+﻿@{
+    ViewData["Title"] = "Kiểm Tra Video";
+}
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-8 offset-md-2">
+            <div class="card shadow">
+                <div class="card-header bg-primary text-white">
+                    <h3 class="mb-0 text-center">HỆ THỐNG VAR AI - TAEKWONDO</h3>
+                </div>
+                <div class="card-body">
+                    <form id="uploadForm" enctype="multipart/form-data">
+                        <div class="mb-3">
+                            <label for="videoFile" class="form-label fw-bold">Chọn Video Thi Đấu:</label>
+                            <input type="file" class="form-control" id="videoFile" name="videoFile" accept="video/*" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100 py-2" id="uploadBtn">
+                            <span id="btnText">🔍 TẢI LÊN & KIỂM TRA LỖI</span>
+                            <div id="spinner" class="spinner-border spinner-border-sm ms-2 d-none" role="status"></div>
+                        </button>
+                    </form>
+
+                    <div id="progressContainer" class="mt-4 d-none">
+                        <div class="progress" style="height: 25px;">
+                            <div id="progressBar" class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar" style="width: 0%">0%</div>
+                        </div>
+                        <p class="text-center mt-2 text-muted fst-italic">Đang phân tích hành động...</p>
+                    </div>
+
+                    <div id="resultContainer" class="mt-4 d-none">
+                        <div id="messageBox" class="alert d-none"></div>
+
+                        <div id="videoOutputContainer" class="d-none text-center">
+                            <h5 class="text-success fw-bold">KẾT QUẢ PHÂN TÍCH:</h5>
+                            <video id="outputVideo" class="w-100 border rounded" controls autoplay>
+                                <source src="" type="video/mp4">
+                                Trình duyệt của bạn không hỗ trợ thẻ video.
+                            </video>
+                            <a id="downloadLink" href="#" class="btn btn-outline-success mt-2" download>⬇️ Tải Video Kết Quả</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    document.getElementById('uploadForm').addEventListener('submit', async function(e) {
+        e.preventDefault();
+
+        const fileInput = document.getElementById('videoFile');
+        if (!fileInput.files[0]) { alert("Vui lòng chọn file!"); return; }
+
+        // Reset UI
+        const btn = document.getElementById('uploadBtn');
+        const spinner = document.getElementById('spinner');
+        const progressContainer = document.getElementById('progressContainer');
+        const progressBar = document.getElementById('progressBar');
+        const resultContainer = document.getElementById('resultContainer');
+
+        btn.disabled = true;
+        spinner.classList.remove('d-none');
+        progressContainer.classList.remove('d-none');
+        resultContainer.classList.add('d-none');
+        progressBar.style.width = '0%';
+        progressBar.textContent = '0%';
+
+        // Giả lập loading (vì server xử lý lâu)
+        let percent = 0;
+        const interval = setInterval(() => {
+            if (percent < 90) {
+                percent += Math.random() * 5;
+                if (percent > 90) percent = 90;
+                progressBar.style.width = percent + '%';
+                progressBar.textContent = Math.round(percent) + '%';
+            }
+        }, 800);
+
+        try {
+            const formData = new FormData();
+            formData.append('videoFile', fileInput.files[0]);
+
+            const response = await fetch('/VideoCheck/UploadAndCheck', {
+                method: 'POST',
+                body: formData
+            });
+
+            clearInterval(interval);
+            const data = await response.json();
+
+            if (data.success) {
+                progressBar.style.width = '100%';
+                progressBar.textContent = '100%';
+                setTimeout(() => {
+                    progressContainer.classList.add('d-none');
+                    showResult(true, data.message, data.outputVideo);
+                }, 500);
+            } else {
+                progressContainer.classList.add('d-none');
+                showResult(false, data.message);
+            }
+
+        } catch (err) {
+            clearInterval(interval);
+            progressContainer.classList.add('d-none');
+            showResult(false, "Lỗi kết nối: " + err.message);
+        } finally {
+            btn.disabled = false;
+            spinner.classList.add('d-none');
+        }
+    });
+
+    function showResult(isSuccess, message, videoUrl) {
+        const container = document.getElementById('resultContainer');
+        const msgBox = document.getElementById('messageBox');
+        const videoBox = document.getElementById('videoOutputContainer');
+        const videoTag = document.getElementById('outputVideo');
+        const dlLink = document.getElementById('downloadLink');
+
+        container.classList.remove('d-none');
+        msgBox.classList.remove('d-none', 'alert-success', 'alert-danger');
+
+        if (isSuccess) {
+            msgBox.classList.add('alert-success');
+            msgBox.innerHTML = `<strong>Thành công:</strong> ${message}`;
+
+            if (videoUrl) {
+                videoBox.classList.remove('d-none');
+                // Thêm timestamp để tránh cache trình duyệt
+                videoTag.src = videoUrl + "?t=" + new Date().getTime();
+                dlLink.href = videoUrl;
+            }
+        } else {
+            msgBox.classList.add('alert-danger');
+            msgBox.innerHTML = `<strong>Thất bại:</strong> ${message}`;
+            videoBox.classList.add('d-none');
+        }
+    }
+</script>

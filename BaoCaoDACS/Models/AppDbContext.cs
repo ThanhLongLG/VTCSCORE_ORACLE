@@ -43,8 +43,18 @@ public class AppDbContext : IdentityDbContext<ApplicationUser>
                     c => c.Aggregate(0, (a, v) => HashCode.Combine(a, v.GetHashCode())),
                     c => c.ToList()));
 
- 
+
+        modelBuilder.Entity<V_Tournament_All>(entity =>
+        {
+            entity.HasNoKey(); 
+            entity.ToView("V_TOURNAMENT_ALL", "NHOM4"); // Map với tên View và Schema NHOM4 trong Oracle
+
+        });
+
+
     }
+
+    public virtual DbSet<V_Tournament_All> V_Tournament_All { get; set; }
     public DbSet<Tournament> Tournaments { get; set; }
     public DbSet<Participant> Participants { get; set; }
     public DbSet<Match> match { get; set; }

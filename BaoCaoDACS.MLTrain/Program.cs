@@ -38,7 +38,7 @@ class Program
         var connectionString = config.GetConnectionString("QLTAPVO");
 
         var options = new DbContextOptionsBuilder<AppDbContext>()
-            .UseSqlServer(connectionString)
+            .UseOracle(connectionString)
             .Options;
 
         using var context = new AppDbContext(options);

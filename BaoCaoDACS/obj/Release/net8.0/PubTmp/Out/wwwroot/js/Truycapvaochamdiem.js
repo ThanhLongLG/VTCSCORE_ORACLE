@@ -76,6 +76,9 @@ function fetchMatchParticipants(match) {
             }
         });
 }
+
+// Đảm bảo hàm có sẵn ở phạm vi global cho các script khác
+window.fetchMatchParticipants = fetchMatchParticipants;
 function renderCombatAthletes(data, container) {
     const blueAthleteCard = createAthleteCard(data.vanDongVien1, 'blue');
     const redAthleteCard = createAthleteCard(data.vanDongVien2, 'red');

@@ -18,6 +18,7 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.ML" Version="5.0.0" />
     <PackageReference Include="Microsoft.ML.FastTree" Version="5.0.0" />
+    <PackageReference Include="Oracle.EntityFrameworkCore" Version="8.23.26100" />
   </ItemGroup>
 
   <ItemGroup>

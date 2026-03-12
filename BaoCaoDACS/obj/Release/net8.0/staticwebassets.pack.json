@@ -53,20 +53,24 @@
       "PackagePath": "staticwebassets\\css\\Video.css"
     },
     {
-      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\css\\admin.css",
-      "PackagePath": "staticwebassets\\css\\admin.css"
-    },
-    {
-      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\css\\adminLayout.css",
-      "PackagePath": "staticwebassets\\css\\adminLayout.css"
-    },
-    {
-      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\css\\adminlte.css",
-      "PackagePath": "staticwebassets\\css\\adminlte.css"
-    },
-    {
       "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\css\\app.css",
       "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\css\\auth-modal.css",
+      "PackagePath": "staticwebassets\\css\\auth-modal.css"
+    },
+    {
+      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\css\\components.css",
+      "PackagePath": "staticwebassets\\css\\components.css"
+    },
+    {
+      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\css\\dashboard.css",
+      "PackagePath": "staticwebassets\\css\\dashboard.css"
+    },
+    {
+      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\css\\main.css",
+      "PackagePath": "staticwebassets\\css\\main.css"
     },
     {
       "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\css\\reset.css",
@@ -395,6 +399,14 @@
     {
       "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\uploads\\66481946-0fa6-463b-b78f-c0e4ed0ec370.mp4",
+      "PackagePath": "staticwebassets\\uploads\\66481946-0fa6-463b-b78f-c0e4ed0ec370.mp4"
+    },
+    {
+      "Id": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\uploads\\output_308c231a-fbf6-494f-8104-c3d1e7a3cb74.mp4",
+      "PackagePath": "staticwebassets\\uploads\\output_308c231a-fbf6-494f-8104-c3d1e7a3cb74.mp4"
     },
     {
       "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.BaoCaoDACS.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",

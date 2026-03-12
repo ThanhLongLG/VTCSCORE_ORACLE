@@ -1,4 +1,4 @@
-﻿@model IEnumerable<BaoCaoDACS.Models.Tournament>
+﻿@model IEnumerable<BaoCaoDACS.Models.V_Tournament_All>
 @{
     ViewData["Title"] = "Quản lý giải đấu";
     Layout = "~/Views/Shared/Admin_layout.cshtml";
@@ -112,13 +112,11 @@
                 </table>
             </div>
         </div>
-        <div class="card-footer">
-            <div class="d-flex justify-content-between align-items-center">
-                <span>Tổng số: @(Model?.Count() ?? 0) giải đấu</span>
-                <a asp-controller="TrangQL" asp-action="Index" class="btn btn-outline-primary">
-                    <i class="bi bi-arrow-left me-1"></i> Quay lại trang quản trị
-                </a>
-            </div>
+        <div class="d-flex justify-content-between align-items-center">
+            <span>Tổng số: @(Model?.Count() ?? 0) giải đấu</span>
+            <a class="btn btn-outline-primary" href="/Admin/TrangQL/Index">
+                <i class="bi bi-arrow-left me-1"></i> Quay lại trang quản trị
+            </a>
         </div>
     </div>
 </div>

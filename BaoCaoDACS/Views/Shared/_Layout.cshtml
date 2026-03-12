@@ -1,9 +1,12 @@
-﻿﻿
+﻿
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
     <title>@ViewData["Title"] - BaoCaoDACS</title>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -42,16 +45,24 @@
                             <li class="nav-item">
                                 <a class="nav-link text-white fw-normal hover-bold" href="#Ketquamoinhat">Kết quả</a>
                             </li>
-                            <li class="nav-item">
-                                @if (User?.Identity?.IsAuthenticated ?? false)
+                            @{
+                                var isAdmin = User.IsInRole("Admin") || User.IsInRole("TrongTai");
+                            }
+                            @if (User?.Identity?.IsAuthenticated ?? false)
+                            {
+                                @if (isAdmin)
                                 {
-                                    <button class="nav-link text-white fw-normal hover-bold" id="chamDiemBtn" onclick="hienThiDanhSachGiaiDau()">Chấm điểm</button>
+                                    <li class="nav-item" id="chamDiemNavItem">
+                                        <button class="nav-link text-white fw-normal hover-bold" id="chamDiemBtn" onclick="hienThiDanhSachGiaiDau()">Chấm điểm</button>
+                                    </li>
                                 }
-                                else
-                                {
+                            }
+                            else
+                            {
+                                <li class="nav-item" id="chamDiemNavItem">
                                     <a asp-area="Identity" asp-page="/Account/Login" class="nav-link text-white fw-normal hover-bold" title="Vui lòng đăng nhập để chấm điểm">Chấm điểm</a>
-                                }
-                            </li>
+                                </li>
+                            }
 
                             <li class="nav-item">
                                 <a class="nav-link text-white fw-normal hover-bold" href="#">Tin tức</a>
@@ -136,18 +147,20 @@
                 </div>
             </div>
 
-            <df-messenger intent="WELCOME"
-                          chat-title="dacs"
-                          agent-id="794bf910-6903-46cc-87a0-f7bf47471235"
-                          language-code="en"></df-messenger>
+            
     </footer>
-
+    <script>
+        window.isAuthenticated = @((User?.Identity?.IsAuthenticated ?? false).ToString().ToLower());
+        window.appBase = '@Url.Content("~/")';
+    </script>﻿
+    <script src="https://cdn.botpress.cloud/webchat/v3.5/inject.js" defer></script>
+    <script src="https://files.bpcontent.cloud/2025/12/18/15/20251218151104-BHJHKMCP.js" defer></script>
     <!-- jQuery first, then Bootstrap Bundle with Popper -->
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Custom JS -->
     <script src="~/js/site.js" asp-append-version="true"></script>
-    <script src="~/js/layout.js"></script>
+    <script src="~/js/layout.js" asp-append-version="true"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
 

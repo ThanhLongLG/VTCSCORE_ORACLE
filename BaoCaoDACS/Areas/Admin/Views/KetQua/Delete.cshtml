@@ -3,30 +3,29 @@
     ViewData["Title"] = "Xóa Kết Quả";
     Layout = "~/Views/Shared/Admin_layout.cshtml";
 }
-<head>
 
+@section Styles {
     <link href="~/css/site.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
-</head>
-<div class="container-fluid py-4">
-    <nav class="mt-2 mb-4" aria-label="breadcrumb">
-        <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a class="text-white text-decoration-none" asp-controller="TrangQL" asp-action="Index">Trang chủ</a></li>
-            <li class="breadcrumb-item active text-white">Danh sách Kết Quả</li>
-        </ol>
-    </nav>
+}
 
+<div class="container py-4">
+
+    <!-- Breadcrumb: nền sáng => đừng text-white -->
     <div class="row">
         <div class="col-md-8 mx-auto">
-            <div class="card shadow-lg">
-                <div class="card-header pb-0 bg-danger text-white">
-                    <h5 class="mb-0">
-                        <i class="fas fa-trash me-2"></i>Xóa Kết Quả
+            <div class="card shadow-lg overflow-hidden">
+
+                <!-- Header đỏ: dùng div riêng để khỏi bị .card-header template đè -->
+                <div class="px-4 py-3 text-white" style="background:#dc3545 !important;">
+                    <h5 class="mb-0 d-flex align-items-center">
+                        <i class="fas fa-trash me-2"></i> Xóa Kết Quả
                     </h5>
                 </div>
+
                 <div class="card-body p-4">
                     <div class="text-center mb-4">
-                        <div class="avatar avatar-xl mx-auto mb-3">
+                        <div class="mb-3">
                             <i class="fas fa-chart-bar fa-5x text-secondary"></i>
                         </div>
                         <h4 class="mb-1">Chi Tiết Kết Quả</h4>
@@ -43,19 +42,15 @@
                     </div>
 
                     <div class="table-responsive mb-4">
-                        <table class="table table-bordered">
+                        <table class="table table-bordered align-middle mb-0">
                             <tbody>
                                 <tr>
-                                    <th class="bg-light" style="width: 40%;">Mã Kết Quả:</th>
+                                    <th class="bg-light" style="width:40%;">Mã Kết Quả:</th>
                                     <td>@Model.ScoreId</td>
                                 </tr>
                                 <tr>
                                     <th class="bg-light">Điểm Số:</th>
-                                    <td>
-                                        @(Model.Diem.HasValue
-                                            ? Model.Diem.Value.ToString("F2")
-                                            : "Chưa có điểm")
-                                    </td>
+                                    <td>@(Model.Diem.HasValue ? Model.Diem.Value.ToString("F2") : "Chưa có điểm")</td>
                                 </tr>
                                 <tr>
                                     <th class="bg-light">Kết Quả:</th>
@@ -68,18 +63,9 @@
                                             {
                                                 switch (Model.Kq.Value)
                                                 {
-                                                    case 1:
-                                                        resultText = "Thắng";
-                                                        resultClass = "badge bg-success";
-                                                        break;
-                                                    case 0:
-                                                        resultText = "Thua";
-                                                        resultClass = "badge bg-danger";
-                                                        break;
-                                                    case 2:
-                                                        resultText = "Hòa";
-                                                        resultClass = "badge bg-warning";
-                                                        break;
+                                                    case 1: resultText = "Thắng"; resultClass = "badge bg-success"; break;
+                                                    case 0: resultText = "Thua"; resultClass = "badge bg-danger"; break;
+                                                    case 2: resultText = "Hòa"; resultClass = "badge bg-warning"; break;
                                                 }
                                             }
                                         }
@@ -88,35 +74,32 @@
                                 </tr>
                                 <tr>
                                     <th class="bg-light">Người Tham Gia:</th>
-                                    <td>
-                                        @(Model.participant != null
-                                            ? Model.participant.FullName
-                                            : "Không xác định")
-                                    </td>
+                                    <td>@(Model.participant != null ? Model.participant.FullName : "Không xác định")</td>
                                 </tr>
                                 <tr>
                                     <th class="bg-light">Trận Đấu:</th>
-                                    <td>
-                                        @(Model.match != null
-                                            ? $"{Model.match.MatchId} - {Model.match.SanDau}"
-                                            : "Không xác định")
-                                    </td>
+                                    <td>@(Model.match != null ? $"{Model.match.MatchId} - {Model.match.SanDau}" : "Không xác định")</td>
                                 </tr>
                             </tbody>
                         </table>
                     </div>
 
-                    <form asp-action="Delete" method="post">
+                    <!-- Nên chỉ rõ Area/Controller + AntiForgery -->
+                    <form asp-area="Admin" asp-controller="KetQua" asp-action="Delete" method="post">
+                        @Html.AntiForgeryToken()
                         <input type="hidden" asp-for="ScoreId" />
+
                         <div class="d-flex justify-content-center gap-3">
-                            <button type="submit" class="btn btn-danger">
-                                <i class="fas fa-trash me-2"></i>Xác Nhận Xóa
+                            <button type="submit" class="btn btn-danger d-inline-flex align-items-center">
+                                <i class="fas fa-trash me-2"></i> Xác Nhận Xóa
                             </button>
-                            <a asp-action="Index" class="btn btn-secondary">
-                                <i class="fas fa-times me-2"></i>Hủy Bỏ
+                            <a asp-area="Admin" asp-controller="KetQua" asp-action="Index"
+                               class="btn btn-secondary d-inline-flex align-items-center">
+                                <i class="fas fa-times me-2"></i> Hủy Bỏ
                             </a>
                         </div>
                     </form>
+
                 </div>
             </div>
         </div>

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "yz7jyQk4PEsQtS7H+vgQ7i0Sy4qS5GUeIKFWyXO248w=",
+  "Hash": "MTxdkh2xDMWh6CIPSXa1q3LAusWu8dJUtiR9FiQblqI=",
   "Source": "BaoCaoDACS",
   "BasePath": "_content/BaoCaoDACS",
   "Mode": "Default",
@@ -10,7 +10,7 @@
     {
       "Name": "BaoCaoDACS\\wwwroot",
       "Source": "BaoCaoDACS",
-      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
+      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\",
       "BasePath": "_content/BaoCaoDACS",
       "Pattern": "**"
     }
@@ -1277,10 +1277,10 @@
       "OriginalItemSpec": "C:\\Users\\hello\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BaoCaoDACS.styles.css",
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BaoCaoDACS.styles.css",
       "SourceId": "BaoCaoDACS",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/BaoCaoDACS",
       "RelativePath": "BaoCaoDACS#[.{fingerprint}]?.styles.css",
       "AssetKind": "All",
@@ -1295,13 +1295,13 @@
       "Integrity": "3phq/aRQwK6Ga3LYlKvIQQh5fLa2XJwD7CNAITe1UlI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BaoCaoDACS.styles.css"
+      "OriginalItemSpec": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BaoCaoDACS.styles.css"
     },
     {
-      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BaoCaoDACS.bundle.scp.css",
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BaoCaoDACS.bundle.scp.css",
       "SourceId": "BaoCaoDACS",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/BaoCaoDACS",
       "RelativePath": "BaoCaoDACS#[.{fingerprint}]!.bundle.scp.css",
       "AssetKind": "All",
@@ -1316,13 +1316,13 @@
       "Integrity": "3phq/aRQwK6Ga3LYlKvIQQh5fLa2XJwD7CNAITe1UlI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BaoCaoDACS.bundle.scp.css"
+      "OriginalItemSpec": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BaoCaoDACS.bundle.scp.css"
     },
     {
-      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\chart.js\\Chart.bundle.js",
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\chart.js\\Chart.bundle.js",
       "SourceId": "BaoCaoDACS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
+      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\",
       "BasePath": "_content/BaoCaoDACS",
       "RelativePath": "chart.js/Chart.bundle#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1340,10 +1340,10 @@
       "OriginalItemSpec": "wwwroot\\chart.js\\Chart.bundle.js"
     },
     {
-      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\chart.js\\Chart.bundle.min.js",
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\chart.js\\Chart.bundle.min.js",
       "SourceId": "BaoCaoDACS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
+      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\",
       "BasePath": "_content/BaoCaoDACS",
       "RelativePath": "chart.js/Chart.bundle.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1361,10 +1361,10 @@
       "OriginalItemSpec": "wwwroot\\chart.js\\Chart.bundle.min.js"
     },
     {
-      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\chart.js\\Chart.js",
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\chart.js\\Chart.js",
       "SourceId": "BaoCaoDACS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
+      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\",
       "BasePath": "_content/BaoCaoDACS",
       "RelativePath": "chart.js/Chart#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1382,10 +1382,10 @@
       "OriginalItemSpec": "wwwroot\\chart.js\\Chart.js"
     },
     {
-      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\chart.js\\Chart.min.js",
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\chart.js\\Chart.min.js",
       "SourceId": "BaoCaoDACS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
+      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\",
       "BasePath": "_content/BaoCaoDACS",
       "RelativePath": "chart.js/Chart.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1403,73 +1403,10 @@
       "OriginalItemSpec": "wwwroot\\chart.js\\Chart.min.js"
     },
     {
-      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\css\\admin.css",
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\css\\app.css",
       "SourceId": "BaoCaoDACS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
-      "BasePath": "_content/BaoCaoDACS",
-      "RelativePath": "css/admin#[.{fingerprint}]?.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "2t2bouo2b0",
-      "Integrity": "Cs3Qvb/MRL/d7qjcZfE9TFJ+LlfAuPzYdilxtCHjjcg=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\admin.css"
-    },
-    {
-      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\css\\adminLayout.css",
-      "SourceId": "BaoCaoDACS",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
-      "BasePath": "_content/BaoCaoDACS",
-      "RelativePath": "css/adminLayout#[.{fingerprint}]?.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "iulz0rob4u",
-      "Integrity": "phpl1hx6wQm9puhR05AmLvKsYG6fSFL8T6BrY0/dpz8=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\adminLayout.css"
-    },
-    {
-      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\css\\adminlte.css",
-      "SourceId": "BaoCaoDACS",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
-      "BasePath": "_content/BaoCaoDACS",
-      "RelativePath": "css/adminlte#[.{fingerprint}]?.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "l1cihq9o5z",
-      "Integrity": "efZTChkT9DgJf71SW9LmSIJID516HnTF/FKL6vAJqvk=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\adminlte.css"
-    },
-    {
-      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\css\\app.css",
-      "SourceId": "BaoCaoDACS",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
+      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\",
       "BasePath": "_content/BaoCaoDACS",
       "RelativePath": "css/app#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1487,10 +1424,31 @@
       "OriginalItemSpec": "wwwroot\\css\\app.css"
     },
     {
-      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\css\\Chamdiem.css",
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\css\\auth-modal.css",
       "SourceId": "BaoCaoDACS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
+      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\",
+      "BasePath": "_content/BaoCaoDACS",
+      "RelativePath": "css/auth-modal#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "y5ok1m07fj",
+      "Integrity": "VjDhCncET3EBQ1MGy76X7N9mgLfYiXNDt3VKFA6koGA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\auth-modal.css"
+    },
+    {
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\css\\Chamdiem.css",
+      "SourceId": "BaoCaoDACS",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\",
       "BasePath": "_content/BaoCaoDACS",
       "RelativePath": "css/Chamdiem#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1508,10 +1466,10 @@
       "OriginalItemSpec": "wwwroot\\css\\Chamdiem.css"
     },
     {
-      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\css\\Chart.css",
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\css\\Chart.css",
       "SourceId": "BaoCaoDACS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
+      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\",
       "BasePath": "_content/BaoCaoDACS",
       "RelativePath": "css/Chart#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1529,10 +1487,10 @@
       "OriginalItemSpec": "wwwroot\\css\\Chart.css"
     },
     {
-      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\css\\Chart.min.css",
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\css\\Chart.min.css",
       "SourceId": "BaoCaoDACS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
+      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\",
       "BasePath": "_content/BaoCaoDACS",
       "RelativePath": "css/Chart.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1550,10 +1508,31 @@
       "OriginalItemSpec": "wwwroot\\css\\Chart.min.css"
     },
     {
-      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\css\\DangKi.css",
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\css\\components.css",
       "SourceId": "BaoCaoDACS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
+      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\",
+      "BasePath": "_content/BaoCaoDACS",
+      "RelativePath": "css/components#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "pzuq07v8mb",
+      "Integrity": "ZYukWFcwa1odi+qlIs8Y3FXaPmiPOX5kcjO6rTYK7T8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\components.css"
+    },
+    {
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\css\\DangKi.css",
+      "SourceId": "BaoCaoDACS",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\",
       "BasePath": "_content/BaoCaoDACS",
       "RelativePath": "css/DangKi#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1571,10 +1550,31 @@
       "OriginalItemSpec": "wwwroot\\css\\DangKi.css"
     },
     {
-      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\css\\Layout.css",
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\css\\dashboard.css",
       "SourceId": "BaoCaoDACS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
+      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\",
+      "BasePath": "_content/BaoCaoDACS",
+      "RelativePath": "css/dashboard#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "vihor19td8",
+      "Integrity": "t92xaWefEFoVHh77Izo/FdcRxJ6rsf2zeWC5/Jy0GoY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\dashboard.css"
+    },
+    {
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\css\\Layout.css",
+      "SourceId": "BaoCaoDACS",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\",
       "BasePath": "_content/BaoCaoDACS",
       "RelativePath": "css/Layout#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1592,10 +1592,31 @@
       "OriginalItemSpec": "wwwroot\\css\\Layout.css"
     },
     {
-      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\css\\Profile.css",
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\css\\main.css",
       "SourceId": "BaoCaoDACS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
+      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\",
+      "BasePath": "_content/BaoCaoDACS",
+      "RelativePath": "css/main#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "52s4xamncd",
+      "Integrity": "808xRb2z9DvufU9DMI9NHRbp+KxALmz13Dc1jqhNX5I=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\main.css"
+    },
+    {
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\css\\Profile.css",
+      "SourceId": "BaoCaoDACS",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\",
       "BasePath": "_content/BaoCaoDACS",
       "RelativePath": "css/Profile#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1613,10 +1634,10 @@
       "OriginalItemSpec": "wwwroot\\css\\Profile.css"
     },
     {
-      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\css\\reset.css",
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\css\\reset.css",
       "SourceId": "BaoCaoDACS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
+      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\",
       "BasePath": "_content/BaoCaoDACS",
       "RelativePath": "css/reset#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1634,10 +1655,10 @@
       "OriginalItemSpec": "wwwroot\\css\\reset.css"
     },
     {
-      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\css\\site.css",
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\css\\site.css",
       "SourceId": "BaoCaoDACS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
+      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\",
       "BasePath": "_content/BaoCaoDACS",
       "RelativePath": "css/site#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1655,10 +1676,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\css\\Video.css",
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\css\\Video.css",
       "SourceId": "BaoCaoDACS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
+      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\",
       "BasePath": "_content/BaoCaoDACS",
       "RelativePath": "css/Video#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1676,10 +1697,10 @@
       "OriginalItemSpec": "wwwroot\\css\\Video.css"
     },
     {
-      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\favicon.ico",
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\favicon.ico",
       "SourceId": "BaoCaoDACS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
+      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\",
       "BasePath": "_content/BaoCaoDACS",
       "RelativePath": "favicon#[.{fingerprint}]?.ico",
       "AssetKind": "All",
@@ -1697,10 +1718,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\images\\09889bf0-c953-430b-b476-f930ab497af3.png",
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\images\\09889bf0-c953-430b-b476-f930ab497af3.png",
       "SourceId": "BaoCaoDACS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
+      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\",
       "BasePath": "_content/BaoCaoDACS",
       "RelativePath": "images/09889bf0-c953-430b-b476-f930ab497af3#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -1718,10 +1739,10 @@
       "OriginalItemSpec": "wwwroot\\images\\09889bf0-c953-430b-b476-f930ab497af3.png"
     },
     {
-      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\images\\10a1.jpg",
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\images\\10a1.jpg",
       "SourceId": "BaoCaoDACS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
+      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\",
       "BasePath": "_content/BaoCaoDACS",
       "RelativePath": "images/10a1#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -1739,10 +1760,10 @@
       "OriginalItemSpec": "wwwroot\\images\\10a1.jpg"
     },
     {
-      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\images\\96fd27ca-f799-4e9c-ae5e-678b4ce91573.jpg",
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\images\\96fd27ca-f799-4e9c-ae5e-678b4ce91573.jpg",
       "SourceId": "BaoCaoDACS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
+      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\",
       "BasePath": "_content/BaoCaoDACS",
       "RelativePath": "images/96fd27ca-f799-4e9c-ae5e-678b4ce91573#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -1760,10 +1781,10 @@
       "OriginalItemSpec": "wwwroot\\images\\96fd27ca-f799-4e9c-ae5e-678b4ce91573.jpg"
     },
     {
-      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\images\\BBB.webp",
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\images\\BBB.webp",
       "SourceId": "BaoCaoDACS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
+      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\",
       "BasePath": "_content/BaoCaoDACS",
       "RelativePath": "images/BBB#[.{fingerprint}]?.webp",
       "AssetKind": "All",
@@ -1781,10 +1802,10 @@
       "OriginalItemSpec": "wwwroot\\images\\BBB.webp"
     },
     {
-      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\images\\ca1fcdd4-e312-43fd-a98d-f5ea589f351c.webp",
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\images\\ca1fcdd4-e312-43fd-a98d-f5ea589f351c.webp",
       "SourceId": "BaoCaoDACS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
+      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\",
       "BasePath": "_content/BaoCaoDACS",
       "RelativePath": "images/ca1fcdd4-e312-43fd-a98d-f5ea589f351c#[.{fingerprint}]?.webp",
       "AssetKind": "All",
@@ -1802,10 +1823,10 @@
       "OriginalItemSpec": "wwwroot\\images\\ca1fcdd4-e312-43fd-a98d-f5ea589f351c.webp"
     },
     {
-      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\images\\giai-dau-vo-thuat-viet-nam-5.jpg",
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\images\\giai-dau-vo-thuat-viet-nam-5.jpg",
       "SourceId": "BaoCaoDACS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
+      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\",
       "BasePath": "_content/BaoCaoDACS",
       "RelativePath": "images/giai-dau-vo-thuat-viet-nam-5#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -1823,10 +1844,10 @@
       "OriginalItemSpec": "wwwroot\\images\\giai-dau-vo-thuat-viet-nam-5.jpg"
     },
     {
-      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\images\\images.jpg",
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\images\\images.jpg",
       "SourceId": "BaoCaoDACS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
+      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\",
       "BasePath": "_content/BaoCaoDACS",
       "RelativePath": "images/images#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -1844,10 +1865,10 @@
       "OriginalItemSpec": "wwwroot\\images\\images.jpg"
     },
     {
-      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\images\\Vctlogo.jpg",
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\images\\Vctlogo.jpg",
       "SourceId": "BaoCaoDACS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
+      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\",
       "BasePath": "_content/BaoCaoDACS",
       "RelativePath": "images/Vctlogo#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -1865,10 +1886,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Vctlogo.jpg"
     },
     {
-      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\img\\10a1.jpg",
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\img\\10a1.jpg",
       "SourceId": "BaoCaoDACS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
+      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\",
       "BasePath": "_content/BaoCaoDACS",
       "RelativePath": "img/10a1#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -1886,10 +1907,10 @@
       "OriginalItemSpec": "wwwroot\\img\\10a1.jpg"
     },
     {
-      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\img\\anime3.png",
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\img\\anime3.png",
       "SourceId": "BaoCaoDACS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
+      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\",
       "BasePath": "_content/BaoCaoDACS",
       "RelativePath": "img/anime3#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -1907,10 +1928,10 @@
       "OriginalItemSpec": "wwwroot\\img\\anime3.png"
     },
     {
-      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\img\\Vctlogo.jpg",
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\img\\Vctlogo.jpg",
       "SourceId": "BaoCaoDACS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
+      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\",
       "BasePath": "_content/BaoCaoDACS",
       "RelativePath": "img/Vctlogo#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -1928,10 +1949,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Vctlogo.jpg"
     },
     {
-      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\img\\Vocotruyen.jpg",
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\img\\Vocotruyen.jpg",
       "SourceId": "BaoCaoDACS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
+      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\",
       "BasePath": "_content/BaoCaoDACS",
       "RelativePath": "img/Vocotruyen#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -1949,10 +1970,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Vocotruyen.jpg"
     },
     {
-      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\js\\Chamdiem.js",
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\js\\Chamdiem.js",
       "SourceId": "BaoCaoDACS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
+      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\",
       "BasePath": "_content/BaoCaoDACS",
       "RelativePath": "js/Chamdiem#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1970,10 +1991,10 @@
       "OriginalItemSpec": "wwwroot\\js\\Chamdiem.js"
     },
     {
-      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\js\\hamxuly.js",
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\js\\hamxuly.js",
       "SourceId": "BaoCaoDACS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
+      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\",
       "BasePath": "_content/BaoCaoDACS",
       "RelativePath": "js/hamxuly#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1991,10 +2012,10 @@
       "OriginalItemSpec": "wwwroot\\js\\hamxuly.js"
     },
     {
-      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\js\\Hamxuly2.js",
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\js\\Hamxuly2.js",
       "SourceId": "BaoCaoDACS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
+      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\",
       "BasePath": "_content/BaoCaoDACS",
       "RelativePath": "js/Hamxuly2#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2012,10 +2033,10 @@
       "OriginalItemSpec": "wwwroot\\js\\Hamxuly2.js"
     },
     {
-      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\js\\Hamxuly3.js",
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\js\\Hamxuly3.js",
       "SourceId": "BaoCaoDACS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
+      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\",
       "BasePath": "_content/BaoCaoDACS",
       "RelativePath": "js/Hamxuly3#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2033,10 +2054,10 @@
       "OriginalItemSpec": "wwwroot\\js\\Hamxuly3.js"
     },
     {
-      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\js\\Hamxuly4.js",
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\js\\Hamxuly4.js",
       "SourceId": "BaoCaoDACS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
+      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\",
       "BasePath": "_content/BaoCaoDACS",
       "RelativePath": "js/Hamxuly4#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2054,10 +2075,10 @@
       "OriginalItemSpec": "wwwroot\\js\\Hamxuly4.js"
     },
     {
-      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\js\\Layout.js",
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\js\\Layout.js",
       "SourceId": "BaoCaoDACS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
+      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\",
       "BasePath": "_content/BaoCaoDACS",
       "RelativePath": "js/Layout#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2068,17 +2089,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "3iaqdpsexn",
-      "Integrity": "qygULSPI91Y1gXyIHTM1LBomdgMzfOzj0JjeBp6pT/o=",
+      "Fingerprint": "jy2xyrrpnk",
+      "Integrity": "OyuQzhGLLo9H4s1FjdWBuKDi6Q44nvSYQgtyObEONgI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\Layout.js"
     },
     {
-      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\js\\loadthongtintrang.js",
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\js\\loadthongtintrang.js",
       "SourceId": "BaoCaoDACS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
+      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\",
       "BasePath": "_content/BaoCaoDACS",
       "RelativePath": "js/loadthongtintrang#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2089,17 +2110,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "lxwk43mvnm",
-      "Integrity": "uXPJvql0gsMlzlH/tReLxp6sNvR20FutGii3kvqPYWk=",
+      "Fingerprint": "1xyv4p9aq5",
+      "Integrity": "e6UkZIYvxDLiu0+WDNUrHFEQbGAJVCFnf5qPYT0qQNI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\loadthongtintrang.js"
     },
     {
-      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\js\\site.js",
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\js\\site.js",
       "SourceId": "BaoCaoDACS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
+      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\",
       "BasePath": "_content/BaoCaoDACS",
       "RelativePath": "js/site#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2117,10 +2138,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\js\\Truycapvaochamdiem.js",
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\js\\Truycapvaochamdiem.js",
       "SourceId": "BaoCaoDACS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
+      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\",
       "BasePath": "_content/BaoCaoDACS",
       "RelativePath": "js/Truycapvaochamdiem#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2131,17 +2152,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "xf3vw1ll99",
-      "Integrity": "LXe5s1lnMplk0mC3ac0YC1gDyBe4SynwOO/rS4XPz4E=",
+      "Fingerprint": "5ti4gzxoxp",
+      "Integrity": "OcTNA9r6jyNK2ELz1yYJRvxuj+mqU8ZndfXdjVtzg5k=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\Truycapvaochamdiem.js"
     },
     {
-      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\js\\Uploadvideo.js",
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\js\\Uploadvideo.js",
       "SourceId": "BaoCaoDACS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
+      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\",
       "BasePath": "_content/BaoCaoDACS",
       "RelativePath": "js/Uploadvideo#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2159,10 +2180,10 @@
       "OriginalItemSpec": "wwwroot\\js\\Uploadvideo.js"
     },
     {
-      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "BaoCaoDACS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
+      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\",
       "BasePath": "_content/BaoCaoDACS",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -2180,10 +2201,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "BaoCaoDACS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
+      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\",
       "BasePath": "_content/BaoCaoDACS",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -2201,10 +2222,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "BaoCaoDACS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
+      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\",
       "BasePath": "_content/BaoCaoDACS",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -2222,10 +2243,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "BaoCaoDACS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
+      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\",
       "BasePath": "_content/BaoCaoDACS",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -2243,10 +2264,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "BaoCaoDACS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
+      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\",
       "BasePath": "_content/BaoCaoDACS",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -2264,10 +2285,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "BaoCaoDACS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
+      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\",
       "BasePath": "_content/BaoCaoDACS",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -2285,10 +2306,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "BaoCaoDACS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
+      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\",
       "BasePath": "_content/BaoCaoDACS",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -2306,10 +2327,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "BaoCaoDACS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
+      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\",
       "BasePath": "_content/BaoCaoDACS",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -2327,10 +2348,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "BaoCaoDACS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
+      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\",
       "BasePath": "_content/BaoCaoDACS",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -2348,10 +2369,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "BaoCaoDACS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
+      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\",
       "BasePath": "_content/BaoCaoDACS",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -2369,10 +2390,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "BaoCaoDACS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
+      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\",
       "BasePath": "_content/BaoCaoDACS",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -2390,10 +2411,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "BaoCaoDACS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
+      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\",
       "BasePath": "_content/BaoCaoDACS",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -2411,10 +2432,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "BaoCaoDACS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
+      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\",
       "BasePath": "_content/BaoCaoDACS",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -2432,10 +2453,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "BaoCaoDACS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
+      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\",
       "BasePath": "_content/BaoCaoDACS",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -2453,10 +2474,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "BaoCaoDACS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
+      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\",
       "BasePath": "_content/BaoCaoDACS",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -2474,10 +2495,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "BaoCaoDACS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
+      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\",
       "BasePath": "_content/BaoCaoDACS",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -2495,10 +2516,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "BaoCaoDACS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
+      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\",
       "BasePath": "_content/BaoCaoDACS",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -2516,10 +2537,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "BaoCaoDACS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
+      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\",
       "BasePath": "_content/BaoCaoDACS",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -2537,10 +2558,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "BaoCaoDACS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
+      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\",
       "BasePath": "_content/BaoCaoDACS",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -2558,10 +2579,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "BaoCaoDACS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
+      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\",
       "BasePath": "_content/BaoCaoDACS",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -2579,10 +2600,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "BaoCaoDACS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
+      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\",
       "BasePath": "_content/BaoCaoDACS",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -2600,10 +2621,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "BaoCaoDACS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
+      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\",
       "BasePath": "_content/BaoCaoDACS",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -2621,10 +2642,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "BaoCaoDACS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
+      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\",
       "BasePath": "_content/BaoCaoDACS",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -2642,10 +2663,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "BaoCaoDACS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
+      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\",
       "BasePath": "_content/BaoCaoDACS",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -2663,10 +2684,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "BaoCaoDACS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
+      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\",
       "BasePath": "_content/BaoCaoDACS",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -2684,10 +2705,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "BaoCaoDACS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
+      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\",
       "BasePath": "_content/BaoCaoDACS",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -2705,10 +2726,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "BaoCaoDACS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
+      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\",
       "BasePath": "_content/BaoCaoDACS",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -2726,10 +2747,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "BaoCaoDACS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
+      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\",
       "BasePath": "_content/BaoCaoDACS",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -2747,10 +2768,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "BaoCaoDACS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
+      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\",
       "BasePath": "_content/BaoCaoDACS",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -2768,10 +2789,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "BaoCaoDACS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
+      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\",
       "BasePath": "_content/BaoCaoDACS",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -2789,10 +2810,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "BaoCaoDACS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
+      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\",
       "BasePath": "_content/BaoCaoDACS",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -2810,10 +2831,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "BaoCaoDACS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
+      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\",
       "BasePath": "_content/BaoCaoDACS",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -2831,10 +2852,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "BaoCaoDACS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
+      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\",
       "BasePath": "_content/BaoCaoDACS",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2852,10 +2873,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "BaoCaoDACS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
+      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\",
       "BasePath": "_content/BaoCaoDACS",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -2873,10 +2894,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "BaoCaoDACS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
+      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\",
       "BasePath": "_content/BaoCaoDACS",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2894,10 +2915,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "BaoCaoDACS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
+      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\",
       "BasePath": "_content/BaoCaoDACS",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -2915,10 +2936,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "BaoCaoDACS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
+      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\",
       "BasePath": "_content/BaoCaoDACS",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2936,10 +2957,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "BaoCaoDACS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
+      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\",
       "BasePath": "_content/BaoCaoDACS",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -2957,10 +2978,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "BaoCaoDACS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
+      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\",
       "BasePath": "_content/BaoCaoDACS",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2978,10 +2999,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "BaoCaoDACS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
+      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\",
       "BasePath": "_content/BaoCaoDACS",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -2999,10 +3020,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "BaoCaoDACS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
+      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\",
       "BasePath": "_content/BaoCaoDACS",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -3020,10 +3041,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "BaoCaoDACS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
+      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\",
       "BasePath": "_content/BaoCaoDACS",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -3041,10 +3062,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "BaoCaoDACS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
+      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\",
       "BasePath": "_content/BaoCaoDACS",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -3062,10 +3083,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "BaoCaoDACS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
+      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\",
       "BasePath": "_content/BaoCaoDACS",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -3083,10 +3104,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "BaoCaoDACS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
+      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\",
       "BasePath": "_content/BaoCaoDACS",
       "RelativePath": "lib/bootstrap/LICENSE#[.{fingerprint}]?",
       "AssetKind": "All",
@@ -3104,10 +3125,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "BaoCaoDACS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
+      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\",
       "BasePath": "_content/BaoCaoDACS",
       "RelativePath": "lib/jquery/dist/jquery#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -3125,10 +3146,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "BaoCaoDACS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
+      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\",
       "BasePath": "_content/BaoCaoDACS",
       "RelativePath": "lib/jquery/dist/jquery.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -3146,10 +3167,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "BaoCaoDACS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
+      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\",
       "BasePath": "_content/BaoCaoDACS",
       "RelativePath": "lib/jquery/dist/jquery.min#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -3167,10 +3188,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "BaoCaoDACS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
+      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\",
       "BasePath": "_content/BaoCaoDACS",
       "RelativePath": "lib/jquery/LICENSE#[.{fingerprint}]?.txt",
       "AssetKind": "All",
@@ -3188,10 +3209,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "BaoCaoDACS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
+      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\",
       "BasePath": "_content/BaoCaoDACS",
       "RelativePath": "lib/jquery-validation/dist/additional-methods#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -3209,10 +3230,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "BaoCaoDACS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
+      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\",
       "BasePath": "_content/BaoCaoDACS",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -3230,10 +3251,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "BaoCaoDACS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
+      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\",
       "BasePath": "_content/BaoCaoDACS",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -3251,10 +3272,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "BaoCaoDACS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
+      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\",
       "BasePath": "_content/BaoCaoDACS",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -3272,10 +3293,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "BaoCaoDACS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
+      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\",
       "BasePath": "_content/BaoCaoDACS",
       "RelativePath": "lib/jquery-validation/LICENSE#[.{fingerprint}]?.md",
       "AssetKind": "All",
@@ -3293,10 +3314,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "BaoCaoDACS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
+      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\",
       "BasePath": "_content/BaoCaoDACS",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -3314,10 +3335,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "BaoCaoDACS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
+      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\",
       "BasePath": "_content/BaoCaoDACS",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -3335,10 +3356,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "BaoCaoDACS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
+      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\",
       "BasePath": "_content/BaoCaoDACS",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE#[.{fingerprint}]?.txt",
       "AssetKind": "All",
@@ -3356,10 +3377,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\Models\\match_predictor.zip",
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\Models\\match_predictor.zip",
       "SourceId": "BaoCaoDACS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\",
+      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\",
       "BasePath": "_content/BaoCaoDACS",
       "RelativePath": "Models/match_predictor#[.{fingerprint}]?.zip",
       "AssetKind": "All",
@@ -3375,12 +3396,54 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Models\\match_predictor.zip"
+    },
+    {
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\uploads\\66481946-0fa6-463b-b78f-c0e4ed0ec370.mp4",
+      "SourceId": "BaoCaoDACS",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\",
+      "BasePath": "_content/BaoCaoDACS",
+      "RelativePath": "uploads/66481946-0fa6-463b-b78f-c0e4ed0ec370#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zn16ai1ddq",
+      "Integrity": "EZBeSUbYJ9ynJZwuQ2a974KAQcf4KBsMiYB0vjxBjJI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\66481946-0fa6-463b-b78f-c0e4ed0ec370.mp4"
+    },
+    {
+      "Identity": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\uploads\\output_308c231a-fbf6-494f-8104-c3d1e7a3cb74.mp4",
+      "SourceId": "BaoCaoDACS",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\",
+      "BasePath": "_content/BaoCaoDACS",
+      "RelativePath": "uploads/output_308c231a-fbf6-494f-8104-c3d1e7a3cb74#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9retnt3fy9",
+      "Integrity": "9er/kLIfl1EijYhxBT1/eG863QGWe5T/5XlbBrcvXUY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\output_308c231a-fbf6-494f-8104-c3d1e7a3cb74.mp4"
     }
   ],
   "Endpoints": [
     {
       "Route": "BaoCaoDACS.bundle.scp.css",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BaoCaoDACS.bundle.scp.css",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BaoCaoDACS.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3401,7 +3464,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 16 Dec 2025 14:54:52 GMT"
+          "Value": "Tue, 16 Dec 2025 15:54:25 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3417,7 +3480,7 @@
     },
     {
       "Route": "BaoCaoDACS.styles.css",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BaoCaoDACS.styles.css",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BaoCaoDACS.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3438,7 +3501,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 16 Dec 2025 14:54:52 GMT"
+          "Value": "Tue, 16 Dec 2025 15:54:25 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3454,7 +3517,7 @@
     },
     {
       "Route": "BaoCaoDACS.u1ax6g7t3g.bundle.scp.css",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BaoCaoDACS.bundle.scp.css",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BaoCaoDACS.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3475,7 +3538,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 16 Dec 2025 14:54:52 GMT"
+          "Value": "Tue, 16 Dec 2025 15:54:25 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3499,7 +3562,7 @@
     },
     {
       "Route": "BaoCaoDACS.u1ax6g7t3g.styles.css",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BaoCaoDACS.styles.css",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BaoCaoDACS.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3520,7 +3583,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 16 Dec 2025 14:54:52 GMT"
+          "Value": "Tue, 16 Dec 2025 15:54:25 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3544,7 +3607,7 @@
     },
     {
       "Route": "chart.js/Chart.43nnk0s5f9.js",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\chart.js\\Chart.js",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\chart.js\\Chart.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3589,7 +3652,7 @@
     },
     {
       "Route": "chart.js/Chart.bundle.bw0uvtlh7x.js",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\chart.js\\Chart.bundle.js",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\chart.js\\Chart.bundle.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3634,7 +3697,7 @@
     },
     {
       "Route": "chart.js/Chart.bundle.js",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\chart.js\\Chart.bundle.js",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\chart.js\\Chart.bundle.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3671,7 +3734,7 @@
     },
     {
       "Route": "chart.js/Chart.bundle.min.8kror95xv6.js",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\chart.js\\Chart.bundle.min.js",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\chart.js\\Chart.bundle.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3716,7 +3779,7 @@
     },
     {
       "Route": "chart.js/Chart.bundle.min.js",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\chart.js\\Chart.bundle.min.js",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\chart.js\\Chart.bundle.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3753,7 +3816,7 @@
     },
     {
       "Route": "chart.js/Chart.js",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\chart.js\\Chart.js",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\chart.js\\Chart.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3790,7 +3853,7 @@
     },
     {
       "Route": "chart.js/Chart.min.dz54bq2ur0.js",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\chart.js\\Chart.min.js",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\chart.js\\Chart.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3835,7 +3898,7 @@
     },
     {
       "Route": "chart.js/Chart.min.js",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\chart.js\\Chart.min.js",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\chart.js\\Chart.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3871,254 +3934,8 @@
       ]
     },
     {
-      "Route": "css/admin.2t2bouo2b0.css",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\css\\admin.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2019"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Cs3Qvb/MRL/d7qjcZfE9TFJ+LlfAuPzYdilxtCHjjcg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 13:47:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "2t2bouo2b0"
-        },
-        {
-          "Name": "label",
-          "Value": "css/admin.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-Cs3Qvb/MRL/d7qjcZfE9TFJ+LlfAuPzYdilxtCHjjcg="
-        }
-      ]
-    },
-    {
-      "Route": "css/admin.css",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\css\\admin.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2019"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Cs3Qvb/MRL/d7qjcZfE9TFJ+LlfAuPzYdilxtCHjjcg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 13:47:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-Cs3Qvb/MRL/d7qjcZfE9TFJ+LlfAuPzYdilxtCHjjcg="
-        }
-      ]
-    },
-    {
-      "Route": "css/adminLayout.css",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\css\\adminLayout.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1862"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"phpl1hx6wQm9puhR05AmLvKsYG6fSFL8T6BrY0/dpz8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 11 May 2025 10:45:54 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-phpl1hx6wQm9puhR05AmLvKsYG6fSFL8T6BrY0/dpz8="
-        }
-      ]
-    },
-    {
-      "Route": "css/adminLayout.iulz0rob4u.css",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\css\\adminLayout.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1862"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"phpl1hx6wQm9puhR05AmLvKsYG6fSFL8T6BrY0/dpz8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 11 May 2025 10:45:54 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "iulz0rob4u"
-        },
-        {
-          "Name": "label",
-          "Value": "css/adminLayout.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-phpl1hx6wQm9puhR05AmLvKsYG6fSFL8T6BrY0/dpz8="
-        }
-      ]
-    },
-    {
-      "Route": "css/adminlte.css",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\css\\adminlte.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2266"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"efZTChkT9DgJf71SW9LmSIJID516HnTF/FKL6vAJqvk=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 30 May 2025 12:18:07 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-efZTChkT9DgJf71SW9LmSIJID516HnTF/FKL6vAJqvk="
-        }
-      ]
-    },
-    {
-      "Route": "css/adminlte.l1cihq9o5z.css",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\css\\adminlte.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2266"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"efZTChkT9DgJf71SW9LmSIJID516HnTF/FKL6vAJqvk=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 30 May 2025 12:18:07 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "l1cihq9o5z"
-        },
-        {
-          "Name": "label",
-          "Value": "css/adminlte.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-efZTChkT9DgJf71SW9LmSIJID516HnTF/FKL6vAJqvk="
-        }
-      ]
-    },
-    {
       "Route": "css/app.6e8w6z6ety.css",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\css\\app.css",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\css\\app.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4163,7 +3980,7 @@
     },
     {
       "Route": "css/app.css",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\css\\app.css",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\css\\app.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4199,8 +4016,90 @@
       ]
     },
     {
+      "Route": "css/auth-modal.css",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\css\\auth-modal.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11562"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VjDhCncET3EBQ1MGy76X7N9mgLfYiXNDt3VKFA6koGA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Nov 2025 07:53:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-VjDhCncET3EBQ1MGy76X7N9mgLfYiXNDt3VKFA6koGA="
+        }
+      ]
+    },
+    {
+      "Route": "css/auth-modal.y5ok1m07fj.css",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\css\\auth-modal.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11562"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VjDhCncET3EBQ1MGy76X7N9mgLfYiXNDt3VKFA6koGA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Nov 2025 07:53:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "y5ok1m07fj"
+        },
+        {
+          "Name": "label",
+          "Value": "css/auth-modal.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-VjDhCncET3EBQ1MGy76X7N9mgLfYiXNDt3VKFA6koGA="
+        }
+      ]
+    },
+    {
       "Route": "css/Chamdiem.css",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\css\\Chamdiem.css",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\css\\Chamdiem.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4237,7 +4136,7 @@
     },
     {
       "Route": "css/Chamdiem.o9r2spwk6k.css",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\css\\Chamdiem.css",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\css\\Chamdiem.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4282,7 +4181,7 @@
     },
     {
       "Route": "css/Chart.a25y9rnph0.css",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\css\\Chart.css",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\css\\Chart.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4327,7 +4226,7 @@
     },
     {
       "Route": "css/Chart.css",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\css\\Chart.css",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\css\\Chart.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4364,7 +4263,7 @@
     },
     {
       "Route": "css/Chart.min.css",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\css\\Chart.min.css",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\css\\Chart.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4401,7 +4300,7 @@
     },
     {
       "Route": "css/Chart.min.zxtkyfow31.css",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\css\\Chart.min.css",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\css\\Chart.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4445,8 +4344,90 @@
       ]
     },
     {
+      "Route": "css/components.css",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\css\\components.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5666"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZYukWFcwa1odi+qlIs8Y3FXaPmiPOX5kcjO6rTYK7T8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Nov 2025 19:05:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZYukWFcwa1odi+qlIs8Y3FXaPmiPOX5kcjO6rTYK7T8="
+        }
+      ]
+    },
+    {
+      "Route": "css/components.pzuq07v8mb.css",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\css\\components.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5666"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZYukWFcwa1odi+qlIs8Y3FXaPmiPOX5kcjO6rTYK7T8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Nov 2025 19:05:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pzuq07v8mb"
+        },
+        {
+          "Name": "label",
+          "Value": "css/components.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZYukWFcwa1odi+qlIs8Y3FXaPmiPOX5kcjO6rTYK7T8="
+        }
+      ]
+    },
+    {
       "Route": "css/DangKi.40j0ij5tz2.css",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\css\\DangKi.css",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\css\\DangKi.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4491,7 +4472,7 @@
     },
     {
       "Route": "css/DangKi.css",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\css\\DangKi.css",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\css\\DangKi.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4527,8 +4508,90 @@
       ]
     },
     {
+      "Route": "css/dashboard.css",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\css\\dashboard.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "41206"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"t92xaWefEFoVHh77Izo/FdcRxJ6rsf2zeWC5/Jy0GoY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 17 Dec 2025 14:39:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-t92xaWefEFoVHh77Izo/FdcRxJ6rsf2zeWC5/Jy0GoY="
+        }
+      ]
+    },
+    {
+      "Route": "css/dashboard.vihor19td8.css",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\css\\dashboard.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "41206"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"t92xaWefEFoVHh77Izo/FdcRxJ6rsf2zeWC5/Jy0GoY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 17 Dec 2025 14:39:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vihor19td8"
+        },
+        {
+          "Name": "label",
+          "Value": "css/dashboard.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-t92xaWefEFoVHh77Izo/FdcRxJ6rsf2zeWC5/Jy0GoY="
+        }
+      ]
+    },
+    {
       "Route": "css/Layout.6ac2cgcqlq.css",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\css\\Layout.css",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\css\\Layout.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4573,7 +4636,7 @@
     },
     {
       "Route": "css/Layout.css",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\css\\Layout.css",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\css\\Layout.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4609,8 +4672,90 @@
       ]
     },
     {
+      "Route": "css/main.52s4xamncd.css",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\css\\main.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2539"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"808xRb2z9DvufU9DMI9NHRbp+KxALmz13Dc1jqhNX5I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 01 Nov 2025 16:25:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "52s4xamncd"
+        },
+        {
+          "Name": "label",
+          "Value": "css/main.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-808xRb2z9DvufU9DMI9NHRbp+KxALmz13Dc1jqhNX5I="
+        }
+      ]
+    },
+    {
+      "Route": "css/main.css",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\css\\main.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2539"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"808xRb2z9DvufU9DMI9NHRbp+KxALmz13Dc1jqhNX5I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 01 Nov 2025 16:25:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-808xRb2z9DvufU9DMI9NHRbp+KxALmz13Dc1jqhNX5I="
+        }
+      ]
+    },
+    {
       "Route": "css/Profile.css",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\css\\Profile.css",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\css\\Profile.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4647,7 +4792,7 @@
     },
     {
       "Route": "css/Profile.ze9ue0gko3.css",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\css\\Profile.css",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\css\\Profile.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4692,7 +4837,7 @@
     },
     {
       "Route": "css/reset.8tyyek6xp4.css",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\css\\reset.css",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\css\\reset.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4737,7 +4882,7 @@
     },
     {
       "Route": "css/reset.css",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\css\\reset.css",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\css\\reset.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4774,7 +4919,7 @@
     },
     {
       "Route": "css/site.bn7mdcdip7.css",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\css\\site.css",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4819,7 +4964,7 @@
     },
     {
       "Route": "css/site.css",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\css\\site.css",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4856,7 +5001,7 @@
     },
     {
       "Route": "css/Video.css",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\css\\Video.css",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\css\\Video.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4893,7 +5038,7 @@
     },
     {
       "Route": "css/Video.yhdxq4n6ax.css",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\css\\Video.css",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\css\\Video.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4938,7 +5083,7 @@
     },
     {
       "Route": "favicon.61n19gt1b8.ico",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\favicon.ico",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\favicon.ico",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4983,7 +5128,7 @@
     },
     {
       "Route": "favicon.ico",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\favicon.ico",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\favicon.ico",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7240,7 +7385,7 @@
     },
     {
       "Route": "images/09889bf0-c953-430b-b476-f930ab497af3.png",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\images\\09889bf0-c953-430b-b476-f930ab497af3.png",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\images\\09889bf0-c953-430b-b476-f930ab497af3.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7277,7 +7422,7 @@
     },
     {
       "Route": "images/09889bf0-c953-430b-b476-f930ab497af3.r4q9z82968.png",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\images\\09889bf0-c953-430b-b476-f930ab497af3.png",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\images\\09889bf0-c953-430b-b476-f930ab497af3.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7322,7 +7467,7 @@
     },
     {
       "Route": "images/10a1.gb30zv47mc.jpg",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\images\\10a1.jpg",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\images\\10a1.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7367,7 +7512,7 @@
     },
     {
       "Route": "images/10a1.jpg",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\images\\10a1.jpg",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\images\\10a1.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7404,7 +7549,7 @@
     },
     {
       "Route": "images/96fd27ca-f799-4e9c-ae5e-678b4ce91573.jpg",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\images\\96fd27ca-f799-4e9c-ae5e-678b4ce91573.jpg",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\images\\96fd27ca-f799-4e9c-ae5e-678b4ce91573.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7441,7 +7586,7 @@
     },
     {
       "Route": "images/96fd27ca-f799-4e9c-ae5e-678b4ce91573.wmsh2emh0s.jpg",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\images\\96fd27ca-f799-4e9c-ae5e-678b4ce91573.jpg",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\images\\96fd27ca-f799-4e9c-ae5e-678b4ce91573.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7486,7 +7631,7 @@
     },
     {
       "Route": "images/BBB.rrwunlll4w.webp",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\images\\BBB.webp",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\images\\BBB.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7507,7 +7652,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 27 May 2025 13:56:15 GMT"
+          "Value": "Wed, 17 Dec 2025 15:15:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7531,7 +7676,7 @@
     },
     {
       "Route": "images/BBB.webp",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\images\\BBB.webp",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\images\\BBB.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7552,7 +7697,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 27 May 2025 13:56:15 GMT"
+          "Value": "Wed, 17 Dec 2025 15:15:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7568,7 +7713,7 @@
     },
     {
       "Route": "images/ca1fcdd4-e312-43fd-a98d-f5ea589f351c.rrwunlll4w.webp",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\images\\ca1fcdd4-e312-43fd-a98d-f5ea589f351c.webp",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\images\\ca1fcdd4-e312-43fd-a98d-f5ea589f351c.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7613,7 +7758,7 @@
     },
     {
       "Route": "images/ca1fcdd4-e312-43fd-a98d-f5ea589f351c.webp",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\images\\ca1fcdd4-e312-43fd-a98d-f5ea589f351c.webp",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\images\\ca1fcdd4-e312-43fd-a98d-f5ea589f351c.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7650,7 +7795,7 @@
     },
     {
       "Route": "images/giai-dau-vo-thuat-viet-nam-5.bbduww5rjh.jpg",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\images\\giai-dau-vo-thuat-viet-nam-5.jpg",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\images\\giai-dau-vo-thuat-viet-nam-5.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7695,7 +7840,7 @@
     },
     {
       "Route": "images/giai-dau-vo-thuat-viet-nam-5.jpg",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\images\\giai-dau-vo-thuat-viet-nam-5.jpg",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\images\\giai-dau-vo-thuat-viet-nam-5.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7732,7 +7877,7 @@
     },
     {
       "Route": "images/images.jpg",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\images\\images.jpg",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\images\\images.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7769,7 +7914,7 @@
     },
     {
       "Route": "images/images.wmsh2emh0s.jpg",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\images\\images.jpg",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\images\\images.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7814,7 +7959,7 @@
     },
     {
       "Route": "images/Vctlogo.hcwg1cstlp.jpg",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\images\\Vctlogo.jpg",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\images\\Vctlogo.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7859,7 +8004,7 @@
     },
     {
       "Route": "images/Vctlogo.jpg",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\images\\Vctlogo.jpg",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\images\\Vctlogo.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7896,7 +8041,7 @@
     },
     {
       "Route": "img/10a1.gb30zv47mc.jpg",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\img\\10a1.jpg",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\img\\10a1.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7941,7 +8086,7 @@
     },
     {
       "Route": "img/10a1.jpg",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\img\\10a1.jpg",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\img\\10a1.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7978,7 +8123,7 @@
     },
     {
       "Route": "img/anime3.d0izft4iel.png",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\img\\anime3.png",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\img\\anime3.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8023,7 +8168,7 @@
     },
     {
       "Route": "img/anime3.png",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\img\\anime3.png",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\img\\anime3.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8060,7 +8205,7 @@
     },
     {
       "Route": "img/Vctlogo.hcwg1cstlp.jpg",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\img\\Vctlogo.jpg",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\img\\Vctlogo.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8105,7 +8250,7 @@
     },
     {
       "Route": "img/Vctlogo.jpg",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\img\\Vctlogo.jpg",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\img\\Vctlogo.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8142,7 +8287,7 @@
     },
     {
       "Route": "img/Vocotruyen.jpg",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\img\\Vocotruyen.jpg",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\img\\Vocotruyen.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8179,7 +8324,7 @@
     },
     {
       "Route": "img/Vocotruyen.v801rj62bv.jpg",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\img\\Vocotruyen.jpg",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\img\\Vocotruyen.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8224,7 +8369,7 @@
     },
     {
       "Route": "js/Chamdiem.js",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\js\\Chamdiem.js",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\js\\Chamdiem.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8261,7 +8406,7 @@
     },
     {
       "Route": "js/Chamdiem.moug3yyf66.js",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\js\\Chamdiem.js",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\js\\Chamdiem.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8306,7 +8451,7 @@
     },
     {
       "Route": "js/hamxuly.4dpg3eeazf.js",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\js\\hamxuly.js",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\js\\hamxuly.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8327,7 +8472,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 16 Dec 2025 14:20:59 GMT"
+          "Value": "Tue, 16 Dec 2025 15:50:43 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8351,7 +8496,7 @@
     },
     {
       "Route": "js/hamxuly.js",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\js\\hamxuly.js",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\js\\hamxuly.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8372,7 +8517,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 16 Dec 2025 14:20:59 GMT"
+          "Value": "Tue, 16 Dec 2025 15:50:43 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8388,7 +8533,7 @@
     },
     {
       "Route": "js/Hamxuly2.js",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\js\\Hamxuly2.js",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\js\\Hamxuly2.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8409,7 +8554,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 16 Dec 2025 14:20:59 GMT"
+          "Value": "Tue, 16 Dec 2025 15:52:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8425,7 +8570,7 @@
     },
     {
       "Route": "js/Hamxuly2.saf13fjbtj.js",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\js\\Hamxuly2.js",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\js\\Hamxuly2.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8446,7 +8591,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 16 Dec 2025 14:20:59 GMT"
+          "Value": "Tue, 16 Dec 2025 15:52:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8470,7 +8615,7 @@
     },
     {
       "Route": "js/Hamxuly3.js",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\js\\Hamxuly3.js",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\js\\Hamxuly3.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8491,7 +8636,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 16 Dec 2025 14:20:59 GMT"
+          "Value": "Tue, 16 Dec 2025 15:49:25 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8507,7 +8652,7 @@
     },
     {
       "Route": "js/Hamxuly3.osd5cs7cg4.js",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\js\\Hamxuly3.js",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\js\\Hamxuly3.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8528,7 +8673,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 16 Dec 2025 14:20:59 GMT"
+          "Value": "Tue, 16 Dec 2025 15:49:25 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8552,7 +8697,7 @@
     },
     {
       "Route": "js/Hamxuly4.4tlv8u4dej.js",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\js\\Hamxuly4.js",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\js\\Hamxuly4.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8573,7 +8718,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 16 Dec 2025 14:20:59 GMT"
+          "Value": "Tue, 16 Dec 2025 15:49:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8597,7 +8742,7 @@
     },
     {
       "Route": "js/Hamxuly4.js",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\js\\Hamxuly4.js",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\js\\Hamxuly4.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8618,7 +8763,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 16 Dec 2025 14:20:59 GMT"
+          "Value": "Tue, 16 Dec 2025 15:49:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8633,8 +8778,8 @@
       ]
     },
     {
-      "Route": "js/Layout.3iaqdpsexn.js",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\js\\Layout.js",
+      "Route": "js/Layout.js",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\js\\Layout.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8643,7 +8788,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "17449"
+          "Value": "17509"
         },
         {
           "Name": "Content-Type",
@@ -8651,11 +8796,48 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"qygULSPI91Y1gXyIHTM1LBomdgMzfOzj0JjeBp6pT/o=\""
+          "Value": "\"OyuQzhGLLo9H4s1FjdWBuKDi6Q44nvSYQgtyObEONgI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 16 Dec 2025 14:19:41 GMT"
+          "Value": "Thu, 18 Dec 2025 16:22:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-OyuQzhGLLo9H4s1FjdWBuKDi6Q44nvSYQgtyObEONgI="
+        }
+      ]
+    },
+    {
+      "Route": "js/Layout.jy2xyrrpnk.js",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\js\\Layout.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17509"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OyuQzhGLLo9H4s1FjdWBuKDi6Q44nvSYQgtyObEONgI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 18 Dec 2025 16:22:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8665,7 +8847,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "3iaqdpsexn"
+          "Value": "jy2xyrrpnk"
         },
         {
           "Name": "label",
@@ -8673,13 +8855,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-qygULSPI91Y1gXyIHTM1LBomdgMzfOzj0JjeBp6pT/o="
+          "Value": "sha256-OyuQzhGLLo9H4s1FjdWBuKDi6Q44nvSYQgtyObEONgI="
         }
       ]
     },
     {
-      "Route": "js/Layout.js",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\js\\Layout.js",
+      "Route": "js/loadthongtintrang.1xyv4p9aq5.js",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\js\\loadthongtintrang.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8688,7 +8870,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "17449"
+          "Value": "10380"
         },
         {
           "Name": "Content-Type",
@@ -8696,85 +8878,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"qygULSPI91Y1gXyIHTM1LBomdgMzfOzj0JjeBp6pT/o=\""
+          "Value": "\"e6UkZIYvxDLiu0+WDNUrHFEQbGAJVCFnf5qPYT0qQNI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 16 Dec 2025 14:19:41 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-qygULSPI91Y1gXyIHTM1LBomdgMzfOzj0JjeBp6pT/o="
-        }
-      ]
-    },
-    {
-      "Route": "js/loadthongtintrang.js",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\js\\loadthongtintrang.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "9850"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"uXPJvql0gsMlzlH/tReLxp6sNvR20FutGii3kvqPYWk=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 16 Dec 2025 14:20:47 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-uXPJvql0gsMlzlH/tReLxp6sNvR20FutGii3kvqPYWk="
-        }
-      ]
-    },
-    {
-      "Route": "js/loadthongtintrang.lxwk43mvnm.js",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\js\\loadthongtintrang.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "9850"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"uXPJvql0gsMlzlH/tReLxp6sNvR20FutGii3kvqPYWk=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 16 Dec 2025 14:20:47 GMT"
+          "Value": "Tue, 16 Dec 2025 15:48:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8784,7 +8892,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "lxwk43mvnm"
+          "Value": "1xyv4p9aq5"
         },
         {
           "Name": "label",
@@ -8792,13 +8900,50 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-uXPJvql0gsMlzlH/tReLxp6sNvR20FutGii3kvqPYWk="
+          "Value": "sha256-e6UkZIYvxDLiu0+WDNUrHFEQbGAJVCFnf5qPYT0qQNI="
+        }
+      ]
+    },
+    {
+      "Route": "js/loadthongtintrang.js",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\js\\loadthongtintrang.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10380"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"e6UkZIYvxDLiu0+WDNUrHFEQbGAJVCFnf5qPYT0qQNI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 16 Dec 2025 15:48:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-e6UkZIYvxDLiu0+WDNUrHFEQbGAJVCFnf5qPYT0qQNI="
         }
       ]
     },
     {
       "Route": "js/site.exk8qyhrt1.js",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\js\\site.js",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\js\\site.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8843,7 +8988,7 @@
     },
     {
       "Route": "js/site.js",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\js\\site.js",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\js\\site.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8879,8 +9024,8 @@
       ]
     },
     {
-      "Route": "js/Truycapvaochamdiem.js",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\js\\Truycapvaochamdiem.js",
+      "Route": "js/Truycapvaochamdiem.5ti4gzxoxp.js",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\js\\Truycapvaochamdiem.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8889,7 +9034,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "45391"
+          "Value": "45525"
         },
         {
           "Name": "Content-Type",
@@ -8897,48 +9042,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"LXe5s1lnMplk0mC3ac0YC1gDyBe4SynwOO/rS4XPz4E=\""
+          "Value": "\"OcTNA9r6jyNK2ELz1yYJRvxuj+mqU8ZndfXdjVtzg5k=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 16 Dec 2025 14:19:55 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-LXe5s1lnMplk0mC3ac0YC1gDyBe4SynwOO/rS4XPz4E="
-        }
-      ]
-    },
-    {
-      "Route": "js/Truycapvaochamdiem.xf3vw1ll99.js",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\js\\Truycapvaochamdiem.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "45391"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"LXe5s1lnMplk0mC3ac0YC1gDyBe4SynwOO/rS4XPz4E=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 16 Dec 2025 14:19:55 GMT"
+          "Value": "Tue, 16 Dec 2025 15:50:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8948,7 +9056,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "xf3vw1ll99"
+          "Value": "5ti4gzxoxp"
         },
         {
           "Name": "label",
@@ -8956,13 +9064,50 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-LXe5s1lnMplk0mC3ac0YC1gDyBe4SynwOO/rS4XPz4E="
+          "Value": "sha256-OcTNA9r6jyNK2ELz1yYJRvxuj+mqU8ZndfXdjVtzg5k="
+        }
+      ]
+    },
+    {
+      "Route": "js/Truycapvaochamdiem.js",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\js\\Truycapvaochamdiem.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "45525"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OcTNA9r6jyNK2ELz1yYJRvxuj+mqU8ZndfXdjVtzg5k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 16 Dec 2025 15:50:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-OcTNA9r6jyNK2ELz1yYJRvxuj+mqU8ZndfXdjVtzg5k="
         }
       ]
     },
     {
       "Route": "js/Uploadvideo.js",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\js\\Uploadvideo.js",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\js\\Uploadvideo.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8999,7 +9144,7 @@
     },
     {
       "Route": "js/Uploadvideo.rphtl3tdtr.js",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\js\\Uploadvideo.js",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\js\\Uploadvideo.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9044,7 +9189,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.css",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9081,7 +9226,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.css.73kdqttayv.map",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9126,7 +9271,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.css.map",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9163,7 +9308,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.bpk8xqwxhs.css",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9208,7 +9353,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.css",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9245,7 +9390,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.css.8inm30yfxf.map",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9290,7 +9435,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.css.map",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9327,7 +9472,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.mpyigms19s.css",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9372,7 +9517,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9409,7 +9554,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css.4gxs3k148c.map",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9454,7 +9599,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9491,7 +9636,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.9b9oa1qrmt.css",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9536,7 +9681,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9573,7 +9718,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.fctod5rc9n.map",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9618,7 +9763,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9655,7 +9800,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.ve6x09088i.css",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9700,7 +9845,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.agp80tu62r.css",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9745,7 +9890,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.css",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9782,7 +9927,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9819,7 +9964,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.css.st1cbwfwo5.map",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9864,7 +10009,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9901,7 +10046,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.css.5vj65cig9w.map",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9946,7 +10091,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9983,7 +10128,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.unj9p35syc.css",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10028,7 +10173,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10065,7 +10210,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.2q4vfeazbq.map",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10110,7 +10255,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10147,7 +10292,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10184,7 +10329,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10221,7 +10366,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.o371a8zbv2.map",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10266,7 +10411,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.n1oizzvkh6.css",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10311,7 +10456,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.q2ku51ktnl.css",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10356,7 +10501,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.7na4sro3qu.css",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10401,7 +10546,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.css",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10438,7 +10583,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.css.jeal3x0ldm.map",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10483,7 +10628,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10520,7 +10665,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10557,7 +10702,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10594,7 +10739,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.okkk44j0xs.map",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10639,7 +10784,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.f8imaxxbri.css",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10684,7 +10829,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.0wve5yxp74.css",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10729,7 +10874,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10766,7 +10911,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.cwzlr5n8x4.map",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10811,7 +10956,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10848,7 +10993,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10885,7 +11030,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10922,7 +11067,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.wmug9u23qg.map",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10967,7 +11112,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.npxfuf8dg6.css",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11012,7 +11157,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.css",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11049,7 +11194,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.css.j75batdsum.map",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11094,7 +11239,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11131,7 +11276,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.16095smhkz.css",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11176,7 +11321,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11213,7 +11358,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11250,7 +11395,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.vy0bq9ydhf.map",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11295,7 +11440,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.b4skse8du6.css",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11340,7 +11485,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11377,7 +11522,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.ab1c3rmv7g.map",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11422,7 +11567,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11459,7 +11604,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11496,7 +11641,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.56d2bn4wt9.map",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11541,7 +11686,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11578,7 +11723,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.u3xrusw2ol.css",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11623,7 +11768,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.tey0rigmnh.css",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11668,7 +11813,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.js",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11705,7 +11850,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.js.kbynt5jhd9.map",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11750,7 +11895,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11787,7 +11932,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.l2av4jpuoj.js",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11832,7 +11977,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.25iw1kog22.js",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11877,7 +12022,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11914,7 +12059,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.c2nslu3uf3.map",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11959,7 +12104,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11996,7 +12141,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.js",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12033,7 +12178,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.js.2lgwfvgpvi.map",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12078,7 +12223,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12115,7 +12260,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.m39kt2b5c9.js",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12160,7 +12305,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12197,7 +12342,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12234,7 +12379,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.js.wsezl0heh6.map",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12279,7 +12424,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.um2aeqy4ik.js",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12324,7 +12469,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.js",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12361,7 +12506,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.js.6ukhryfubh.map",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12406,7 +12551,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.js.map",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12443,7 +12588,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.js",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12480,7 +12625,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.js.map",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12517,7 +12662,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.js.u33ctipx7g.map",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12562,7 +12707,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.zwph15dxgs.js",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12607,7 +12752,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.o4kw7cc6tf.js",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12652,7 +12797,7 @@
     },
     {
       "Route": "lib/bootstrap/LICENSE",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\LICENSE",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12689,7 +12834,7 @@
     },
     {
       "Route": "lib/bootstrap/LICENSE.81b7ukuj9c",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\bootstrap\\LICENSE",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12734,7 +12879,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.fwhahm2icz.js",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12779,7 +12924,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.js",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12816,7 +12961,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.5pze98is44.map",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12861,7 +13006,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.dd6z7egasc.js",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12906,7 +13051,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.js",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12943,7 +13088,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.map",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12980,7 +13125,7 @@
     },
     {
       "Route": "lib/jquery/LICENSE.mlv21k5csn.txt",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -13025,7 +13170,7 @@
     },
     {
       "Route": "lib/jquery/LICENSE.txt",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -13062,7 +13207,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.ay5nd8zt9x.js",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -13107,7 +13252,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.js",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -13144,7 +13289,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.min.9oaff4kq20.js",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -13189,7 +13334,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.min.js",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -13226,7 +13371,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.js",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -13263,7 +13408,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.min.b7iojwaux1.js",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -13308,7 +13453,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.min.js",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -13345,7 +13490,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.pzqfkb6aqo.js",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -13390,7 +13535,7 @@
     },
     {
       "Route": "lib/jquery-validation/LICENSE.md",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -13427,7 +13572,7 @@
     },
     {
       "Route": "lib/jquery-validation/LICENSE.x0q3zqp4vz.md",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -13472,7 +13617,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.47otxtyo56.js",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -13517,7 +13662,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -13554,7 +13699,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.4v8eqarkd7.js",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -13599,7 +13744,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -13636,7 +13781,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/LICENSE.356vix0kms.txt",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -13681,7 +13826,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/LICENSE.txt",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -13718,7 +13863,7 @@
     },
     {
       "Route": "Models/match_predictor.04gegtgl64.zip",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\Models\\match_predictor.zip",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\Models\\match_predictor.zip",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -13763,7 +13908,7 @@
     },
     {
       "Route": "Models/match_predictor.zip",
-      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN - Copy\\BaoCaoDACS\\wwwroot\\Models\\match_predictor.zip",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\Models\\match_predictor.zip",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -13795,6 +13940,170 @@
         {
           "Name": "integrity",
           "Value": "sha256-EC1ruYfYTK90Y2/mGzL6EwUMo+QJeDs2/N6V3g145zI="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/66481946-0fa6-463b-b78f-c0e4ed0ec370.mp4",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\uploads\\66481946-0fa6-463b-b78f-c0e4ed0ec370.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2934247"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EZBeSUbYJ9ynJZwuQ2a974KAQcf4KBsMiYB0vjxBjJI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 24 Dec 2025 04:29:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-EZBeSUbYJ9ynJZwuQ2a974KAQcf4KBsMiYB0vjxBjJI="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/66481946-0fa6-463b-b78f-c0e4ed0ec370.zn16ai1ddq.mp4",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\uploads\\66481946-0fa6-463b-b78f-c0e4ed0ec370.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2934247"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EZBeSUbYJ9ynJZwuQ2a974KAQcf4KBsMiYB0vjxBjJI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 24 Dec 2025 04:29:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zn16ai1ddq"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/66481946-0fa6-463b-b78f-c0e4ed0ec370.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-EZBeSUbYJ9ynJZwuQ2a974KAQcf4KBsMiYB0vjxBjJI="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/output_308c231a-fbf6-494f-8104-c3d1e7a3cb74.9retnt3fy9.mp4",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\uploads\\output_308c231a-fbf6-494f-8104-c3d1e7a3cb74.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "35790680"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9er/kLIfl1EijYhxBT1/eG863QGWe5T/5XlbBrcvXUY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 24 Dec 2025 04:30:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9retnt3fy9"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/output_308c231a-fbf6-494f-8104-c3d1e7a3cb74.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9er/kLIfl1EijYhxBT1/eG863QGWe5T/5XlbBrcvXUY="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/output_308c231a-fbf6-494f-8104-c3d1e7a3cb74.mp4",
+      "AssetFile": "D:\\HOC\\BAO_CAO_DACS\\BaoCaoCN-banketnoioracle\\BaoCaoDACS\\wwwroot\\uploads\\output_308c231a-fbf6-494f-8104-c3d1e7a3cb74.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "35790680"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9er/kLIfl1EijYhxBT1/eG863QGWe5T/5XlbBrcvXUY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 24 Dec 2025 04:30:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9er/kLIfl1EijYhxBT1/eG863QGWe5T/5XlbBrcvXUY="
         }
       ]
     }

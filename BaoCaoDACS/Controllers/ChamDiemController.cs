@@ -9,6 +9,7 @@ using static System.Formats.Asn1.AsnWriter;
 namespace BaoCaoDACS.Controllers
 {
     [Authorize]
+    [Authorize(Roles = "Admin")]
     public class ChamDiemController : Controller
     {
         private readonly ILogger<HomeController> _logger;
@@ -102,7 +103,7 @@ namespace BaoCaoDACS.Controllers
                     {
                         ParticipantId = s.participant.ParticipantID,
                         Matchid = s.match.MatchId,
-                        trangthai=s.match.trangthai,
+                        trangthai = s.match.trangthai,
                         HoTen = s.participant.FullName,
                         Clb = s.participant.Club,
                         Tuoi = s.participant.tuoi,
@@ -123,7 +124,7 @@ namespace BaoCaoDACS.Controllers
                         return Ok(new
                         {
                             VanDongVien1 = participants[0]
-                            
+
                         });
 
                     case 2:
@@ -144,7 +145,7 @@ namespace BaoCaoDACS.Controllers
             }
             catch (Exception ex)
             {
-            
+
                 _logger.LogError(ex, "Lỗi khi lấy thông tin người tham gia");
                 return StatusCode(500, new { message = "Có lỗi xảy ra khi xử lý yêu cầu" });
             }
@@ -155,7 +156,7 @@ namespace BaoCaoDACS.Controllers
         // Phương thức hỗ trợ tính số trận thắng 
         private int CalculateWins(string participantId)
         {
-           
+
             return _context.socre
                 .Count(s => s.ParticipantId == participantId && s.Kq == 1); // Giả sử Kq = 1 là thắng
         }
@@ -163,7 +164,7 @@ namespace BaoCaoDACS.Controllers
         // Phương thức hỗ trợ tính số trận thua 
         private int CalculateLosses(string participantId)
         {
-           
+
             return _context.socre
                 .Count(s => s.ParticipantId == participantId && s.Kq == 0); // Giả sử Kq = 0 là thua
         }
@@ -206,7 +207,8 @@ namespace BaoCaoDACS.Controllers
                 {
                     return NotFound(new { message = "Không tìm thấy thông tin Kết quả" });
                 }
-                else {
+                else
+                {
 
 
 
@@ -263,7 +265,7 @@ namespace BaoCaoDACS.Controllers
                 return Ok(new
                 {
                     message = "Đã lưu kết quả thành công",
-       
+
                 });
             }
             catch (Exception ex)
@@ -278,7 +280,7 @@ namespace BaoCaoDACS.Controllers
         {
             if (blueScore > redScore) return "Thắng";
             else return "Thua";
-            
+
         }
 
         private byte DetermineResultByte(float blueScore, float redScore)
@@ -308,7 +310,7 @@ namespace BaoCaoDACS.Controllers
                 }
                 if (performanceData.loaitructiep != null)
                 {
-                    
+
                     socre.Diem = 0;
                 }
                 else
@@ -320,7 +322,7 @@ namespace BaoCaoDACS.Controllers
                 // Lưu đánh giá vào Danhgia
                 socre.Danhgia = performanceData.Danhgia;
 
-               
+
 
                 // Để trống KQ
                 socre.Kq = null;

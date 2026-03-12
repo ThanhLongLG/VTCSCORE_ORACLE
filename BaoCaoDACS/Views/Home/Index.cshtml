@@ -4,11 +4,7 @@
 @{
     var loginUrl = Url.Page("/Account/Login", new { area = "Identity" });
 }
-<script>
-    // Razor sẽ in ra true hoặc false trực tiếp
-    const isAuthenticated = @((User?.Identity?.IsAuthenticated ?? false).ToString().ToLower());
-    const loginUrl = "@loginUrl";
-</script>
+
 
 
 <!-- Banner -->

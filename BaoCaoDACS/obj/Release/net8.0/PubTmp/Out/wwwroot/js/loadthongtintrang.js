@@ -88,10 +88,20 @@ document.addEventListener("DOMContentLoaded", function () {
 
             // Có thể thêm các xử lý khác sau khi render
             console.log("Thông tin trận đấu đầy đủ:", match);
-            TournamentId = match.tournament;
+            TournamentId = match.tournament || match.Tournament;
+            if (typeof currentMatchId !== 'undefined') {
+                currentMatchId = match.matchId;
+            }
             console.log("Thông tin:", TournamentId);
             setupMatchUI(match);
-            fetchMatchParticipants(match);
+            const fetchParticipantsFn = window.fetchMatchParticipants;
+            if (typeof fetchParticipantsFn !== 'function') {
+                throw new Error('fetchMatchParticipants is not defined');
+            }
+            fetchParticipantsFn(match);
+            if (typeof window.renderTournamentResults === 'function' && TournamentId) {
+                window.renderTournamentResults(TournamentId);
+            }
 
         })
         .catch(error => {

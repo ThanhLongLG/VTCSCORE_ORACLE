@@ -1,8 +1,8 @@
+D:\HOC\BAO_CAO_DACS\BaoCaoCN - Copy\BaoCaoDACS\bin\Release\net8.0\BaoCaoDACS.exe
 D:\HOC\BAO_CAO_DACS\BaoCaoCN - Copy\BaoCaoDACS\bin\Release\net8.0\appsettings.Development.json
 D:\HOC\BAO_CAO_DACS\BaoCaoCN - Copy\BaoCaoDACS\bin\Release\net8.0\appsettings.json
 D:\HOC\BAO_CAO_DACS\BaoCaoCN - Copy\BaoCaoDACS\bin\Release\net8.0\BaoCaoDACS.staticwebassets.runtime.json
 D:\HOC\BAO_CAO_DACS\BaoCaoCN - Copy\BaoCaoDACS\bin\Release\net8.0\BaoCaoDACS.staticwebassets.endpoints.json
-D:\HOC\BAO_CAO_DACS\BaoCaoCN - Copy\BaoCaoDACS\bin\Release\net8.0\BaoCaoDACS.exe
 D:\HOC\BAO_CAO_DACS\BaoCaoCN - Copy\BaoCaoDACS\bin\Release\net8.0\BaoCaoDACS.deps.json
 D:\HOC\BAO_CAO_DACS\BaoCaoCN - Copy\BaoCaoDACS\bin\Release\net8.0\BaoCaoDACS.runtimeconfig.json
 D:\HOC\BAO_CAO_DACS\BaoCaoCN - Copy\BaoCaoDACS\bin\Release\net8.0\BaoCaoDACS.dll
@@ -345,10 +345,25 @@ D:\HOC\BAO_CAO_DACS\BaoCaoCN - Copy\BaoCaoDACS\obj\Release\net8.0\staticwebasset
 D:\HOC\BAO_CAO_DACS\BaoCaoCN - Copy\BaoCaoDACS\obj\Release\net8.0\staticwebassets\msbuild.buildMultiTargeting.BaoCaoDACS.props
 D:\HOC\BAO_CAO_DACS\BaoCaoCN - Copy\BaoCaoDACS\obj\Release\net8.0\staticwebassets\msbuild.buildTransitive.BaoCaoDACS.props
 D:\HOC\BAO_CAO_DACS\BaoCaoCN - Copy\BaoCaoDACS\obj\Release\net8.0\staticwebassets.pack.json
+D:\HOC\BAO_CAO_DACS\BaoCaoCN - Copy\BaoCaoDACS\obj\Release\net8.0\staticwebassets.upToDateCheck.txt
 D:\HOC\BAO_CAO_DACS\BaoCaoCN - Copy\BaoCaoDACS\obj\Release\net8.0\BaoCaoDACS.csproj.Up2Date
 D:\HOC\BAO_CAO_DACS\BaoCaoCN - Copy\BaoCaoDACS\obj\Release\net8.0\BaoCaoDACS.dll
 D:\HOC\BAO_CAO_DACS\BaoCaoCN - Copy\BaoCaoDACS\obj\Release\net8.0\refint\BaoCaoDACS.dll
 D:\HOC\BAO_CAO_DACS\BaoCaoCN - Copy\BaoCaoDACS\obj\Release\net8.0\BaoCaoDACS.pdb
 D:\HOC\BAO_CAO_DACS\BaoCaoCN - Copy\BaoCaoDACS\obj\Release\net8.0\BaoCaoDACS.genruntimeconfig.cache
 D:\HOC\BAO_CAO_DACS\BaoCaoCN - Copy\BaoCaoDACS\obj\Release\net8.0\ref\BaoCaoDACS.dll
-D:\HOC\BAO_CAO_DACS\BaoCaoCN - Copy\BaoCaoDACS\obj\Release\net8.0\staticwebassets.upToDateCheck.txt
+D:\HOC\BAO_CAO_DACS\BaoCaoCN - Copy\BaoCaoDACS\bin\Release\net8.0\project\venv\Lib\site-packages\scipy\stats\tests\data\studentized_range_mpmath_ref.json
+D:\HOC\BAO_CAO_DACS\BaoCaoCN - Copy\BaoCaoDACS\bin\Release\net8.0\project\venv\Lib\site-packages\torch\_dynamo\graph_break_registry.json
+D:\HOC\BAO_CAO_DACS\BaoCaoCN-banketnoioracle\BaoCaoDACS\obj\Release\net8.0\BaoCaoDACS.csproj.AssemblyReference.cache
+D:\HOC\BAO_CAO_DACS\BaoCaoCN-banketnoioracle\BaoCaoDACS\obj\Release\net8.0\BaoCaoDACS.GeneratedMSBuildEditorConfig.editorconfig
+D:\HOC\BAO_CAO_DACS\BaoCaoCN-banketnoioracle\BaoCaoDACS\obj\Release\net8.0\BaoCaoDACS.AssemblyInfoInputs.cache
+D:\HOC\BAO_CAO_DACS\BaoCaoCN-banketnoioracle\BaoCaoDACS\obj\Release\net8.0\BaoCaoDACS.AssemblyInfo.cs
+D:\HOC\BAO_CAO_DACS\BaoCaoCN-banketnoioracle\BaoCaoDACS\obj\Release\net8.0\BaoCaoDACS.csproj.CoreCompileInputs.cache
+D:\HOC\BAO_CAO_DACS\BaoCaoCN-banketnoioracle\BaoCaoDACS\obj\Release\net8.0\BaoCaoDACS.MvcApplicationPartsAssemblyInfo.cs
+D:\HOC\BAO_CAO_DACS\BaoCaoCN-banketnoioracle\BaoCaoDACS\obj\Release\net8.0\BaoCaoDACS.MvcApplicationPartsAssemblyInfo.cache
+D:\HOC\BAO_CAO_DACS\BaoCaoCN-banketnoioracle\BaoCaoDACS\obj\Release\net8.0\BaoCaoDACS.RazorAssemblyInfo.cache
+D:\HOC\BAO_CAO_DACS\BaoCaoCN-banketnoioracle\BaoCaoDACS\obj\Release\net8.0\BaoCaoDACS.RazorAssemblyInfo.cs
+D:\HOC\BAO_CAO_DACS\BaoCaoCN-banketnoioracle\BaoCaoDACS\obj\Release\net8.0\BaoCaoDACS.sourcelink.json
+D:\HOC\BAO_CAO_DACS\BaoCaoCN-banketnoioracle\BaoCaoDACS\obj\Release\net8.0\BaoCaoDACS.dll
+D:\HOC\BAO_CAO_DACS\BaoCaoCN-banketnoioracle\BaoCaoDACS\obj\Release\net8.0\refint\BaoCaoDACS.dll
+D:\HOC\BAO_CAO_DACS\BaoCaoCN-banketnoioracle\BaoCaoDACS\obj\Release\net8.0\BaoCaoDACS.pdb

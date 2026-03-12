@@ -1,61 +1,128 @@
 ﻿@using Microsoft.AspNetCore.Identity
-
+@* Nếu bạn có inject UserManager/SignInManager thì thêm ở đây *@
+@* @inject UserManager<IdentityUser> UserManager *@
 
 <!DOCTYPE html>
-<html>
-
+<html lang="vi">
 <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ADMIN - @ViewData["Title"]</title>
-    <!-- Bootstrap 5 CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="~/css/adminLayout.css" />
-    <!-- Font Awesome -->
+
+    <!-- Fonts + Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <!-- (Tuỳ chọn) Bootstrap nếu project bạn đang dùng nhiều component -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- CSS theo style dashboard (bạn map vào wwwroot/css/...) -->
+    <link rel="stylesheet" href="~/css/main.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/dashboard.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/components.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/auth-modal.css" asp-append-version="true" />
+
+    @* CSS riêng của từng view nếu cần *@
+    @RenderSection("Styles", required: false)
 </head>
 
-<body>
-    <div class="side-bar d-flex flex-column justify-content-between h-100 p-3">
-        <div>
-            <h3>📖 Trang Admin</h3>
-            <a class="btn btn-outline-dark w-100 mb-2" asp-area="Admin" asp-action="Index" asp-controller="NguoiDung">Quản lý Người dùng</a>
-            <a class="btn btn-outline-dark w-100 mb-2" asp-area="Admin" asp-action="Index" asp-controller="GiaiDau">Quản lý Giải Đấu</a>
-            <a class="btn btn-outline-dark w-100 mb-2" asp-area="Admin" asp-action="Index" asp-controller="TranDau">Quản lý Trận Đấu</a>
-            <a class="btn btn-outline-dark w-100 mb-2" asp-area="Admin" asp-action="Index" asp-controller="KetQua">Quản lý Ket Qua</a>
+<body class="dashboard-page">
+    <!-- Header -->
+    <header class="dashboard-header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <i class="fas fa-fist-raised"></i>
+                    <span>VCT Score Dashboard</span>
+                </div>
 
+                <div class="header-actions">
+                    <div class="user-menu">
+                        <div class="user-info">
+                            <i class="fas fa-user-circle"></i>
+                            <span>@(User?.Identity?.IsAuthenticated == true ? User.Identity!.Name : "Admin")</span>
+                        </div>
+
+                        <div class="user-dropdown">
+                            <a asp-area="Admin" asp-controller="Settings" asp-action="Index">
+                                <i class="fas fa-cog"></i> Cài Đặt
+                            </a>
+
+                            <a asp-area="" asp-controller="Home" asp-action="Index">
+                                <i class="fas fa-home"></i> Trang Chủ
+                            </a>
+
+                            <form id="logoutForm" style="display: contents;"
+                                  asp-area="Identity"
+                                  asp-page="/Account/Logout"
+                                  asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+                                <button type="submit" class="dropdown-btn">
+                                    <i class="fas fa-sign-out-alt"></i> Đăng Xuất
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+
+                    
+                </div>
+            </div>
         </div>
+    </header>
 
-        <div>
-            <a class=" btn btn-secondary w-100 mb-2 text-center" asp-area="" asp-action="Index" asp-controller="Home">Về Trang Chủ</a>
+    <div class="dashboard-layout">
+        <!-- Sidebar -->
+        <aside class="dashboard-sidebar" id="dashboardSidebar">
+            <nav class="sidebar-nav">
+                <ul>
+                    <li class="nav-item @(ViewContext.RouteData.Values["controller"]?.ToString() == "NguoiDung" ? "active" : "")">
+                        <a class="nav-link" asp-area="Admin" asp-controller="NguoiDung" asp-action="Index">
+                            <i class="fas fa-users"></i>
+                            <span>Người dùng</span>
+                        </a>
+                    </li>
 
-            <form id="logoutForm" class="form-inline" asp-area="Identity" asp-page="/Account/Logout"
-                  asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
-                <button id="logout" type="submit" class="btn btn-danger w-100">Đăng xuất</button>
-            </form>
-        </div>
+                    <li class="nav-item @(ViewContext.RouteData.Values["controller"]?.ToString() == "GiaiDau" ? "active" : "")">
+                        <a class="nav-link" asp-area="Admin" asp-controller="GiaiDau" asp-action="Index">
+                            <i class="fas fa-trophy"></i>
+                            <span>Giải đấu</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-item @(ViewContext.RouteData.Values["controller"]?.ToString() == "TranDau" ? "active" : "")">
+                        <a class="nav-link" asp-area="Admin" asp-controller="TranDau" asp-action="Index">
+                            <i class="fas fa-calendar-alt"></i>
+                            <span>Trận đấu</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-item @(ViewContext.RouteData.Values["controller"]?.ToString() == "KetQua" ? "active" : "")">
+                        <a class="nav-link" asp-area="Admin" asp-controller="KetQua" asp-action="Index">
+                            <i class="fas fa-chart-line"></i>
+                            <span>Kết quả</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="sidebar-footer">
+                <a class="nav-link home-link" asp-area="" asp-controller="Home" asp-action="Index">
+                    <i class="fas fa-home"></i>
+                    <span>Về trang chủ</span>
+                </a>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="dashboard-main">
+            @RenderBody()
+        </main>
     </div>
-    <div class="overlay"></div>
-    <div class="my-nav-bar">
-        <div id="sideBarToggler">
-            ☰
-        </div>
-        <div>
-            <p class="p-0 m-0 d-inline"></p>
-        </div>
-    </div>
-    <div class="contents">
-        @RenderBody()
-    </div>
 
-    <!-- jQuery first -->
+    <!-- JS -->
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <!-- Bootstrap 5 Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- Custom JS -->
-    <script src="~/js/adminLayout.js"></script>
+
+
     @await RenderSectionAsync("Scripts", required: false)
 </body>
-
 </html>

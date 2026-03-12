@@ -1,4 +1,5 @@
 ﻿
+const isAuthenticated = (window.isAuthenticated === true);
 
 
 const baseUrlLayout = (window.appBase || '/');

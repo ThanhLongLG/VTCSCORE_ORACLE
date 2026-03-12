@@ -8,6 +8,7 @@ namespace BaoCaoDACS.Models
 {
     public class MatchTrainingSample
     {
+
         public float FighterA_Weight { get; set; }
         public float FighterA_Height { get; set; }
         public int FighterA_Age { get; set; }
@@ -22,8 +23,8 @@ namespace BaoCaoDACS.Models
 
 
         public int LoaiHinhThiDauId { get; set; }
-        public string HangCan { get; set; }
-        public string VongDau { get; set; }
+        public string HangCan { get; set; } = "unknown";
+        public string VongDau { get; set; } = "unknown";
         public float DiffWeight { get; set; }
         public float DiffHeight { get; set; }
         public float DiffAge { get; set; }

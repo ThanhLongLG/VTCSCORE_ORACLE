@@ -2,15 +2,16 @@ wwwroot\chart.js\Chart.bundle.js
 wwwroot\chart.js\Chart.bundle.min.js
 wwwroot\chart.js\Chart.js
 wwwroot\chart.js\Chart.min.js
-wwwroot\css\admin.css
-wwwroot\css\adminLayout.css
-wwwroot\css\adminlte.css
 wwwroot\css\app.css
+wwwroot\css\auth-modal.css
 wwwroot\css\Chamdiem.css
 wwwroot\css\Chart.css
 wwwroot\css\Chart.min.css
+wwwroot\css\components.css
 wwwroot\css\DangKi.css
+wwwroot\css\dashboard.css
 wwwroot\css\Layout.css
+wwwroot\css\main.css
 wwwroot\css\Profile.css
 wwwroot\css\reset.css
 wwwroot\css\site.css
@@ -96,3 +97,5 @@ wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
 wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
 wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
 wwwroot\Models\match_predictor.zip
+wwwroot\uploads\66481946-0fa6-463b-b78f-c0e4ed0ec370.mp4
+wwwroot\uploads\output_308c231a-fbf6-494f-8104-c3d1e7a3cb74.mp4
