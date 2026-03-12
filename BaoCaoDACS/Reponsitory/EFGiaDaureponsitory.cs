@@ -4,12 +4,12 @@ using Microsoft.EntityFrameworkCore;
 
 namespace BaoCaoDACS.Reponsitory
 {
-    public class MOMOService : IGiaiDaureponsitory
+    public class EFGiaDaureponsitory : IGiaiDaureponsitory
     {
 
         private readonly AppDbContext _context;
 
-        public MOMOService(AppDbContext context)
+        public EFGiaDaureponsitory(AppDbContext context)
         {
             _context = context;
         }

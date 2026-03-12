@@ -45,7 +45,7 @@ builder.Services.ConfigureApplicationCookie(options =>
     options.ExpireTimeSpan = TimeSpan.FromDays(30);
 });
 builder.Services.AddScoped<INguoidungreponsitory, EFNguoiDungreponsitory>();
-builder.Services.AddScoped<IGiaiDaureponsitory, MOMOService>();
+builder.Services.AddScoped<IGiaiDaureponsitory, EFGiaDaureponsitory>();
 builder.Services.AddScoped<ILoaiHinhreponsitory, EFLoaiHinheponsitory>();
 builder.Services.AddScoped<IKetquareponsitory, EFKetquareponsitory>();
 builder.Services.AddScoped<ITranDaureponsitory, EFTrandaureponsitory>();
