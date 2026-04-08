@@ -51,9 +51,7 @@ namespace BaoCaoDACS.Reponsitory
         }
         public async Task DeleteAsync(int tournamentId)
         {
-            var Giadau = await _context.Tournaments.FindAsync(tournamentId);
-            _context.Tournaments.Remove(Giadau);
-            await _context.SaveChangesAsync();
+            await _context.Database.ExecuteSqlInterpolatedAsync($"BEGIN DELETE_TOURNAMENT({tournamentId}); END;");
         }
 
         public async Task<Tournament> GetByIdAsync(int tournamentId)

@@ -1598,7 +1598,6 @@ D:\HOC\BAO_CAO_DACS\BaoCaoCN-banketnoioracle\BaoCaoDACS\obj\Debug\net8.0\staticw
 D:\HOC\BAO_CAO_DACS\BaoCaoCN-banketnoioracle\BaoCaoDACS\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.BaoCaoDACS.props
 D:\HOC\BAO_CAO_DACS\BaoCaoCN-banketnoioracle\BaoCaoDACS\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.BaoCaoDACS.props
 D:\HOC\BAO_CAO_DACS\BaoCaoCN-banketnoioracle\BaoCaoDACS\obj\Debug\net8.0\staticwebassets.pack.json
-D:\HOC\BAO_CAO_DACS\BaoCaoCN-banketnoioracle\BaoCaoDACS\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 D:\HOC\BAO_CAO_DACS\BaoCaoCN-banketnoioracle\BaoCaoDACS\obj\Debug\net8.0\BaoCaoDACS.csproj.Up2Date
 D:\HOC\BAO_CAO_DACS\BaoCaoCN-banketnoioracle\BaoCaoDACS\obj\Debug\net8.0\BaoCaoDACS.genruntimeconfig.cache
 D:\HOC\BAO_CAO_DACS\BaoCaoCN-banketnoioracle\BaoCaoDACS\obj\Debug\net8.0\ref\BaoCaoDACS.dll

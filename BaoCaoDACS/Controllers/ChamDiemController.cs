@@ -182,91 +182,50 @@ namespace BaoCaoDACS.Controllers
                     return BadRequest(new { message = "Thông tin trận đấu không đầy đủ" });
                 }
 
-                // Chuyển đổi điểm số
-                float blueScoreValue = float.TryParse(scoreData.BlueScore, out float blueScore)
-                    ? blueScore
-                    : 0;
-                float redScoreValue = float.TryParse(scoreData.RedScore, out float redScore)
-                    ? redScore
-                    : 0;
+                float blueScoreValue = float.TryParse(scoreData.BlueScore, out float blueScore) ? blueScore : 0;
+                float redScoreValue = float.TryParse(scoreData.RedScore, out float redScore) ? redScore : 0;
 
-                // Xác định kết quả
                 string kietQua1 = DetermineResultText(blueScoreValue, redScoreValue);
                 byte kq1 = DetermineResultByte(blueScoreValue, redScoreValue);
                 string kietQua2 = DetermineResultText(redScoreValue, blueScoreValue);
                 byte kq2 = DetermineResultByte(redScoreValue, blueScoreValue);
 
-                // Lưu kết quả cho Participant Xanh
-                var socre = await _context.socre
-                   .FirstOrDefaultAsync(p => p.ParticipantId == scoreData.BlueParticipantId);
+                // Xử lý Xanh
+                var socre = await _context.socre.FirstOrDefaultAsync(p => p.ParticipantId == scoreData.BlueParticipantId && p.MatchId == scoreData.MatchId);
+                if (socre == null) return NotFound(new { message = "Không tìm thấy thông tin Kết quả Xanh" });
+                
+                socre.Diem = blueScoreValue;
+                socre.Kq = kq1;
+                socre.KietQua = kietQua1;
+                socre.Danhgia = scoreData.BlueCautions.ToString();
 
+                // Xử lý Đỏ
+                var socre2 = await _context.socre.FirstOrDefaultAsync(p => p.ParticipantId == scoreData.RedParticipantId && p.MatchId == scoreData.MatchId);
+                if (socre2 == null) return NotFound(new { message = "Không tìm thấy thông tin Kết quả Đỏ" });
 
+                socre2.Diem = redScoreValue;
+                socre2.Kq = kq2;
+                socre2.KietQua = kietQua2;
+                socre2.Danhgia = scoreData.RedCautions.ToString();
 
+                await _context.SaveChangesAsync();
 
-                if (socre == null)
-                {
-                    return NotFound(new { message = "Không tìm thấy thông tin Kết quả" });
-                }
-                else
-                {
+                // Xử lý Trận đấu
+                var match = await _context.match.FirstOrDefaultAsync(p => p.MatchId == scoreData.MatchId);
+                if (match == null) return NotFound(new { message = "Không tìm thấy thông tin Trận đấu" });
+                
+                match.trangthai = 1;
 
+                // =========================================================
+                // CHỈ GỌI SAVE CHANGES ĐÚNG 1 LẦN Ở ĐÂY!!!
+                // EF Core sẽ gửi 3 lệnh Update cùng lúc xuống Oracle.
+                // Khi match.trangthai biến thành 1, Trigger mới sẽ tự động nổ.
+                // =========================================================
+                await _context.SaveChangesAsync();
 
+                _logger.LogInformation($"Đã lưu kết quả trận đấu {scoreData.MatchId}. Xanh: {blueScoreValue}, Đỏ: {redScoreValue}");
 
-                    socre.Diem = blueScoreValue;
-                    socre.Kq = kq1;
-                    socre.KietQua = kietQua1;
-                    socre.Danhgia = scoreData.BlueCautions.ToString();
-
-                    await _context.SaveChangesAsync();
-
-                }
-
-                // Lưu kết quả cho Participant Đỏ
-                var socre2 = await _context.socre
-                  .FirstOrDefaultAsync(p => p.ParticipantId == scoreData.RedParticipantId);
-
-
-
-
-                if (socre2 == null)
-                {
-                    return NotFound(new { message = "Không tìm thấy thông tin Kết quả" });
-                }
-                else
-                {
-                    socre2.Diem = redScoreValue;
-                    socre2.Kq = kq2;
-                    socre2.KietQua = kietQua2;
-                    socre2.Danhgia = scoreData.BlueCautions.ToString();
-
-                    await _context.SaveChangesAsync();
-
-                }
-                var match = await _context.match
-                  .FirstOrDefaultAsync(p => p.MatchId == scoreData.MatchId);
-                if (match == null)
-                {
-                    return NotFound(new { message = "Không tìm thấy thông tin Trận đấu" });
-                }
-                else
-                {
-                    match.trangthai = 1;
-                    await _context.SaveChangesAsync();
-
-                }
-
-                // Log kết quả
-                _logger.LogInformation($"Đã lưu kết quả trận đấu {scoreData.MatchId}. " +
-                    $"Xanh: {blueScoreValue}, Đỏ: {redScoreValue}");
-
-                // Cập nhật Elo sau khi chấm điểm
-                await _rankingService.UpdateAfterMatchAsync(scoreData.MatchId);
-
-                return Ok(new
-                {
-                    message = "Đã lưu kết quả thành công",
-
-                });
+                return Ok(new { message = "Đã lưu kết quả thành công" });
             }
             catch (Exception ex)
             {
@@ -331,7 +290,7 @@ namespace BaoCaoDACS.Controllers
                 await _context.SaveChangesAsync();
 
                 var match = await _context.match
-                  .FirstOrDefaultAsync(p => p.MatchId == performanceData.MatchId);
+                .FirstOrDefaultAsync(p => p.MatchId == performanceData.MatchId);
                 if (match == null)
                 {
                     return NotFound(new { message = "Không tìm thấy thông tin Trận đấu" });

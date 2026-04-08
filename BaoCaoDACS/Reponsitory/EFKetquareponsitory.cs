@@ -44,12 +44,10 @@ namespace BaoCaoDACS.Reponsitory
         }
         public async Task DeleteAsync(int socreid)
         {
-            var socre1 = await _context.socre.FindAsync(socreid);
-            _context.socre.Remove(socre1);
-            await _context.SaveChangesAsync();
+            await _context.Database.ExecuteSqlInterpolatedAsync($"BEGIN SP_DELETE_SCORE({socreid}); END;");
         }
 
-      
+
         public async Task<Socre> GetByIdAsync(int socreid)
         {
             return await _context.socre

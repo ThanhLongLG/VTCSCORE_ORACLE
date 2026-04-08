@@ -127,57 +127,49 @@ namespace BaoCaoDACS.Controllers
 
         public async Task<IActionResult> LichThiDau()
         {
-            var matches = await _context.match
-                .Include(m => m.Socre).ThenInclude(s => s.participant)
-                .Where(m => m.trangthai != 1)
-                .Include(m => m.LoaiHinhThiDau) 
-                .OrderBy(m => m.Date)
-                .ToListAsync();
+            var matches = await _context.V_Match_Schedules
+             .OrderBy(m => m.Date) // <-- Trả lệnh sắp xếp về đúng vị trí của nó!
+             .ToListAsync();
 
             var result = new List<MatchScheduleVM>();
 
-            foreach (var match in matches)
+            var predictionsData = await _context.V_Match_Predictions.ToListAsync();
+
+            foreach (var pData in predictionsData)
             {
-                if (match.Socre == null || match.Socre.Count < 2) continue;
+                // Bỏ qua nếu trận đấu chưa có võ sĩ nào được xếp
+                if (pData.FighterA_Age == 0 && pData.FighterB_Age == 0) continue;
 
-                var scores = match.Socre.OrderBy(s => s.ParticipantId).ToList();
-                if (scores.Count < 2) continue;
-
-                var pA = scores[0].participant;
-                var pB = scores[1].participant;
-                if (pA == null || pB == null) continue;
-
-                var ratingA = _predictService.GetRatingBeforeMatch(pA.UserId, match.TournamentID, match.Date);
-                var ratingB = _predictService.GetRatingBeforeMatch(pB.UserId, match.TournamentID, match.Date);
-
+                // Oracle đã chuẩn bị sẵn Cân nặng, Chiều cao, Tuổi, Elo cho bạn rồi!
                 var input = new MatchTrainingSample
                 {
-                    FighterA_Weight = pA.CanNang ?? 0,
-                    FighterA_Height = pA.ChieuCao ?? 0,
-                    FighterA_Age = pA.tuoi ?? 0,
+                    FighterA_Weight = pData.FighterA_Weight,
+                    FighterA_Height = pData.FighterA_Height,
+                    FighterA_Age = pData.FighterA_Age,
 
-                    FighterB_Weight = pB.CanNang ?? 0,
-                    FighterB_Height = pB.ChieuCao ?? 0,
-                    FighterB_Age = pB.tuoi ?? 0,
+                    FighterB_Weight = pData.FighterB_Weight,
+                    FighterB_Height = pData.FighterB_Height,
+                    FighterB_Age = pData.FighterB_Age,
 
-                    FighterA_Rating = ratingA,
-                    FighterB_Rating = ratingB,
-                    RatingDiff = ratingA - ratingB,
+                    FighterA_Rating = pData.FighterA_Rating,
+                    FighterB_Rating = pData.FighterB_Rating,
 
-                    DiffWeight = (pA.CanNang ?? 0) - (pB.CanNang ?? 0),
-                    DiffHeight = (pA.ChieuCao ?? 0) - (pB.ChieuCao ?? 0),
-                    DiffAge = (pA.tuoi ?? 0) - (pB.tuoi ?? 0),
+                    // Tính độ lệch ngay tại đây
+                    RatingDiff = pData.FighterA_Rating - pData.FighterB_Rating,
+                    DiffWeight = pData.FighterA_Weight - pData.FighterB_Weight,
+                    DiffHeight = pData.FighterA_Height - pData.FighterB_Height,
+                    DiffAge = pData.FighterA_Age - pData.FighterB_Age,
 
-                    LoaiHinhThiDauId = match.LoaiHinhThiDauId,
-                    HangCan = match.Hangcan ?? "",
-                    VongDau = match.Vongdau ?? ""
+                    LoaiHinhThiDauId = pData.LoaiHinhThiDauId ?? 0,
+                    HangCan = pData.Hangcan,
+                    VongDau = pData.Vongdau
                 };
-
+                // Gọi AI dự đoán
                 var winRateA = _predictService.PredictWinRate(input);
 
                 result.Add(new MatchScheduleVM
                 {
-                    MatchId = match.MatchId,
+                    MatchId = pData.MatchId,
                     FighterAWinPercent = winRateA
                 });
             }
@@ -407,10 +399,19 @@ namespace BaoCaoDACS.Controllers
                         });
                     }
                 }
+                string nextId = "";
+                using (var command = _context.Database.GetDbConnection().CreateCommand())
+                {
+                    command.CommandText = "SELECT GET_NEXT_PARTICIPANT_ID FROM DUAL";
+                    await _context.Database.OpenConnectionAsync();
+                    var kq = await command.ExecuteScalarAsync();
+                    nextId = kq.ToString();
+                    await _context.Database.CloseConnectionAsync();
+                }
 
                 var newParticipant = new Participant
                 {
-                    ParticipantID = "KH_" + Guid.NewGuid().ToString("N").Substring(0, 10).ToUpper(),
+                    ParticipantID = nextId,
                     FullName = participant.FullName ?? "Chưa tên",
                     Club = string.IsNullOrWhiteSpace(participant.Club) ? "Không có" : participant.Club,
                     sdt = participant.sdt,
@@ -499,31 +500,31 @@ namespace BaoCaoDACS.Controllers
         [HttpGet]
         public async Task<IActionResult> KiemtraGiaDau(int tournamentId)
         {
+            int isOverlap = 0;
             var user = await _userManager.GetUserAsync(User);
-            var participant = await _context.Participants
-                .FirstOrDefaultAsync(p => p.UserId == user.Id);
-
-            if (participant == null)
+            using (var command = _context.Database.GetDbConnection().CreateCommand())
             {
-              
-                return Json(new { canRegister = true, message = "Bạn có thể đăng ký giải đấu." });
+                command.CommandText = "SELECT CHECK_TOURNAMENT_OVERLAP(:userId, :tourId) FROM DUAL";
+
+                var p1 = command.CreateParameter();
+                p1.ParameterName = "userId";
+                p1.Value = user.Id;
+
+                var p2 = command.CreateParameter();
+                p2.ParameterName = "tourId";
+                p2.Value = tournamentId;
+
+                command.Parameters.Add(p1);
+                command.Parameters.Add(p2);
+
+                await _context.Database.OpenConnectionAsync();
+
+                var result = await command.ExecuteScalarAsync();
+                isOverlap = Convert.ToInt32(result);
+
+                await _context.Database.CloseConnectionAsync();
             }
-            var newTournament = await _context.Tournaments.FindAsync(tournamentId);
-            if (newTournament == null)
-            {
-                return Json(new { canRegister = false, message = "Giải đấu không tồn tại." });
-            }
-
-            var registeredTournaments = await _context.Tournaments
-                .Where(t => t.participant.Any(p => p.ParticipantID == participant.ParticipantID))
-                .ToListAsync();
-
-
-            bool isOverlap = registeredTournaments.Any(t =>
-                (newTournament.StartDate <= t.EndDate && newTournament.EndDate >= t.StartDate)
-            );
-
-            if (isOverlap)
+            if (isOverlap == 1)
             {
                 return Json(new { canRegister = false, message = "Bạn đã đăng ký một giải đấu khác trùng thời gian!" });
             }
@@ -579,24 +580,7 @@ namespace BaoCaoDACS.Controllers
         [HttpGet]
         public async Task<IActionResult> TopScores()
         {
-            var topScores = await _context.socre
-                .Include(s => s.participant)
-                .Include(s => s.match)
-                    .ThenInclude(m => m.Tournament)
-                .Where(s => s.Diem != null)
-                .OrderByDescending(s => s.match.Date)
-                .ThenByDescending(s => s.Diem)
-                .Take(4)
-                .Select(s => new
-                {
-                    Giai = s.match.Tournament != null ? s.match.Tournament.Name : "",
-                    VanDongVien = s.participant.FullName,
-                    LoaiHinhThiDau = s.match.LoaiHinhThiDau.Name,
-                    CLB = s.participant.Club,
-                    Diem = s.Diem,
-                    NgayDau = s.match.Date.ToString("dd/MM/yyyy")
-                })
-                .ToListAsync();
+            var topScores = await _context.V_Top4_Scores.ToListAsync();
 
             return Json(topScores);
         }

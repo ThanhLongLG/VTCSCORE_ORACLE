@@ -304,13 +304,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\giai-dau-vo-thuat-viet-nam-5.jpg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"bbduww5rjh"},{"Name":"integrity","Value":"sha256-505BNFn7C6ICI4Ff1RmjLhkzIDxV449xqQfMD8kMbgM="},{"Name":"label","Value":"_content/BaoCaoDACS/images/giai-dau-vo-thuat-viet-nam-5.jpg"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"75465"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022505BNFn7C6ICI4Ff1RmjLhkzIDxV449xqQfMD8kMbgM=\u0022"},{"Name":"Last-Modified","Value":"Sun, 14 Dec 2025 07:50:13 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"75465"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022505BNFn7C6ICI4Ff1RmjLhkzIDxV449xqQfMD8kMbgM=\u0022"},{"Name":"Last-Modified","Value":"Mon, 16 Mar 2026 14:36:03 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/BaoCaoDACS/images/giai-dau-vo-thuat-viet-nam-5.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\giai-dau-vo-thuat-viet-nam-5.jpg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-505BNFn7C6ICI4Ff1RmjLhkzIDxV449xqQfMD8kMbgM="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"75465"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022505BNFn7C6ICI4Ff1RmjLhkzIDxV449xqQfMD8kMbgM=\u0022"},{"Name":"Last-Modified","Value":"Sun, 14 Dec 2025 07:50:13 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"75465"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022505BNFn7C6ICI4Ff1RmjLhkzIDxV449xqQfMD8kMbgM=\u0022"},{"Name":"Last-Modified","Value":"Mon, 16 Mar 2026 14:36:03 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/BaoCaoDACS/images/images.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\images.jpg'))</AssetFile>

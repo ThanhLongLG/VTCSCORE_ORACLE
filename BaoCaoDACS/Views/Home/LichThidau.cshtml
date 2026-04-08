@@ -1,4 +1,4 @@
-﻿@model List<BaoCaoDACS.Models.Match>
+﻿@model IEnumerable<BaoCaoDACS.Models.V_Match_Schedule>
 @{
     ViewData["Title"] = "Lịch Thi Đấu";
     var now = DateTime.Now;
@@ -24,20 +24,12 @@
                 <div class="matches-grid" id="matches-grid">
                     @foreach (var match in Model)
                     {
-                        // Lấy 2 võ sinh đầu tiên
-                        var scores = match.Socre
-                        .OrderBy(s => s.ParticipantId)
-                        .ToList();
+                        // Lấy dữ liệu 2 võ sinh ĐÃ ĐƯỢC ORACLE GỘP SẴN
+                        string nguoi1 = match.FighterA_Name ?? "Đang cập nhật";
+                        string club1 = match.FighterA_Club ?? "";
 
-                        var p1 = scores.Count > 0 ? scores[0].participant : null;
-                        var p2 = scores.Count > 1 ? scores[1].participant : null;
-
-
-                        string nguoi1 = p1?.FullName ?? "Đang cập nhật";
-                        string club1 = p1?.Club ?? "";
-
-                        string nguoi2 = p2?.FullName ?? "Đang cập nhật";
-                        string club2 = p2?.Club ?? "";
+                        string nguoi2 = match.FighterB_Name ?? "Đang cập nhật";
+                        string club2 = match.FighterB_Club ?? "";
 
                         float? winA = null;
                         if (winRateMap != null && winRateMap.TryGetValue(match.MatchId, out var w))
@@ -45,8 +37,6 @@
                             winA = w; // giả sử w là %
                         }
                         var winB = winA.HasValue ? 100f - winA.Value : (float?)null;
-
-
 
                         // Thời gian thi đấu
                         var startTime = match.Date;
@@ -71,6 +61,7 @@
                             statusText = "Đã lên lịch";
                             statusClass = "status-scheduled";
                         }
+
                         <div class="match-card">
                             <div class="match-header">
                                 <div class="match-status @statusClass">@statusText</div>
@@ -102,6 +93,7 @@
                                         }
                                     </div>
                                 </div>
+
                                 @if (winA.HasValue)
                                 {
                                     <div class="winrate-row">
@@ -127,13 +119,11 @@
                                     </div>
                                 }
 
-
-
                                 <div class="match-info">
                                     <div class="match-category">
-                                        @(string.IsNullOrEmpty(match.LoaiHinhThiDau?.Name)
+                                        @(string.IsNullOrEmpty(match.LoaiHinhThiDau)
                                             ? "Loại hình: Chưa xác định"
-                                            : "Loại hình: " + match.LoaiHinhThiDau.Name)
+                                            : "Loại hình: " + match.LoaiHinhThiDau)
                                     </div>
                                     <div class="match-round">
                                         Vòng: @match.Vongdau
@@ -146,17 +136,10 @@
                                             <span> • Sàn: @match.SanDau</span>
                                         }
                                     </div>
-                                    @if (!string.IsNullOrEmpty(match.Trongtai))
-                                    {
-                                        <div class="match-referee">
-                                            Trọng tài: @match.Trongtai
-                                        </div>
-                                    }
                                 </div>
                             </div>
 
                             <div class="match-actions">
-                                <!-- Bạn có thể đổi lại route/action theo hệ thống của bạn -->
                                 <button type="button"
                                         class="btn btn-sm btn-success"
                                         onclick="xuLyChonGiaiDau2('@match.MatchId')">
@@ -364,9 +347,8 @@
         border-radius: 999px;
         background: linear-gradient(90deg, #dc2626, #2563eb);
     }
-
-
 </style>
+
 @section Scripts {
     <script>
         async function xuLyChonGiaiDau2(matchId) {
@@ -420,7 +402,7 @@
                     return;
                 }
 
-                // 2. Hỏi xác nhận chấm điểm (không cần lấy text từ option nữa)
+                // 2. Hỏi xác nhận chấm điểm
                 const { isConfirmed } = await Swal.fire({
                     title: 'XÁC NHẬN CHẤM ĐIỂM',
                     html: `<p>Bạn có chắc muốn chấm điểm cho trận đấu <b>${matchId}</b> không?</p>`,
@@ -434,7 +416,6 @@
                     const searchParams = new URLSearchParams({ matchId });
                     window.location.href = `${normalizedBaseUrl}ChamDiem/Index?${searchParams.toString()}`;
                 }
-
 
             } catch (error) {
                 console.error('Chi tiết lỗi:', error);

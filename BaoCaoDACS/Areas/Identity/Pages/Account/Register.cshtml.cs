@@ -163,9 +163,19 @@ namespace BaoCaoDACS.Areas.Identity.Pages.Account
                     string participantID;
                     do
                     {
-                        participantID = "KH" + DateTime.Now.ToString("yyyyMMddHHmmss") + "_" + Guid.NewGuid().ToString().Substring(0, 4);
+                        int nextSeq = 0;
+                        using (var command = _context.Database.GetDbConnection().CreateCommand())
+                        {
+                            command.CommandText = "SELECT SEQ_PARTICIPANT_ID.NEXTVAL FROM DUAL";
+                            await _context.Database.OpenConnectionAsync(); // Mở kết nối
+                            var kq = await command.ExecuteScalarAsync(); // Lấy đúng 1 giá trị đầu tiên trả về
+                            nextSeq = Convert.ToInt32(kq);
+                            await _context.Database.CloseConnectionAsync(); // Đóng kết nối
+                        }
+                        participantID = "VDV_" + nextSeq;
                     } while (await _context.Participants.AnyAsync(k => k.ParticipantID == participantID));
                     var userId = await _userManager.GetUserIdAsync(user);
+
                     var participant = new BaoCaoDACS.Models.Participant
                     {
                         UserId = user.Id,

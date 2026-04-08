@@ -47,14 +47,37 @@ public class AppDbContext : IdentityDbContext<ApplicationUser>
         modelBuilder.Entity<V_Tournament_All>(entity =>
         {
             entity.HasNoKey(); 
-            entity.ToView("V_TOURNAMENT_ALL", "NHOM4"); // Map với tên View và Schema NHOM4 trong Oracle
+            entity.ToView("V_TOURNAMENT_ALL", "NHOM4"); 
 
         });
+        modelBuilder.Entity<V_Top4_Scores>(entity =>
+        {
+            entity.HasNoKey();
+            entity.ToView("V_TOP4_SCORES"); 
+        });
 
+        modelBuilder.Entity<V_Match_Schedule>(entity =>
+        {
+            entity.HasNoKey();
+            entity.ToView("V_MATCH_SCHEDULE");
+        });
+
+        modelBuilder.Entity<V_Match_Prediction>(entity =>
+        {
+            entity.HasNoKey();
+            entity.ToView("V_MATCH_PREDICTION");
+        });
+
+        modelBuilder.Entity<V_Match_All>().ToView("V_MATCH_ALL");        
 
     }
-
+    public DbSet<V_Match_All> V_Match_Alls { get; set; }
+    public DbSet<V_Match_Prediction> V_Match_Predictions { get; set; }
+    public DbSet<V_Match_Schedule> V_Match_Schedules { get; set; }
+    public DbSet<V_Top4_Scores> V_Top4_Scores { get; set; }
     public virtual DbSet<V_Tournament_All> V_Tournament_All { get; set; }
+
+    //bảng
     public DbSet<Tournament> Tournaments { get; set; }
     public DbSet<Participant> Participants { get; set; }
     public DbSet<Match> match { get; set; }

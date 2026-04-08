@@ -1,4 +1,5 @@
-﻿@{
+﻿@model IEnumerable<BaoCaoDACS.Models.V_Match_All> 
+@{
     Layout = "~/Views/Shared/Admin_layout.cshtml";
 }
 
@@ -8,8 +9,6 @@
     <title>@ViewData["Title"] Admin</title>
     <link href="~/css/admin.css" rel="stylesheet" />
 </head>
-
-
 
 <div class="container-fluid mt-4">
     @if (TempData["SuccessMessage"] != null)
@@ -72,19 +71,24 @@
                         {
                             <tr>
                                 <td>@item.Vongdau</td>
-                                <td>@(item.LoaiHinhThiDau.Name ?? "N/A")</td>
+                                
+                                <td>@(item.LoaiHinhName ?? "N/A")</td>
+                                
                                 <td>@item.Hangcan</td>
                                 <td>@item.Trongtai</td>
-                                @if (@item.trangthai == 1)
+                                
+                                @if (item.trangthai == 1)
                                 {
-                                    <td>Đã chấm</td>
-                                }
+                                    <td><span class="badge bg-success">Đã chấm</span></td> }
                                 else
                                 {
-                                    <td>chưa chấm</td>
+                                    <td><span class="badge bg-warning text-dark">Chưa chấm</span></td>
                                 }
-                                <td>@item.Date.ToString("dd/MM/yyyy")</td>
-                                <td>@(item.Tournament?.Name ?? "Không tham gia giải")</td>
+                                
+                                <td>@item.MatchDate.ToString("dd/MM/yyyy")</td>
+                                
+                                <td>@(item.TournamentName ?? "Không tham gia giải")</td>
+                                
                                 <td>
                                     <a asp-action="Display" asp-route-id="@item.MatchId" class="btn btn-info btn-sm">
                                         <i class="bi bi-eye"></i> Chi tiết

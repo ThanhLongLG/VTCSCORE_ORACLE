@@ -41,9 +41,7 @@ namespace BaoCaoDACS.Reponsitory
         }
         public async Task DeleteAsync(string Makh)
         {
-            var khachHang = await _context.Participants.FindAsync(Makh);
-            _context.Participants.Remove(khachHang);
-            await _context.SaveChangesAsync();
+            await _context.Database.ExecuteSqlInterpolatedAsync($"BEGIN DELETE_PARTICIPANT({Makh}); END;");
         }
 
         public async Task<Participant> GetByIdAsync(string Makh)

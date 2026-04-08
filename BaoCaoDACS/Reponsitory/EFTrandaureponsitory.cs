@@ -14,18 +14,16 @@ namespace BaoCaoDACS.Reponsitory
         {
             _context = context;
         }
-        public async Task<IEnumerable<Match>> GetAllAsync(string? searchValue)
+        public async Task<IEnumerable<V_Match_All>> GetAllAsync(string? searchValue)
         {
-            var query = _context.match
-                .Include(m => m.Tournament)
-                 .Include(m => m.LoaiHinhThiDau)
-                .AsQueryable();
+            var query = _context.V_Match_Alls.AsQueryable();
 
             if (!string.IsNullOrEmpty(searchValue))
             {
-                query = query.Where(c => c.Vongdau.Contains(searchValue));
+                query = query.Where(c => c.Vongdau.ToUpper().Contains(searchValue.ToUpper()));
             }
 
+            // Không cần Include() gì nữa, dữ liệu tên giải và loại hình đã có sẵn!
             return await query.ToListAsync();
         }
         public async Task<IEnumerable<Match>> GetAllAsync()

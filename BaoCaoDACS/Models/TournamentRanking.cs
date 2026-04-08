@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using BAO_CAO.Models; // ApplicationUser namespace của bạn
+using BAO_CAO.Models; 
 
 namespace BaoCaoDACS.Models
 {
