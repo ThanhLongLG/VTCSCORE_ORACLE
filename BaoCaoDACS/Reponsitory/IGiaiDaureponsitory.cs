@@ -13,6 +13,7 @@ namespace BaoCaoDACS.Reponsitory
         Task UpdateAsync(Tournament tournament);
         Task SaveChangeAsync();
         Task<int> GetTotalCountAsync();
+        Task UpdateTournamentStatusAsync();
     }
         
 }

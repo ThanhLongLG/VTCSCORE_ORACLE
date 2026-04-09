@@ -1,7 +1,7 @@
 ﻿using System.Drawing.Printing;
 using BaoCaoDACS.Models;
 using Microsoft.EntityFrameworkCore;
-
+using Oracle.ManagedDataAccess.Client;
 namespace BaoCaoDACS.Reponsitory
 {
     public class EFGiaDaureponsitory : IGiaiDaureponsitory
@@ -43,6 +43,13 @@ namespace BaoCaoDACS.Reponsitory
             return await _context.Tournaments.ToListAsync();
         }
 
+         public async Task UpdateTournamentStatusAsync()
+        {
+            await _context.Database.ExecuteSqlRawAsync(
+                "BEGIN NHOM4.PRC_UPDATE_TOURNAMENT_STATUS(:p_id); END;",
+                new OracleParameter("p_id", DBNull.Value)
+            );
+        }
        
         public async Task AddAsync(Tournament tournament)
         {

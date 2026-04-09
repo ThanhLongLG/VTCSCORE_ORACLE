@@ -1,268 +1,193 @@
-# BaoCaoDACS - Nền tảng Dự đoán và Quản lý Giải đấu Thể thao
+﻿# BaoCaoDACS
 
-## Giới thiệu
+Ung dung web ASP.NET Core MVC phuc vu quan ly giai dau, quan ly tran dau, cham diem, xep hang, du doan ket qua bang ML.NET va tich hop thanh toan truc tuyen.
 
-**BaoCaoDACS** là một ứng dụng web xây dựng trên nền tảng ASP.NET Core 8 nhằm mục đích quản lý các giải đấu thể thao, dự đoán kết quả trận đấu sử dụng Machine Learning, và tích hợp hệ thống thanh toán trực tuyến. Ứng dụng được thiết kế cho các huấn luyện viên, vận động viên và người quản lý giải đấu.
+## Tong quan
 
-## 🎯 Tính năng chính
+Repository hien co 2 project chinh:
 
-- **Quản lý giải đấu**: Tạo, chỉnh sửa, xóa và theo dõi các giải đấu thể thao
-- **Quản lý trận đấu**: Lên lịch, cập nhật kết quả, theo dõi điểm số và xếp hạng
-- **Dự đoán trận đấu**: Sử dụng mô hình Machine Learning (ML.NET) để dự đoán kết quả trận đấu
-- **Hệ thống xếp hạng**: Tính toán, cập nhật và hiển thị bảng xếp hạng người chơi
-- **Thanh toán trực tuyến**: Tích hợp Momo và VnPay để xử lý thanh toán
-- **Quản lý người dùng**: Hệ thống xác thực, phân quyền và quản lý tài khoản người dùng
-- **Kiểm tra video**: Module để kiểm tra và xác thực kết quả từ video
-- **Cho điểm**: Giao diện cho người裁 để nhập điểm số trận đấu
+- `BaoCaoDACS`: ung dung web ASP.NET Core 8
+- `BaoCaoDACS.MLTrain`: console app dung de train va xuat model du doan
 
-## 🏗️ Kiến trúc hệ thống
+Stack chinh:
 
-### Cấu trúc thư mục
+- .NET 8 / ASP.NET Core MVC
+- Entity Framework Core 8
+- Oracle Database
+- ASP.NET Core Identity
+- ML.NET
+- RestSharp
 
-```
-BaoCaoDACS/
-├── Controllers/              # Lớp điều khiển (MVC Controllers)
-│   ├── HomeController.cs
-│   ├── PredictController.cs  # Dự đoán trận đấu
-│   ├── PaymentController.cs  # Xử lý thanh toán
-│   ├── ChamDiemController.cs # Cho điểm
-│   └── VideoCheckController.cs
-├── Models/                   # Các lớp mô hình dữ liệu
-│   ├── AppDbContext.cs       # Database context
-│   ├── MatchTrainingSample.cs
-│   ├── MatchPredictionOutput.cs
-│   ├── Tournament.cs
-│   ├── Match.cs
-│   ├── Participant.cs
-│   ├── TournamentRanking.cs
-│   └── DTO/                  # Data Transfer Objects
-├── Reponsitory/              # Lớp repository (Data Access)
-│   ├── IGiaiDaureponsitory.cs
-│   ├── IKetquareponsitory.cs
-│   ├── ITranDaureponsitory.cs
-│   ├── Services/             # Business logic services
-│   │   ├── EFMatchPredictionService.cs
-│   │   ├── EFRankingService.cs
-│   │   └── MomoService.cs
-│   └── ...
-├── Views/                    # Giao diện (Razor Views)
-├── wwwroot/                  # Tài nguyên tĩnh (CSS, JS, hình ảnh)
-│   └── Models/              # Thư mục lưu ML model
-├── Areas/
-│   ├── Admin/               # Khu vực quản trị
-│   └── Identity/            # Khu vực xác thực người dùng
-├── Libraries/               # Thư viện hỗ trợ
-│   └── VnPayLibrary.cs
-└── appsettings.json         # Cấu hình ứng dụng
+## Tinh nang chinh
 
-BaoCaoDACS.MLTrain/          # Dự án huấn luyện mô hình ML
-├── Program.cs
-└── AppDbContext.cs
+- Quan ly giai dau, loai hinh thi dau va tran dau
+- Quan ly ket qua, cham diem va bang xep hang
+- Dang nhap, xac thuc va phan quyen bang Identity
+- Du doan ket qua tran dau bang model ML.NET
+- Tich hop thanh toan Momo va VNPAY
+- Khu vuc quan tri trong `Areas/Admin`
+
+## Cau truc du an
+
+```text
+BaoCaoCN-banketnoioracle/
+|-- BaoCaoDACS/                  # Web app ASP.NET Core MVC
+|   |-- Areas/Admin/             # Man hinh quan tri
+|   |-- Controllers/             # Home, Predict, Payment, ChamDiem, VideoCheck
+|   |-- Libraries/               # Thu vien ho tro, vi du VnPayLibrary
+|   |-- Models/                  # Entity, DTO, DbContext, model du doan
+|   |-- Reponsitory/             # Repository va service xu ly nghiep vu
+|   |-- Views/                   # Razor views
+|   |-- wwwroot/                 # Static files va model ML sau khi train
+|   |-- appsettings.json
+|   `-- Program.cs
+|-- BaoCaoDACS.MLTrain/          # Chuong trinh train model ML
+|   |-- Program.cs
+|   `-- appsettings.json
+|-- publish/                     # Ban publish san co
+`-- BaoCaoDACS.sln
 ```
 
-## 📋 Công nghệ sử dụng
+## Yeu cau moi truong
 
-| Công nghệ | Phiên bản | Mục đích |
-|-----------|----------|---------|
-| .NET | 8.0 | Framework chính |
-| ASP.NET Core | 8.0 | Web framework |
-| Entity Framework Core | 8.0.11 | ORM |
-| Oracle Database | - | Cơ sở dữ liệu |
-| ML.NET | 5.0.0 | Machine Learning |
-| Microsoft.AspNetCore.Identity | 8.0.11 | Xác thực và phân quyền |
-| RestSharp | 112.1.0 | HTTP client |
+- .NET SDK 8.0
+- Oracle Database co service name hop le
+- Visual Studio 2022 hoac VS Code
 
-## 🚀 Hướng dẫn cửng cấp
+## Cau hinh
 
-### Điều kiện tiên quyết
+### 1. Chuoi ket noi Oracle
 
-- **.NET SDK 8.0** hoặc phiên bản cao hơn
-- **Visual Studio 2022** hoặc **Visual Studio Code**
-- **Oracle Database** (hoặc kết nối tới server Oracle)
-- **Git** để clone repository
+Cap nhat `ConnectionStrings:QLTAPVO` trong [BaoCaoDACS/appsettings.json](D:/HOC/BAO_CAO_DACS/BaoCaoCN-banketnoioracle/BaoCaoDACS/appsettings.json) va [BaoCaoDACS.MLTrain/appsettings.json](D:/HOC/BAO_CAO_DACS/BaoCaoCN-banketnoioracle/BaoCaoDACS.MLTrain/appsettings.json).
 
-### Cài đặt và chạy
-
-#### 1. Clone repository
-```bash
-git clone https://github.com/your-repo/BaoCaoDACS.git
-cd BaoCaoDACS
-```
-
-#### 2. Khôi phục các gói NuGet
-```bash
-dotnet restore
-```
-
-#### 3. Cấu hình kết nối cơ sở dữ liệu
-
-Chỉnh sửa file `appsettings.json` trong thư mục `BaoCaoDACS/` để cấu hình kết nối Oracle:
+Vi du:
 
 ```json
 {
   "ConnectionStrings": {
     "QLTAPVO": "Data Source=(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=localhost)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=FREEPDB1)));User Id=YOUR_USER;Password=YOUR_PASSWORD;"
-  },
-  "MomoAPI": {
-    "MomoApiUrl": "https://test-payment.momo.vn/v2/gateway/api/create",
-    "SecretKey": "YOUR_SECRET_KEY",
-    "AccessKey": "YOUR_ACCESS_KEY",
-    "ReturnUrl": "https://localhost:7143/Home/ThanhToan",
-    "NotifyUrl": "https://localhost:7143/Checkout/MomoNotify",
-    "PartnerCode": "MOMO",
-    "RequestType": "captureWallet"
-  },
-  "Vnpay": {
-    "TmnCode": "YOUR_TMN_CODE",
-    "HashSecret": "YOUR_HASH_SECRET",
-    "BaseUrl": "https://sandbox.vnpayment.vn/paymentv2/vpcpay.html",
-    "Command": "pay",
-    "CurrCode": "VND",
-    "Version": "2.1.0",
-    "Locale": "vn",
-    "PaymentBackReturnUrl": "https://localhost:7143/Home/ThanhToansucces"
-  },
-  "TimeZoneId": "SE Asia Standard Time"
+  }
 }
 ```
 
-#### 4. Cập nhật cơ sở dữ liệu
+### 2. Cau hinh Momo va VNPAY
+
+Ung dung doc cau hinh tu:
+
+- `MomoAPI`
+- `Vnpay`
+- `TimeZoneId`
+
+Neu ban khong dung thanh toan, van nen giu cau truc cau hinh de tranh loi bind option.
+
+### 3. Model ML
+
+Web app load model khi khoi dong tai duong dan:
+
+`BaoCaoDACS/wwwroot/Models/match_predictor.zip`
+
+Neu file nay chua ton tai, ung dung se nem `FileNotFoundException` ngay luc startup. Hay train model truoc, hoac dat san file model vao dung thu muc.
+
+## Cai dat va chay
+
+### 1. Restore package
 
 ```bash
-cd BaoCaoDACS
-dotnet ef database update
+dotnet restore BaoCaoDACS.sln
 ```
 
-#### 5. Chạy ứng dụng
+### 2. Train model ML
+
+Lenh nay se:
+
+- doc du lieu tran dau da hoan thanh tu Oracle
+- train model bang ML.NET
+- sinh file `match_predictor.zip`
+- copy file vao `BaoCaoDACS/wwwroot/Models/`
 
 ```bash
-dotnet run
+dotnet run --project BaoCaoDACS.MLTrain
 ```
 
-Ứng dụng sẽ chạy tại `https://localhost:7143`
-
-### Huấn luyện mô hình ML
-
-Để huấn luyện lại mô hình dự đoán trận đấu:
+### 3. Chay web app
 
 ```bash
-cd BaoCaoDACS.MLTrain
-dotnet run
+dotnet run --project BaoCaoDACS
 ```
 
-Mô hình được lưu tại `BaoCaoDACS/wwwroot/Models/match_predictor.zip`
+Sau khi chay, truy cap URL duoc in ra trong terminal, thong thuong la `https://localhost:<port>`.
 
-## ⚙️ Cấu hình
+## Tai khoan mac dinh
 
-### Cấu hình cơ sở dữ liệu
+Trong `Program.cs`, ung dung seed san:
 
-Chỉnh sửa `appsettings.json`:
+- Email: `admin@example.com`
+- Password: `Admin@123`
+- Role: `Admin`
 
-```json
-"ConnectionStrings": {
-  "QLTAPVO": "YOUR_ORACLE_CONNECTION_STRING"
-}
+Tai khoan nay chi duoc tao neu chua ton tai trong database.
+
+## Luong khoi tao thuc te
+
+De chay du an tren may moi, thu tu nen la:
+
+1. Cai Oracle va tao schema/database phu hop.
+2. Chinh `appsettings.json` cho ca web app va project train ML.
+3. Restore package.
+4. Dam bao database da co schema va du lieu can thiet.
+5. Train model bang `BaoCaoDACS.MLTrain`.
+6. Chay `BaoCaoDACS`.
+
+## Cac thanh phan dang chu y
+
+### Web app `BaoCaoDACS`
+
+- MVC + Razor Views
+- Identity + Entity Framework Core + Oracle
+- Controllers chinh:
+  - `HomeController`
+  - `PredictController`
+  - `PaymentController`
+  - `ChamDiemController`
+  - `VideoCheckController`
+- Admin area:
+  - `GiaiDauController`
+  - `KetQuaController`
+  - `LoaiHinhThiDauController`
+  - `NguoiDungController`
+  - `ThongKeController`
+  - `TranDauController`
+  - `TrangQLController`
+
+### Project `BaoCaoDACS.MLTrain`
+
+- Lay du lieu tran dau da co ket qua
+- Tao training set doi xung thang/thua
+- One-hot encode mot so bien danh muc
+- Train binary classification bang `FastTree`
+- Danh gia voi `Accuracy`, `AUC`, `F1Score`
+
+## Luu y van hanh
+
+- Project dang de gia tri cau hinh nhay cam trong `appsettings.json`. Nen doi sang bien moi truong, Secret Manager hoac file cau hinh rieng theo moi truong.
+- Web app phu thuoc truc tiep vao file model ML. Neu muon deploy on dinh hon, nen co buoc kiem tra file model hoac fallback an toan khi model chua san sang.
+- Repository co san thu muc `publish/`, nhung ban van nen build lai tu source de tranh sai lech cau hinh moi truong.
+
+## Lenh huu ich
+
+```bash
+dotnet build BaoCaoDACS.sln
+dotnet run --project BaoCaoDACS.MLTrain
+dotnet run --project BaoCaoDACS
 ```
 
-### Cấu hình thanh toán Momo
+## Huong phat trien tiep
 
-Cục bộ ứng dụng trong `Program.cs`:
+- Tach secrets khoi source code
+- Bo sung migration/huong dan tao schema ro rang
+- Bo sung script seed du lieu mau
+- Viet them test cho service ranking, prediction va payment
 
-```csharp
-builder.Services.Configure<MomoOptionModel>(
-  builder.Configuration.GetSection("MomoAPI"));
-```
+## Giay phep
 
-### Cấu hình thanh toán VnPay
-
-Được cấu hình thông qua file `appsettings.json` và sử dụng trong `VnPayLibrary.cs`
-
-### Cấu hình ML.NET Model
-
-Mô hình ML được tải tại startup trong `Program.cs`:
-
-```csharp
-var modelPath = Path.Combine(
-  builder.Environment.WebRootPath, 
-  "Models", 
-  "match_predictor.zip");
-```
-
-Đảm bảo file mô hình tồn tại tại đường dẫn trên.
-
-## 📚 Hướng dẫn sử dụng chính
-
-### Tạo giải đấu
-
-1. Đăng nhập vào ứng dụng
-2. Truy cập Admin > Quản lý giải đấu
-3. Nhấn "Tạo giải đấu mới"
-4. Điền thông tin giải đấu (tên, loại hình, thời gian, v.v.)
-5. Thêm các vận động viên tham gia
-
-### Dự đoán kết quả trận đấu
-
-1. Truy cập "Dự đoán trận đấu" từ menu chính
-2. Chọn giải đấu và trận đấu cần dự đoán
-3. Hệ thống sẽ hiển thị dự đoán kết quả dựa trên mô hình ML
-4. Xem xác suất chiến thắng của từng đối thủ
-
-### Quản lý thanh toán
-
-1. Người dùng chọn phương thức thanh toán (Momo hoặc VnPay)
-2. Được chuyển hướng đến cổng thanh toán tương ứng
-3. Sau khi xác nhận, trả về ứng dụng với kết quả thanh toán
-
-### Xem bảng xếp hạng
-
-1. Truy cập "Bảng xếp hạng" từ giải đấu cụ thể
-2. Xem chỉ số xếp hạng của các vận động viên
-3. Dữ liệu được cập nhật sau mỗi trận đấu
-
-## 🔒 Xác thực và phân quyền
-
-Ứng dụng sử dụng **ASP.NET Core Identity**.Các vai trò có thể bao gồm:
-- **Admin**: Quản lý toàn bộ hệ thống
-- **Organisator**: Quản lý giải đấu
-- **Referee**: Cho điểm trận đấu
-- **Participant**: Vận động viên tham gia
-- **User**: Người dùng thông thường
-
-## 🐛 Xử lý lỗi và ghi nhật ký
-
-Ứng dụng ghi nhật ký các sự kiện quan trọng. Kiểm tra file nhật ký hoặc console output để chẩn đoán sự cố.
-
-## 📞 Hỗ trợ và liên hệ
-
-Để được hỗ trợ:
-- Kiểm tra các issue trên GitHub
-- Liên hệ với nhóm phát triển
-- Báo cáo lỗi chi tiết kèm screenshot hoặc error log
-
-## 📄 Giấy phép
-
-Dự án này được phát hành dưới giấy phép [Chỉ định giấy phép của bạn]. Chi tiết xem file `LICENSE`.
-
-## 👥 Đóng góp
-
-Chúng tôi hoan nghênh các đóng góp! Để đóng góp:
-
-1. Fork repository
-2. Tạo branch feature (`git checkout -b feature/AmazingFeature`)
-3. Commit thay đổi (`git commit -m 'Add some AmazingFeature'`)
-4. Push lên branch (`git push origin feature/AmazingFeature`)
-5. Mở Pull Request
-
-## 📝 Changelog
-
-### v1.0.0
-- Phiên bản ban đầu
-- Quản lý giải đấu cơ bản
-- Dự đoán trận đấu với ML.NET
-- Tích hợp thanh toán Momo và VnPay
-- Hệ thống xếp hạng
-
----
-
-**Phát triển bởi**: Nhóm phát triển BaoCaoDACS  
-**Lần cập nhật cuối**: April 2026
+Chua thay file `LICENSE` trong repository. Neu du an can phat hanh cong khai, nen bo sung license phu hop.

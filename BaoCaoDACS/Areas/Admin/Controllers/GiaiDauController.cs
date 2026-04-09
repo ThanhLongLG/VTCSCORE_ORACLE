@@ -328,5 +328,26 @@ namespace BaoCaoDACS.Areas.Admin.Controllers
             }
         }
 
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> UpdateTournamentStatus()
+        {
+            try
+            {
+                await _igaiDaureponsitory.UpdateTournamentStatusAsync();
+                TempData["SuccessMessage"] = "Cập nhật trạng thái giải đấu thành công.";
+            }
+            catch (Exception ex)
+            {
+                while (ex.InnerException != null)
+                {
+                    ex = ex.InnerException;
+                }
+
+                TempData["ErrorMessage"] = "Cập nhật trạng thái thất bại: " + ex.Message;
+            }
+
+            return RedirectToAction(nameof(Index));
+        }
     }
 }

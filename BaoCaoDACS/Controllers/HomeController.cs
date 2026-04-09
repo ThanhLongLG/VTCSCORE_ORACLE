@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Hosting;
 
 namespace BaoCaoDACS.Controllers
 {
@@ -19,7 +20,9 @@ namespace BaoCaoDACS.Controllers
         private readonly INguoidungreponsitory _nguoidungreponsitory;
         private readonly IRankingService rankingService;
         private readonly IMatchPredictionService _predictService;
-
+        private readonly IGiaiDaureponsitory _giaidau;
+        private static DateTime? _lastTournamentStatusUpdateDate;
+        private static readonly object _updateLock = new object();
 
         public HomeController(
             INguoidungreponsitory nguoidungreponsitory,
@@ -27,7 +30,8 @@ namespace BaoCaoDACS.Controllers
             ILogger<HomeController> logger,
             AppDbContext context,
             IRankingService rankingService,
-            IMatchPredictionService predictService)
+            IMatchPredictionService predictService,
+            IGiaiDaureponsitory giaidau)
         {
             _nguoidungreponsitory = nguoidungreponsitory;
             _userManager = UserManager;
@@ -35,10 +39,12 @@ namespace BaoCaoDACS.Controllers
             _context = context;
             this.rankingService = rankingService;
             _predictService = predictService;
+            _giaidau = giaidau;
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
+            await EnsureTournamentStatusUpdatedTodayAsync();
             return View();
         }
         public IActionResult ThanhToansucces()
@@ -472,8 +478,11 @@ namespace BaoCaoDACS.Controllers
         }
 
         [HttpGet]
-        public IActionResult GetTournaments()
+        public async  Task<IActionResult> GetTournaments()
         {
+            await EnsureTournamentStatusUpdatedTodayAsync();
+
+
             DateTime now;
             now = DateTime.UtcNow.AddHours(7);
             DateTime cutoff = now.AddMonths(-1);
@@ -591,5 +600,42 @@ namespace BaoCaoDACS.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+
+        private async Task EnsureTournamentStatusUpdatedTodayAsync()
+        {
+            var today = DateTime.UtcNow.AddHours(7).Date;
+
+            if (_lastTournamentStatusUpdateDate == today)
+                return;
+
+            bool shouldRun = false;
+
+            lock (_updateLock)
+            {
+                if (_lastTournamentStatusUpdateDate != today)
+                {
+                    _lastTournamentStatusUpdateDate = today;
+                    shouldRun = true;
+                }
+            }
+
+            if (!shouldRun)
+                return;
+
+            try
+            {
+                await _giaidau.UpdateTournamentStatusAsync();
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Lỗi khi cập nhật trạng thái giải đấu hàng ngày.");
+
+                lock (_updateLock)
+                {
+                    _lastTournamentStatusUpdateDate = null;
+                }
+            }
+        }
+        
     }
 }

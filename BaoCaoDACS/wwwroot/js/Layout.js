@@ -145,14 +145,23 @@ function resetForm() {
 // Hàm hỗ trợ để lấy class trạng thái
 function getStatusClass(status) {
     switch (status) {
+        case "Sắp diễn ra":
         case "Upcoming":
-            return "bg-primary";
+            return "bg-warning text-dark";
+
+        case "Đang diễn ra":
         case "Ongoing":
             return "bg-success";
+
+        case "Kết thúc":
+        case "Đã kết thúc":
         case "Completed":
             return "bg-secondary";
+
+        case "Đã hủy":
         case "Cancelled":
             return "bg-danger";
+
         default:
             return "bg-primary";
     }
@@ -162,13 +171,22 @@ function getStatusClass(status) {
 function getStatusText(status) {
     switch (status) {
         case "Upcoming":
+        case "Sắp diễn ra":
             return "Sắp diễn ra";
+
         case "Ongoing":
+        case "Đang diễn ra":
             return "Đang diễn ra";
+
         case "Completed":
-            return "Đã kết thúc";
+        case "Kết thúc":
+        case "Đã kết thúc":
+            return "Kết thúc";
+
         case "Cancelled":
+        case "Đã hủy":
             return "Đã hủy";
+
         default:
             return status;
     }
